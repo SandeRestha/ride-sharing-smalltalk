@@ -1,0 +1,7 @@
+OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2025-07-26T10:37:05.855851-04:00' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : 'Object new demonstrateSystemFunctionality'
+}

@@ -1,0 +1,5346 @@
+THERE_BE_DRAGONS_HERE
+Variable or expression expected
+13 July 2025 10:49:33.253451 pm
+
+VM: Mac OS - arm64 - 1000 - CoInterpreter VMMaker-tonel.1 uuid: 4ad855a3-09f3-0d00-a59e-2bc906d86bc4 Jun  3 2025
+StackToRegisterMappingCogit VMMaker-tonel.1 uuid: 4ad855a3-09f3-0d00-a59e-2bc906d86bc4 Jun  3 2025
+v10.3.5+0.be20a0222 - Commit: be20a0222 - Date: 2025-06-03 11:15:04 +0200
+
+Image: Pharo13.0.0SNAPSHOT [Build information: Pharo-13.0.0+SNAPSHOT.build.682.sha.e698f2016913f479cbb80dee1008a01ca1fa30ac (64 Bit)]
+
+OCSyntaxErrorNotice(OCNotice)>>signalError
+	Receiver: OCSyntaxErrorNotice(236:Variable or expression expected)
+	Arguments and temporary variables: 
+x
+	Receiver's instance variables: 
+		messageText: 	nil
+		node: 	OCParseErrorNode()
+
+
+OpalCompiler>>checkNotice:
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+		aNotice: 	OCSyntaxErrorNotice(236:Variable or expression expected)
+	Receiver's instance variables: 
+		ast: 	DoIt
+
+	(Object << #Ride)
+		layout: FixedLayout;
+		traits: {  };
+		slot[..]
+		source: 	'Object << #Ride
+    layout: FixedLayout;
+    traits: {};
+    slots[..]
+		compilationContext: 	an OCCompilationContext
+		compilationContextClass: 	nil
+		permitFaulty: 	false
+		permitUndeclared: 	false
+		failBlock: 	nil
+		logged: 	true
+		changeStamp: 	nil
+		protocol: 	nil
+		requestor: 	nil
+		priorMethod: 	nil
+
+
+[ :n |
+			| check |
+			check := self checkNotice: n.
+			check ifNil: [ ^ ast ].
+			check ifFalse: [
+				ast := nil.
+				^ self failBlock ifNotNil: [ :block | block cull: n ] ifNil: [ nil ].
+				] ] in OpalCompiler>>parse
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+		parser: 	an OCParser
+		n: 	OCSyntaxErrorNotice(236:Variable or expression expected)
+		check: 	nil
+	Receiver's instance variables: 
+		ast: 	DoIt
+
+	(Object << #Ride)
+		layout: FixedLayout;
+		traits: {  };
+		slot[..]
+		source: 	'Object << #Ride
+    layout: FixedLayout;
+    traits: {};
+    slots[..]
+		compilationContext: 	an OCCompilationContext
+		compilationContextClass: 	nil
+		permitFaulty: 	false
+		permitUndeclared: 	false
+		failBlock: 	nil
+		logged: 	true
+		changeStamp: 	nil
+		protocol: 	nil
+		requestor: 	nil
+		priorMethod: 	nil
+
+
+OrderedCollection>>do:
+	Receiver: an OrderedCollection(OCSyntaxErrorNotice(236:Variable or expression expected))
+	Arguments and temporary variables: 
+		aBlock: 	[ :n |
+			| check |
+			check := self checkNotice: n.
+			check ifNil[..]
+		index: 	1
+	Receiver's instance variables: 
+		array: 	an Array(OCSyntaxErrorNotice(236:Variable or expression expected) ni[..]
+		firstIndex: 	1
+		lastIndex: 	1
+
+
+OpalCompiler>>parse
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+		parser: 	an OCParser
+	Receiver's instance variables: 
+		ast: 	DoIt
+
+	(Object << #Ride)
+		layout: FixedLayout;
+		traits: {  };
+		slot[..]
+		source: 	'Object << #Ride
+    layout: FixedLayout;
+    traits: {};
+    slots[..]
+		compilationContext: 	an OCCompilationContext
+		compilationContextClass: 	nil
+		permitFaulty: 	false
+		permitUndeclared: 	false
+		failBlock: 	nil
+		logged: 	true
+		changeStamp: 	nil
+		protocol: 	nil
+		requestor: 	nil
+		priorMethod: 	nil
+
+
+OpalCompiler>>compile
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+		result: 	nil
+	Receiver's instance variables: 
+		ast: 	DoIt
+
+	(Object << #Ride)
+		layout: FixedLayout;
+		traits: {  };
+		slot[..]
+		source: 	'Object << #Ride
+    layout: FixedLayout;
+    traits: {};
+    slots[..]
+		compilationContext: 	an OCCompilationContext
+		compilationContextClass: 	nil
+		permitFaulty: 	false
+		permitUndeclared: 	false
+		failBlock: 	nil
+		logged: 	true
+		changeStamp: 	nil
+		protocol: 	nil
+		requestor: 	nil
+		priorMethod: 	nil
+
+
+OpalCompiler>>evaluate
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+		value: 	nil
+		doItMethod: 	nil
+	Receiver's instance variables: 
+		ast: 	DoIt
+
+	(Object << #Ride)
+		layout: FixedLayout;
+		traits: {  };
+		slot[..]
+		source: 	'Object << #Ride
+    layout: FixedLayout;
+    traits: {};
+    slots[..]
+		compilationContext: 	an OCCompilationContext
+		compilationContextClass: 	nil
+		permitFaulty: 	false
+		permitUndeclared: 	false
+		failBlock: 	nil
+		logged: 	true
+		changeStamp: 	nil
+		protocol: 	nil
+		requestor: 	nil
+		priorMethod: 	nil
+
+
+OCCodeReparator>>defineClassOrTrait:definitionString:
+	Receiver: an OCCodeReparator
+	Arguments and temporary variables: 
+		aSymbol: 	#Ride
+		aString: 	'Object << #Ride
+	layout: FixedLayout;
+	traits: {};
+	slots: {};
+	s[..]
+		classBinding: 	nil
+		result: 	nil
+		definitionString: 	'Object << #Ride
+    layout: FixedLayout;
+    traits: {};[..]
+	Receiver's instance variables: 
+		node: 	OCVariableNode(Ride)
+		requestor: 	a StPlaygroundInteractionModel
+
+
+OCCodeReparator>>defineClass:
+	Receiver: an OCCodeReparator
+	Arguments and temporary variables: 
+		classSymbol: 	#Ride
+		class: 	UndefinedObject
+		classDefinition: 	'Object << #Ride
+	layout: FixedLayout;
+	traits: {};
+	slots[..]
+	Receiver's instance variables: 
+		node: 	OCVariableNode(Ride)
+		requestor: 	a StPlaygroundInteractionModel
+
+
+[ self defineClass: name asSymbol ] in [
+				[ self defineClass: name asSymbol ]
+					on: Abort
+					do: [ self openMenu ] ] in OCCodeReparator>>openMenu
+	Receiver: an OCCodeReparator
+	Arguments and temporary variables: 
+		alternatives: 	an OrderedCollection(#RBArrayErrorNode #RBPatternBlockNode #R[..]
+		labels: 	an OrderedCollection('Leave variable undeclared' 'Define new class'[..]
+		actions: 	an OrderedCollection([ ^ nil ] [
+				[ self defineClass: name asSy[..]
+		lines: 	an OrderedCollection(1 3 13)
+		caption: 	'Unknown variable: Ride please correct, or cancel:'
+		choice: 	2
+		name: 	#Ride
+		interval: 	(1 to: 4)
+	Receiver's instance variables: 
+		node: 	OCVariableNode(Ride)
+		requestor: 	a StPlaygroundInteractionModel
+
+
+FullBlockClosure(BlockClosure)>>on:do:
+	Receiver: [ self defineClass: name asSymbol ]
+	Arguments and temporary variables: 
+		exception: 	Abort
+		handlerAction: 	[ self openMenu ]
+	Receiver's instance variables: 
+		outerContext: 	[
+				[ self defineClass: name asSymbol ]
+					on: Abort
+				[..]
+		compiledBlock: 	a CompiledBlock: [ self defineClass: name asSymbol ]
+		numArgs: 	0
+		receiver: 	an OCCodeReparator
+
+
+[
+				[ self defineClass: name asSymbol ]
+					on: Abort
+					do: [ self openMenu ] ] in OCCodeReparator>>openMenu
+	Receiver: an OCCodeReparator
+	Arguments and temporary variables: 
+		alternatives: 	an OrderedCollection(#RBArrayErrorNode #RBPatternBlockNode #R[..]
+		labels: 	an OrderedCollection('Leave variable undeclared' 'Define new class'[..]
+		actions: 	an OrderedCollection([ ^ nil ] [
+				[ self defineClass: name asSy[..]
+		lines: 	an OrderedCollection(1 3 13)
+		caption: 	'Unknown variable: Ride please correct, or cancel:'
+		choice: 	2
+		name: 	#Ride
+		interval: 	(1 to: 4)
+	Receiver's instance variables: 
+		node: 	OCVariableNode(Ride)
+		requestor: 	a StPlaygroundInteractionModel
+
+
+OCCodeReparator>>openMenu
+	Receiver: an OCCodeReparator
+	Arguments and temporary variables: 
+		alternatives: 	an OrderedCollection(#RBArrayErrorNode #RBPatternBlockNode #R[..]
+		labels: 	an OrderedCollection('Leave variable undeclared' 'Define new class'[..]
+		actions: 	an OrderedCollection([ ^ nil ] [
+				[ self defineClass: name asSy[..]
+		lines: 	an OrderedCollection(1 3 13)
+		caption: 	'Unknown variable: Ride please correct, or cancel:'
+		choice: 	2
+		name: 	#Ride
+		interval: 	(1 to: 4)
+	Receiver's instance variables: 
+		node: 	OCVariableNode(Ride)
+		requestor: 	a StPlaygroundInteractionModel
+
+
+OpalCompiler>>checkNotice:
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+		aNotice: 	OCUndeclaredVariableNotice(1:Undeclared variable)
+		reparator: 	an OCCodeReparator
+		res: 	nil
+	Receiver's instance variables: 
+		ast: 	DoIt
+
+	Ride
+		source: 	'Ride'
+		compilationContext: 	an OCCompilationContext
+		compilationContextClass: 	nil
+		permitFaulty: 	false
+		permitUndeclared: 	false
+		failBlock: 	[ 
+				self announcer announce: (SpCodeEvaluationFailedAnnouncem[..]
+		logged: 	nil
+		changeStamp: 	nil
+		protocol: 	nil
+		requestor: 	a StPlaygroundInteractionModel
+		priorMethod: 	nil
+
+
+[ :n |
+			| check |
+			check := self checkNotice: n.
+			check ifNil: [ ^ ast ].
+			check ifFalse: [
+				ast := nil.
+				^ self failBlock ifNotNil: [ :block | block cull: n ] ifNil: [ nil ].
+				] ] in OpalCompiler>>parse
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+		parser: 	an OCParser
+		n: 	OCUndeclaredVariableNotice(1:Undeclared variable)
+		check: 	nil
+	Receiver's instance variables: 
+		ast: 	DoIt
+
+	Ride
+		source: 	'Ride'
+		compilationContext: 	an OCCompilationContext
+		compilationContextClass: 	nil
+		permitFaulty: 	false
+		permitUndeclared: 	false
+		failBlock: 	[ 
+				self announcer announce: (SpCodeEvaluationFailedAnnouncem[..]
+		logged: 	nil
+		changeStamp: 	nil
+		protocol: 	nil
+		requestor: 	a StPlaygroundInteractionModel
+		priorMethod: 	nil
+
+
+OrderedCollection>>do:
+	Receiver: an OrderedCollection(OCUndeclaredVariableNotice(1:Undeclared variable))
+	Arguments and temporary variables: 
+		aBlock: 	[ :n |
+			| check |
+			check := self checkNotice: n.
+			check ifNil[..]
+		index: 	1
+	Receiver's instance variables: 
+		array: 	an Array(OCUndeclaredVariableNotice(1:Undeclared variable) nil nil n[..]
+		firstIndex: 	1
+		lastIndex: 	1
+
+
+OpalCompiler>>parse
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+		parser: 	an OCParser
+	Receiver's instance variables: 
+		ast: 	DoIt
+
+	Ride
+		source: 	'Ride'
+		compilationContext: 	an OCCompilationContext
+		compilationContextClass: 	nil
+		permitFaulty: 	false
+		permitUndeclared: 	false
+		failBlock: 	[ 
+				self announcer announce: (SpCodeEvaluationFailedAnnouncem[..]
+		logged: 	nil
+		changeStamp: 	nil
+		protocol: 	nil
+		requestor: 	a StPlaygroundInteractionModel
+		priorMethod: 	nil
+
+
+OpalCompiler>>compile
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+		result: 	nil
+	Receiver's instance variables: 
+		ast: 	DoIt
+
+	Ride
+		source: 	'Ride'
+		compilationContext: 	an OCCompilationContext
+		compilationContextClass: 	nil
+		permitFaulty: 	false
+		permitUndeclared: 	false
+		failBlock: 	[ 
+				self announcer announce: (SpCodeEvaluationFailedAnnouncem[..]
+		logged: 	nil
+		changeStamp: 	nil
+		protocol: 	nil
+		requestor: 	a StPlaygroundInteractionModel
+		priorMethod: 	nil
+
+
+OpalCompiler>>evaluate
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+		value: 	nil
+		doItMethod: 	nil
+	Receiver's instance variables: 
+		ast: 	DoIt
+
+	Ride
+		source: 	'Ride'
+		compilationContext: 	an OCCompilationContext
+		compilationContextClass: 	nil
+		permitFaulty: 	false
+		permitUndeclared: 	false
+		failBlock: 	[ 
+				self announcer announce: (SpCodeEvaluationFailedAnnouncem[..]
+		logged: 	nil
+		changeStamp: 	nil
+		protocol: 	nil
+		requestor: 	a StPlaygroundInteractionModel
+		priorMethod: 	nil
+
+
+[
+		self announcer announce: (SpCodeWillBeEvaluatedAnnouncement newContent: aString).
+		oldBindings := self interactionModel bindings copy.
+		result := self interactionModel compiler
+			source: aString;
+			environment: self environment;
+			failBlock:  [ 
+				self announcer announce: (SpCodeEvaluationFailedAnnouncement newContent: aString).
+				^ compileErrorBlock value ];
+			evaluate.
+		oldBindings size = self interactionModel bindings size 
+			ifFalse: [ self refreshStyling ].
+		self announcer announce: (SpCodeEvaluationSucceedAnnouncement newContent: aString).
+		result ] in SpCodePresenter>>evaluate:onCompileError:onError:
+	Receiver: a SpCodePresenter
+	Arguments and temporary variables: 
+		aString: 	'Ride'
+		compileErrorBlock: 	[ ^ self ]
+		errorBlock: 	[ :e | e pass ]
+		result: 	nil
+		oldBindings: 	a Dictionary()
+	Receiver's instance variables: 
+		dependents: 	a DependentsArray(a SpMorphicCodeAdapter)
+		announcer: 	an Announcer
+		owner: 	a StPlaygroundPagePresenter
+		adapter: 	a SpMorphicCodeAdapter
+		needRebuild: 	true
+		eventHandler: 	a SpEventHandler
+		properties: 	a SmallDictionary()
+		application: 	nil
+		focusOrder: 	nil
+		contextKeyBindings: 	an ObservableValueHolder[ nil ]
+		windowIcon: 	an ObservableValueHolder[ nil ]
+		aboutText: 	an ObservableValueHolder[ nil ]
+		askOkToClose: 	an ObservableValueHolder[ false ]
+		titleHolder: 	an ObservableValueHolder[ 'Code' ]
+		additionalSubpresentersMap: 	nil
+		layout: 	an ObservableValueHolder[ a SpAbstractWidgetLayout ]
+		visible: 	an ObservableValueHolder[ true ]
+		extent: 	an ObservableValueHolder[ nil ]
+		styles: 	#()
+		userActionGroup: 	an ObservableValueHolder[ a SpCommandGroup ]
+		internalActionGroup: 	a SpActionGroup
+		borderWidth: 	an ObservableValueHolder[ nil ]
+		borderColor: 	an ObservableValueHolder[ nil ]
+		dragEnabled: 	an ObservableValueHolder[ false ]
+		dropEnabled: 	an ObservableValueHolder[ false ]
+		color: 	an ObservableValueHolder[ nil ]
+		help: 	an ObservableValueHolder[ nil ]
+		enabled: 	an ObservableValueHolder[ true ]
+		wantsDrop: 	an ObservableValueHolder[ [ :transfer | self dropEnabled ] ]
+		acceptDrop: 	an ObservableValueHolder[ [ :transfer | ] ]
+		deferredActions: 	nil
+		selection: 	an ObservableValueHolder[ (1 to: 4) ]
+		text: 	an ObservableValueHolder[ 'Ride' ]
+		actionToPerform: 	an ObservableValueHolder[ [ :txt |  ] ]
+		readSelection: 	an ObservableValueHolder[ [ selection ] ]
+		placeholder: 	an ObservableValueHolder[ '' ]
+		editable: 	an ObservableValueHolder[ true ]
+		contextMenu: 	an ObservableValueHolder[ nil ]
+		scrollValue: 	an ObservableValueHolder[ (0@0) ]
+		editionContextMenu: 	an ObservableValueHolder[ true ]
+		wrapWord: 	an ObservableValueHolder[ true ]
+		undoRedoHistory: 	true
+		wrapScrollBars: 	true
+		propagateNaturalHeight: 	false
+		propagateNaturalWidth: 	false
+		scrollBarStyles: 	#()
+		syntaxHighlight: 	an ObservableValueHolder[ true ]
+		smartCharacters: 	an ObservableValueHolder[ true ]
+		lineNumbers: 	an ObservableValueHolder[ true ]
+		interactionModel: 	an ObservableValueHolder[ a StPlaygroundInteractionModel ]
+		overrideContextMenu: 	true
+		submitBlock: 	nil
+		resetBlock: 	nil
+		environment: 	nil
+		systemNavigation: 	nil
+		syntaxHighlightTheme: 	an ObservableValueHolder[ nil ]
+		styleScheme: 	nil
+
+
+FullBlockClosure(BlockClosure)>>on:do:
+	Receiver: [
+		self announcer announce: (SpCodeWillBeEvaluatedAnnouncement newContent: aString).
+[..]
+	Arguments and temporary variables: 
+		exception: 	Error
+		handlerAction: 	[ :e |
+		self announcer announce: (SpCodeEvaluationFailedAnn[..]
+	Receiver's instance variables: 
+		outerContext: 	SpCodePresenter>>evaluate:onCompileError:onError:
+		compiledBlock: 	a CompiledBlock: [
+		self announcer announce: (SpCodeWillBeE[..]
+		numArgs: 	0
+		receiver: 	a SpCodePresenter
+
+
+SpCodePresenter>>evaluate:onCompileError:onError:
+	Receiver: a SpCodePresenter
+	Arguments and temporary variables: 
+		result: 	nil
+		oldBindings: 	a Dictionary()
+		aString: 	'Ride'
+		compileErrorBlock: 	[ ^ self ]
+		errorBlock: 	[ :e | e pass ]
+	Receiver's instance variables: 
+		dependents: 	a DependentsArray(a SpMorphicCodeAdapter)
+		announcer: 	an Announcer
+		owner: 	a StPlaygroundPagePresenter
+		adapter: 	a SpMorphicCodeAdapter
+		needRebuild: 	true
+		eventHandler: 	a SpEventHandler
+		properties: 	a SmallDictionary()
+		application: 	nil
+		focusOrder: 	nil
+		contextKeyBindings: 	an ObservableValueHolder[ nil ]
+		windowIcon: 	an ObservableValueHolder[ nil ]
+		aboutText: 	an ObservableValueHolder[ nil ]
+		askOkToClose: 	an ObservableValueHolder[ false ]
+		titleHolder: 	an ObservableValueHolder[ 'Code' ]
+		additionalSubpresentersMap: 	nil
+		layout: 	an ObservableValueHolder[ a SpAbstractWidgetLayout ]
+		visible: 	an ObservableValueHolder[ true ]
+		extent: 	an ObservableValueHolder[ nil ]
+		styles: 	#()
+		userActionGroup: 	an ObservableValueHolder[ a SpCommandGroup ]
+		internalActionGroup: 	a SpActionGroup
+		borderWidth: 	an ObservableValueHolder[ nil ]
+		borderColor: 	an ObservableValueHolder[ nil ]
+		dragEnabled: 	an ObservableValueHolder[ false ]
+		dropEnabled: 	an ObservableValueHolder[ false ]
+		color: 	an ObservableValueHolder[ nil ]
+		help: 	an ObservableValueHolder[ nil ]
+		enabled: 	an ObservableValueHolder[ true ]
+		wantsDrop: 	an ObservableValueHolder[ [ :transfer | self dropEnabled ] ]
+		acceptDrop: 	an ObservableValueHolder[ [ :transfer | ] ]
+		deferredActions: 	nil
+		selection: 	an ObservableValueHolder[ (1 to: 4) ]
+		text: 	an ObservableValueHolder[ 'Ride' ]
+		actionToPerform: 	an ObservableValueHolder[ [ :txt |  ] ]
+		readSelection: 	an ObservableValueHolder[ [ selection ] ]
+		placeholder: 	an ObservableValueHolder[ '' ]
+		editable: 	an ObservableValueHolder[ true ]
+		contextMenu: 	an ObservableValueHolder[ nil ]
+		scrollValue: 	an ObservableValueHolder[ (0@0) ]
+		editionContextMenu: 	an ObservableValueHolder[ true ]
+		wrapWord: 	an ObservableValueHolder[ true ]
+		undoRedoHistory: 	true
+		wrapScrollBars: 	true
+		propagateNaturalHeight: 	false
+		propagateNaturalWidth: 	false
+		scrollBarStyles: 	#()
+		syntaxHighlight: 	an ObservableValueHolder[ true ]
+		smartCharacters: 	an ObservableValueHolder[ true ]
+		lineNumbers: 	an ObservableValueHolder[ true ]
+		interactionModel: 	an ObservableValueHolder[ a StPlaygroundInteractionModel ]
+		overrideContextMenu: 	true
+		submitBlock: 	nil
+		resetBlock: 	nil
+		environment: 	nil
+		systemNavigation: 	nil
+		syntaxHighlightTheme: 	an ObservableValueHolder[ nil ]
+		styleScheme: 	nil
+
+
+SpCodeInspectItCommand(SpCodeSelectionCommand)>>evaluate:andDo:
+	Receiver: a SpCodeInspectItCommand
+	Arguments and temporary variables: 
+		aString: 	'Ride'
+		aBlock: 	[ :result | 
+		self inspectObject: result ]
+	Receiver's instance variables: 
+		context: 	a SpCodePresenter
+		basicName: 	'Inspect it'
+		basicDescription: 	'Evaluate selection and inspect the result.'
+		transform: 	[ :aContext | aContext ]
+
+
+SpCodeInspectItCommand(SpCodeSelectionCommand)>>evaluateSelectionAndDo:
+	Receiver: a SpCodeInspectItCommand
+	Arguments and temporary variables: 
+		aBlock: 	[ :result | 
+		self inspectObject: result ]
+		selection: 	'Ride'
+	Receiver's instance variables: 
+		context: 	a SpCodePresenter
+		basicName: 	'Inspect it'
+		basicDescription: 	'Evaluate selection and inspect the result.'
+		transform: 	[ :aContext | aContext ]
+
+
+SpCodeInspectItCommand>>execute
+	Receiver: a SpCodeInspectItCommand
+	Arguments and temporary variables: 
+x
+	Receiver's instance variables: 
+		context: 	a SpCodePresenter
+		basicName: 	'Inspect it'
+		basicDescription: 	'Evaluate selection and inspect the result.'
+		transform: 	[ :aContext | aContext ]
+
+
+SpCommand(CmCommandDecorator)>>execute
+	Receiver: a SpCommand(Inspect it)
+	Arguments and temporary variables: 
+x
+	Receiver's instance variables: 
+		decoratedCommand: 	a SpCodeInspectItCommand
+		iconProvider: 	a StPharoApplication
+		iconName: 	#smallInspectIt
+		shortcutKey: 	a KMKeyCombinationChoice
+		displayStrategy: 	a CmUIDisableWhenCantBeRun
+		positionStrategy: 	a CmUILeftPositionStrategy
+		buildPresenterBlock: 	[ :specCommand | 
+		aButtonClass new
+			label: specCom[..]
+		presenter: 	nil
+
+
+[ self decoratedCommand execute ] in SpToolCurrentApplicationCommand>>execute
+	Receiver: a SpToolCurrentApplicationCommand
+	Arguments and temporary variables: 
+x
+	Receiver's instance variables: 
+		decoratedCommand: 	a SpCommand(Inspect it)
+
+
+[ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ] in SpToolCurrentApplication(DynamicVariable)>>value:during:
+	Receiver: a SpToolCurrentApplication
+	Arguments and temporary variables: 
+		anObject: 	a StPharoApplication
+		aBlock: 	[ self decoratedCommand execute ]
+		activeProcess: 	a Process in nil
+		oldValue: 	a StPharoApplication
+	Receiver's instance variables: 
+		index: 	7
+
+
+FullBlockClosure(BlockClosure)>>ensure:
+	Receiver: [ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ]
+	Arguments and temporary variables: 
+		aBlock: 	[
+			activeProcess
+				psValueAt: index
+				put: oldValue ]
+		handler: 	[
+			activeProcess
+				psValueAt: index
+				put: oldValue ]
+		complete: 	nil
+		returnValue: 	nil
+	Receiver's instance variables: 
+		outerContext: 	SpToolCurrentApplication(DynamicVariable)>>value:during:
+		compiledBlock: 	a CompiledBlock: [ activeProcess
+			psValueAt: index
+			put:[..]
+		numArgs: 	0
+		receiver: 	a SpToolCurrentApplication
+
+
+SpToolCurrentApplication(DynamicVariable)>>value:during:
+	Receiver: a SpToolCurrentApplication
+	Arguments and temporary variables: 
+		anObject: 	a StPharoApplication
+		aBlock: 	[ self decoratedCommand execute ]
+		activeProcess: 	a Process in nil
+		oldValue: 	a StPharoApplication
+	Receiver's instance variables: 
+		index: 	7
+
+
+SpToolCurrentApplication class(DynamicVariable class)>>value:during:
+	Receiver: SpToolCurrentApplication
+	Arguments and temporary variables: 
+		anObject: 	a StPharoApplication
+		aBlock: 	[ self decoratedCommand execute ]
+	Receiver's instance variables: 
+		superclass: 	DynamicVariable
+		methodDict: 	a MethodDictionary()
+		format: 	65537
+		layout: 	a FixedLayout
+		protocols: 	#()
+		subclasses: 	nil
+		name: 	#SpToolCurrentApplication
+		classPool: 	nil
+		sharedPools: 	nil
+		environment: 	a SystemEnvironment(lots of globals)
+		commentSourcePointer: 	72369008
+		packageTag: 	a PackageTag(Presenters)
+		soleInstance: 	a SpToolCurrentApplication
+
+
+SpToolCurrentApplicationCommand>>execute
+	Receiver: a SpToolCurrentApplicationCommand
+	Arguments and temporary variables: 
+x
+	Receiver's instance variables: 
+		decoratedCommand: 	a SpCommand(Inspect it)
+
+
+[ self decoratedCommand execute ] in SpToolCurrentApplicationCommand>>execute
+	Receiver: a SpToolCurrentApplicationCommand
+	Arguments and temporary variables: 
+x
+	Receiver's instance variables: 
+		decoratedCommand: 	a SpToolCurrentApplicationCommand
+
+
+[ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ] in SpToolCurrentApplication(DynamicVariable)>>value:during:
+	Receiver: a SpToolCurrentApplication
+	Arguments and temporary variables: 
+		anObject: 	a StPharoApplication
+		aBlock: 	[ self decoratedCommand execute ]
+		activeProcess: 	a Process in nil
+		oldValue: 	nil
+	Receiver's instance variables: 
+		index: 	7
+
+
+FullBlockClosure(BlockClosure)>>ensure:
+	Receiver: [ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ]
+	Arguments and temporary variables: 
+		aBlock: 	[
+			activeProcess
+				psValueAt: index
+				put: oldValue ]
+		handler: 	[
+			activeProcess
+				psValueAt: index
+				put: oldValue ]
+		complete: 	nil
+		returnValue: 	nil
+	Receiver's instance variables: 
+		outerContext: 	SpToolCurrentApplication(DynamicVariable)>>value:during:
+		compiledBlock: 	a CompiledBlock: [ activeProcess
+			psValueAt: index
+			put:[..]
+		numArgs: 	0
+		receiver: 	a SpToolCurrentApplication
+
+
+SpToolCurrentApplication(DynamicVariable)>>value:during:
+	Receiver: a SpToolCurrentApplication
+	Arguments and temporary variables: 
+		anObject: 	a StPharoApplication
+		aBlock: 	[ self decoratedCommand execute ]
+		activeProcess: 	a Process in nil
+		oldValue: 	nil
+	Receiver's instance variables: 
+		index: 	7
+
+
+SpToolCurrentApplication class(DynamicVariable class)>>value:during:
+	Receiver: SpToolCurrentApplication
+	Arguments and temporary variables: 
+		anObject: 	a StPharoApplication
+		aBlock: 	[ self decoratedCommand execute ]
+	Receiver's instance variables: 
+		superclass: 	DynamicVariable
+		methodDict: 	a MethodDictionary()
+		format: 	65537
+		layout: 	a FixedLayout
+		protocols: 	#()
+		subclasses: 	nil
+		name: 	#SpToolCurrentApplication
+		classPool: 	nil
+		sharedPools: 	nil
+		environment: 	a SystemEnvironment(lots of globals)
+		commentSourcePointer: 	72369008
+		packageTag: 	a PackageTag(Presenters)
+		soleInstance: 	a SpToolCurrentApplication
+
+
+SpToolCurrentApplicationCommand>>execute
+	Receiver: a SpToolCurrentApplicationCommand
+	Arguments and temporary variables: 
+x
+	Receiver's instance variables: 
+		decoratedCommand: 	a SpToolCurrentApplicationCommand
+
+
+[ aCommand execute ] in SpActionMenuPresenterBuilder(SpMenuPresenterBuilder)>>fillItem:with:
+	Receiver: a SpActionMenuPresenterBuilder
+	Arguments and temporary variables: 
+		aMenuItem: 	a SpMenuItemPresenter
+		aCommand: 	a SpToolCurrentApplicationCommand
+	Receiver's instance variables: 
+		menuPresenter: 	a SpMenuPresenter
+		stack: 	a Stack(a SpMenuPresenter)
+
+
+
+--- The full stack ---
+OCSyntaxErrorNotice(OCNotice)>>signalError
+OpalCompiler>>checkNotice:
+[ :n |
+			| check |
+			check := self checkNotice: n.
+			check ifNil: [ ^ ast ].
+			check ifFalse: [
+				ast := nil.
+				^ self failBlock ifNotNil: [ :block | block cull: n ] ifNil: [ nil ].
+				] ] in OpalCompiler>>parse
+OrderedCollection>>do:
+OpalCompiler>>parse
+OpalCompiler>>compile
+OpalCompiler>>evaluate
+OCCodeReparator>>defineClassOrTrait:definitionString:
+OCCodeReparator>>defineClass:
+[ self defineClass: name asSymbol ] in [
+				[ self defineClass: name asSymbol ]
+					on: Abort
+					do: [ self openMenu ] ] in OCCodeReparator>>openMenu
+FullBlockClosure(BlockClosure)>>on:do:
+[
+				[ self defineClass: name asSymbol ]
+					on: Abort
+					do: [ self openMenu ] ] in OCCodeReparator>>openMenu
+OCCodeReparator>>openMenu
+OpalCompiler>>checkNotice:
+[ :n |
+			| check |
+			check := self checkNotice: n.
+			check ifNil: [ ^ ast ].
+			check ifFalse: [
+				ast := nil.
+				^ self failBlock ifNotNil: [ :block | block cull: n ] ifNil: [ nil ].
+				] ] in OpalCompiler>>parse
+OrderedCollection>>do:
+OpalCompiler>>parse
+OpalCompiler>>compile
+OpalCompiler>>evaluate
+[
+		self announcer announce: (SpCodeWillBeEvaluatedAnnouncement newContent: aString).
+		oldBindings := self interactionModel bindings copy.
+		result := self interactionModel compiler
+			source: aString;
+			environment: self environment;
+			failBlock:  [ 
+				self announcer announce: (SpCodeEvaluationFailedAnnouncement newContent: aString).
+				^ compileErrorBlock value ];
+			evaluate.
+		oldBindings size = self interactionModel bindings size 
+			ifFalse: [ self refreshStyling ].
+		self announcer announce: (SpCodeEvaluationSucceedAnnouncement newContent: aString).
+		result ] in SpCodePresenter>>evaluate:onCompileError:onError:
+FullBlockClosure(BlockClosure)>>on:do:
+SpCodePresenter>>evaluate:onCompileError:onError:
+SpCodeInspectItCommand(SpCodeSelectionCommand)>>evaluate:andDo:
+SpCodeInspectItCommand(SpCodeSelectionCommand)>>evaluateSelectionAndDo:
+SpCodeInspectItCommand>>execute
+SpCommand(CmCommandDecorator)>>execute
+[ self decoratedCommand execute ] in SpToolCurrentApplicationCommand>>execute
+[ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ] in SpToolCurrentApplication(DynamicVariable)>>value:during:
+FullBlockClosure(BlockClosure)>>ensure:
+SpToolCurrentApplication(DynamicVariable)>>value:during:
+SpToolCurrentApplication class(DynamicVariable class)>>value:during:
+SpToolCurrentApplicationCommand>>execute
+[ self decoratedCommand execute ] in SpToolCurrentApplicationCommand>>execute
+[ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ] in SpToolCurrentApplication(DynamicVariable)>>value:during:
+FullBlockClosure(BlockClosure)>>ensure:
+SpToolCurrentApplication(DynamicVariable)>>value:during:
+SpToolCurrentApplication class(DynamicVariable class)>>value:during:
+SpToolCurrentApplicationCommand>>execute
+[ aCommand execute ] in SpActionMenuPresenterBuilder(SpMenuPresenterBuilder)>>fillItem:with:
+ - - - - - - - - - - - - - - -
+			- - - - - - - - - - - - - - - - - -
+FullBlockClosure(BlockClosure)>>cull:
+SpMenuItemPresenter>>performMenuActionWith:
+SpMorphicMenuItemAdapter>>performMenuActionWith:
+[ | selArgCount |  "show cursor in case item opens a new MVC window"
+		(selArgCount := selector numArgs) = 0
+			ifTrue:
+				[target perform: selector]
+			ifFalse:
+				[selArgCount = arguments size
+					ifTrue: [target perform: selector withArguments: arguments]
+					ifFalse: [target perform: selector withArguments: (arguments copyWith: evt)]].
+		self showShortcut.
+		self changed] in SpToggleMenuItemMorph(MenuItemMorph)>>invokeWithEvent:
+FullBlockClosure(BlockClosure)>>ensure:
+CursorWithMask(Cursor)>>showWhile:
+SpToggleMenuItemMorph(MenuItemMorph)>>invokeWithEvent:
+SpToggleMenuItemMorph(MenuItemMorph)>>mouseUp:
+SpToggleMenuItemMorph(MenuItemMorph)>>handleMouseUp:
+MouseButtonEvent>>sentTo:
+SpToggleMenuItemMorph(Morph)>>handleEvent:
+MorphicEventDispatcher>>dispatchDefault:with:
+MorphicEventDispatcher>>handleMouseUp:
+MouseButtonEvent>>sentTo:
+[ ^ anEvent sentTo: self ] in MorphicEventDispatcher>>dispatchEvent:with:
+FullBlockClosure(BlockClosure)>>ensure:
+MorphicEventDispatcher>>dispatchEvent:with:
+SpToggleMenuItemMorph(Morph)>>processEvent:using:
+MorphicEventDispatcher>>dispatchDefault:with:
+MorphicEventDispatcher>>handleMouseUp:
+MouseButtonEvent>>sentTo:
+[ ^ anEvent sentTo: self ] in MorphicEventDispatcher>>dispatchEvent:with:
+FullBlockClosure(BlockClosure)>>ensure:
+MorphicEventDispatcher>>dispatchEvent:with:
+MenuMorph(Morph)>>processEvent:using:
+MenuMorph(Morph)>>processEvent:
+MenuMorph>>handleFocusEvent:
+[
+		result := focusHolder handleFocusEvent: transformedEvent.
+	] in HandMorph>>sendFocusEvent:to:clear:
+FullBlockClosure(BlockClosure)>>on:do:
+WorldMorph>>becomeActiveDuring:
+HandMorph>>sendFocusEvent:to:clear:
+HandMorph>>sendEvent:focus:clear:
+HandMorph>>sendMouseEvent:
+HandMorph>>handleEvent:
+[
+		(morphicWorld activeHand isNotNil and: [ anEvent hand isNotNil ]) ifTrue: [
+			morphicWorld activeHand handleEvent: anEvent
+		]
+	] in OSWindowMorphicEventHandler>>dispatchMorphicEvent:
+WorldState>>runStepMethodsIn:
+WorldMorph>>runStepMethods
+WorldState>>doOneCycleFor:
+WorldMorph>>doOneCycleNow
+WorldMorph>>doOneCycle
+[
+		| extraWorldsToDraw |
+		extraWorldsToDraw := ExtraWorldListMutex critical: [
+			                     self extraWorldList ].
+		extraWorldsToDraw do: [ :world | world doOneCycle ].
+
+		(self currentWorld isNotNil and: [
+			 (extraWorldsToDraw includes: self currentWorld) not ]) ifTrue: [
+			self currentWorld doOneCycle ] ] in WorldMorph class>>doOneCycle
+FullBlockClosure(BlockClosure)>>ensure:
+WorldState class>>doDrawCycleWith:
+WorldMorph class>>doOneCycle
+MorphicRenderLoop>>doOneCycle
+MorphicRenderLoop>>doOneCycleWhile:
+MenuMorph>>invokeAt:in:allowKeyboard:
+MenuMorph>>invokeAt:in:
+MenuMorph>>invokeModal
+ByteSymbol(Symbol)>>value:
+RubEditingArea(RubAbstractTextArea)>>openMenu:and:
+RubEditingArea(RubAbstractTextArea)>>yellowButtonActivity:
+RubEditingArea(RubAbstractTextArea)>>mouseDown:
+RubEditingArea(Morph)>>handleMouseDown:
+MouseButtonEvent>>sentTo:
+RubEditingArea(Morph)>>handleEvent:
+MorphicEventDispatcher>>dispatchMouseDown:with:
+MorphicEventDispatcher>>handleMouseDown:
+MouseButtonEvent>>sentTo:
+[ ^ anEvent sentTo: self ] in MorphicEventDispatcher>>dispatchEvent:with:
+FullBlockClosure(BlockClosure)>>ensure:
+MorphicEventDispatcher>>dispatchEvent:with:
+RubEditingArea(Morph)>>processEvent:using:
+MorphicEventDispatcher>>dispatchMouseDown:with:
+MorphicEventDispatcher>>handleMouseDown:
+MouseButtonEvent>>sentTo:
+[ ^ anEvent sentTo: self ] in MorphicEventDispatcher>>dispatchEvent:with:
+FullBlockClosure(BlockClosure)>>ensure:
+MorphicEventDispatcher>>dispatchEvent:with:
+TransformWithLayoutMorph(Morph)>>processEvent:using:
+MorphicEventDispatcher>>dispatchMouseDown:with:
+MorphicEventDispatcher>>handleMouseDown:
+MouseButtonEvent>>sentTo:
+[ ^ anEvent sentTo: self ] in MorphicEventDispatcher>>dispatchEvent:with:
+FullBlockClosure(BlockClosure)>>ensure:
+MorphicEventDispatcher>>dispatchEvent:with:
+RubTextScrollPane(Morph)>>processEvent:using:
+MorphicEventDispatcher>>dispatchMouseDown:with:
+MorphicEventDispatcher>>handleMouseDown:
+MouseButtonEvent>>sentTo:
+[ ^ anEvent sentTo: self ] in MorphicEventDispatcher>>dispatchEvent:with:
+FullBlockClosure(BlockClosure)>>ensure:
+MorphicEventDispatcher>>dispatchEvent:with:
+SpRubScrolledTextMorph(Morph)>>processEvent:using:
+MorphicEventDispatcher>>dispatchMouseDown:with:
+MorphicEventDispatcher>>handleMouseDown:
+MouseButtonEvent>>sentTo:
+[ ^ anEvent sentTo: self ] in MorphicEventDispatcher>>dispatchEvent:with:
+FullBlockClosure(BlockClosure)>>ensure:
+MorphicEventDispatcher>>dispatchEvent:with:
+Morph>>processEvent:using:
+MorphicEventDispatcher>>dispatchMouseDown:with:
+MorphicEventDispatcher>>handleMouseDown:
+MouseButtonEvent>>sentTo:
+[ ^ anEvent sentTo: self ] in MorphicEventDispatcher>>dispatchEvent:with:
+FullBlockClosure(BlockClosure)>>ensure:
+MorphicEventDispatcher>>dispatchEvent:with:
+Morph>>processEvent:using:
+MorphicEventDispatcher>>dispatchMouseDown:with:
+MorphicEventDispatcher>>handleMouseDown:
+MouseButtonEvent>>sentTo:
+[ ^ anEvent sentTo: self ] in MorphicEventDispatcher>>dispatchEvent:with:
+FullBlockClosure(BlockClosure)>>ensure:
+MorphicEventDispatcher>>dispatchEvent:with:
+Morph>>processEvent:using:
+MorphicEventDispatcher>>dispatchMouseDown:with:
+MorphicEventDispatcher>>handleMouseDown:
+MouseButtonEvent>>sentTo:
+[ ^ anEvent sentTo: self ] in MorphicEventDispatcher>>dispatchEvent:with:
+FullBlockClosure(BlockClosure)>>ensure:
+MorphicEventDispatcher>>dispatchEvent:with:
+TransformWithLayoutMorph(Morph)>>processEvent:using:
+MorphicEventDispatcher>>dispatchMouseDown:with:
+MorphicEventDispatcher>>handleMouseDown:
+MouseButtonEvent>>sentTo:
+[ ^ anEvent sentTo: self ] in MorphicEventDispatcher>>dispatchEvent:with:
+FullBlockClosure(BlockClosure)>>ensure:
+MorphicEventDispatcher>>dispatchEvent:with:
+MillerScrollPaneMorph(Morph)>>processEvent:using:
+MorphicEventDispatcher>>dispatchMouseDown:with:
+MorphicEventDispatcher>>handleMouseDown:
+MouseButtonEvent>>sentTo:
+[ ^ anEvent sentTo: self ] in MorphicEventDispatcher>>dispatchEvent:with:
+FullBlockClosure(BlockClosure)>>ensure:
+MorphicEventDispatcher>>dispatchEvent:with:
+Morph>>processEvent:using:
+MorphicEventDispatcher>>dispatchMouseDown:with:
+MorphicEventDispatcher>>handleMouseDown:
+MouseButtonEvent>>sentTo:
+[ ^ anEvent sentTo: self ] in MorphicEventDispatcher>>dispatchEvent:with:
+FullBlockClosure(BlockClosure)>>ensure:
+MorphicEventDispatcher>>dispatchEvent:with:
+Morph>>processEvent:using:
+MorphicEventDispatcher>>dispatchMouseDown:with:
+MorphicEventDispatcher>>handleMouseDown:
+MouseButtonEvent>>sentTo:
+[ ^ anEvent sentTo: self ] in MorphicEventDispatcher>>dispatchEvent:with:
+FullBlockClosure(BlockClosure)>>ensure:
+MorphicEventDispatcher>>dispatchEvent:with:
+Morph>>processEvent:using:
+MorphicEventDispatcher>>dispatchMouseDown:with:
+MorphicEventDispatcher>>handleMouseDown:
+MouseButtonEvent>>sentTo:
+[ ^ anEvent sentTo: self ] in MorphicEventDispatcher>>dispatchEvent:with:
+FullBlockClosure(BlockClosure)>>ensure:
+MorphicEventDispatcher>>dispatchEvent:with:
+Morph>>processEvent:using:
+MorphicEventDispatcher>>dispatchMouseDown:with:
+MorphicEventDispatcher>>handleMouseDown:
+MouseButtonEvent>>sentTo:
+[ ^ anEvent sentTo: self ] in MorphicEventDispatcher>>dispatchEvent:with:
+FullBlockClosure(BlockClosure)>>ensure:
+MorphicEventDispatcher>>dispatchEvent:with:
+Morph>>processEvent:using:
+MorphicEventDispatcher>>dispatchMouseDown:with:
+MorphicEventDispatcher>>handleMouseDown:
+MouseButtonEvent>>sentTo:
+[ ^ anEvent sentTo: self ] in MorphicEventDispatcher>>dispatchEvent:with:
+FullBlockClosure(BlockClosure)>>ensure:
+MorphicEventDispatcher>>dispatchEvent:with:
+SpWindow(Morph)>>processEvent:using:
+MorphicEventDispatcher>>dispatchMouseDown:with:
+-- and more not shown ---------------------------------------------------------------------------------
+
+THERE_BE_DRAGONS_HERE
+Variable or expression expected
+13 July 2025 10:50:20.31661 pm
+
+VM: Mac OS - arm64 - 1000 - CoInterpreter VMMaker-tonel.1 uuid: 4ad855a3-09f3-0d00-a59e-2bc906d86bc4 Jun  3 2025
+StackToRegisterMappingCogit VMMaker-tonel.1 uuid: 4ad855a3-09f3-0d00-a59e-2bc906d86bc4 Jun  3 2025
+v10.3.5+0.be20a0222 - Commit: be20a0222 - Date: 2025-06-03 11:15:04 +0200
+
+Image: Pharo13.0.0SNAPSHOT [Build information: Pharo-13.0.0+SNAPSHOT.build.682.sha.e698f2016913f479cbb80dee1008a01ca1fa30ac (64 Bit)]
+
+OCSyntaxErrorNotice(OCNotice)>>signalError
+	Receiver: OCSyntaxErrorNotice(236:Variable or expression expected)
+	Arguments and temporary variables: 
+x
+	Receiver's instance variables: 
+		messageText: 	nil
+		node: 	OCParseErrorNode()
+
+
+OpalCompiler>>checkNotice:
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+		aNotice: 	OCSyntaxErrorNotice(236:Variable or expression expected)
+	Receiver's instance variables: 
+		ast: 	DoIt
+
+	(Object << #Ride)
+		layout: FixedLayout;
+		traits: {  };
+		slot[..]
+		source: 	'Object << #Ride
+    layout: FixedLayout;
+    traits: {};
+    slots[..]
+		compilationContext: 	an OCCompilationContext
+		compilationContextClass: 	nil
+		permitFaulty: 	false
+		permitUndeclared: 	false
+		failBlock: 	nil
+		logged: 	true
+		changeStamp: 	nil
+		protocol: 	nil
+		requestor: 	nil
+		priorMethod: 	nil
+
+
+[ :n |
+			| check |
+			check := self checkNotice: n.
+			check ifNil: [ ^ ast ].
+			check ifFalse: [
+				ast := nil.
+				^ self failBlock ifNotNil: [ :block | block cull: n ] ifNil: [ nil ].
+				] ] in OpalCompiler>>parse
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+		parser: 	an OCParser
+		n: 	OCSyntaxErrorNotice(236:Variable or expression expected)
+		check: 	nil
+	Receiver's instance variables: 
+		ast: 	DoIt
+
+	(Object << #Ride)
+		layout: FixedLayout;
+		traits: {  };
+		slot[..]
+		source: 	'Object << #Ride
+    layout: FixedLayout;
+    traits: {};
+    slots[..]
+		compilationContext: 	an OCCompilationContext
+		compilationContextClass: 	nil
+		permitFaulty: 	false
+		permitUndeclared: 	false
+		failBlock: 	nil
+		logged: 	true
+		changeStamp: 	nil
+		protocol: 	nil
+		requestor: 	nil
+		priorMethod: 	nil
+
+
+OrderedCollection>>do:
+	Receiver: an OrderedCollection(OCSyntaxErrorNotice(236:Variable or expression expected))
+	Arguments and temporary variables: 
+		aBlock: 	[ :n |
+			| check |
+			check := self checkNotice: n.
+			check ifNil[..]
+		index: 	1
+	Receiver's instance variables: 
+		array: 	an Array(OCSyntaxErrorNotice(236:Variable or expression expected) ni[..]
+		firstIndex: 	1
+		lastIndex: 	1
+
+
+OpalCompiler>>parse
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+		parser: 	an OCParser
+	Receiver's instance variables: 
+		ast: 	DoIt
+
+	(Object << #Ride)
+		layout: FixedLayout;
+		traits: {  };
+		slot[..]
+		source: 	'Object << #Ride
+    layout: FixedLayout;
+    traits: {};
+    slots[..]
+		compilationContext: 	an OCCompilationContext
+		compilationContextClass: 	nil
+		permitFaulty: 	false
+		permitUndeclared: 	false
+		failBlock: 	nil
+		logged: 	true
+		changeStamp: 	nil
+		protocol: 	nil
+		requestor: 	nil
+		priorMethod: 	nil
+
+
+OpalCompiler>>compile
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+		result: 	nil
+	Receiver's instance variables: 
+		ast: 	DoIt
+
+	(Object << #Ride)
+		layout: FixedLayout;
+		traits: {  };
+		slot[..]
+		source: 	'Object << #Ride
+    layout: FixedLayout;
+    traits: {};
+    slots[..]
+		compilationContext: 	an OCCompilationContext
+		compilationContextClass: 	nil
+		permitFaulty: 	false
+		permitUndeclared: 	false
+		failBlock: 	nil
+		logged: 	true
+		changeStamp: 	nil
+		protocol: 	nil
+		requestor: 	nil
+		priorMethod: 	nil
+
+
+OpalCompiler>>evaluate
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+		value: 	nil
+		doItMethod: 	nil
+	Receiver's instance variables: 
+		ast: 	DoIt
+
+	(Object << #Ride)
+		layout: FixedLayout;
+		traits: {  };
+		slot[..]
+		source: 	'Object << #Ride
+    layout: FixedLayout;
+    traits: {};
+    slots[..]
+		compilationContext: 	an OCCompilationContext
+		compilationContextClass: 	nil
+		permitFaulty: 	false
+		permitUndeclared: 	false
+		failBlock: 	nil
+		logged: 	true
+		changeStamp: 	nil
+		protocol: 	nil
+		requestor: 	nil
+		priorMethod: 	nil
+
+
+OCCodeReparator>>defineClassOrTrait:definitionString:
+	Receiver: an OCCodeReparator
+	Arguments and temporary variables: 
+		aSymbol: 	#Ride
+		aString: 	'Object << #Ride
+	layout: FixedLayout;
+	traits: {};
+	slots: {};
+	s[..]
+		classBinding: 	nil
+		result: 	nil
+		definitionString: 	'Object << #Ride
+    layout: FixedLayout;
+    traits: {};[..]
+	Receiver's instance variables: 
+		node: 	OCVariableNode(Ride)
+		requestor: 	a StPlaygroundInteractionModel
+
+
+OCCodeReparator>>defineClass:
+	Receiver: an OCCodeReparator
+	Arguments and temporary variables: 
+		classSymbol: 	#Ride
+		class: 	UndefinedObject
+		classDefinition: 	'Object << #Ride
+	layout: FixedLayout;
+	traits: {};
+	slots[..]
+	Receiver's instance variables: 
+		node: 	OCVariableNode(Ride)
+		requestor: 	a StPlaygroundInteractionModel
+
+
+[ self defineClass: name asSymbol ] in [
+				[ self defineClass: name asSymbol ]
+					on: Abort
+					do: [ self openMenu ] ] in OCCodeReparator>>openMenu
+	Receiver: an OCCodeReparator
+	Arguments and temporary variables: 
+		alternatives: 	an OrderedCollection(#RBArrayErrorNode #RBPatternBlockNode #R[..]
+		labels: 	an OrderedCollection('Leave variable undeclared' 'Define new class'[..]
+		actions: 	an OrderedCollection([ ^ nil ] [
+				[ self defineClass: name asSy[..]
+		lines: 	an OrderedCollection(1 3 13)
+		caption: 	'Unknown variable: Ride please correct, or cancel:'
+		choice: 	2
+		name: 	#Ride
+		interval: 	(1 to: 4)
+	Receiver's instance variables: 
+		node: 	OCVariableNode(Ride)
+		requestor: 	a StPlaygroundInteractionModel
+
+
+FullBlockClosure(BlockClosure)>>on:do:
+	Receiver: [ self defineClass: name asSymbol ]
+	Arguments and temporary variables: 
+		exception: 	Abort
+		handlerAction: 	[ self openMenu ]
+	Receiver's instance variables: 
+		outerContext: 	[
+				[ self defineClass: name asSymbol ]
+					on: Abort
+				[..]
+		compiledBlock: 	a CompiledBlock: [ self defineClass: name asSymbol ]
+		numArgs: 	0
+		receiver: 	an OCCodeReparator
+
+
+[
+				[ self defineClass: name asSymbol ]
+					on: Abort
+					do: [ self openMenu ] ] in OCCodeReparator>>openMenu
+	Receiver: an OCCodeReparator
+	Arguments and temporary variables: 
+		alternatives: 	an OrderedCollection(#RBArrayErrorNode #RBPatternBlockNode #R[..]
+		labels: 	an OrderedCollection('Leave variable undeclared' 'Define new class'[..]
+		actions: 	an OrderedCollection([ ^ nil ] [
+				[ self defineClass: name asSy[..]
+		lines: 	an OrderedCollection(1 3 13)
+		caption: 	'Unknown variable: Ride please correct, or cancel:'
+		choice: 	2
+		name: 	#Ride
+		interval: 	(1 to: 4)
+	Receiver's instance variables: 
+		node: 	OCVariableNode(Ride)
+		requestor: 	a StPlaygroundInteractionModel
+
+
+OCCodeReparator>>openMenu
+	Receiver: an OCCodeReparator
+	Arguments and temporary variables: 
+		alternatives: 	an OrderedCollection(#RBArrayErrorNode #RBPatternBlockNode #R[..]
+		labels: 	an OrderedCollection('Leave variable undeclared' 'Define new class'[..]
+		actions: 	an OrderedCollection([ ^ nil ] [
+				[ self defineClass: name asSy[..]
+		lines: 	an OrderedCollection(1 3 13)
+		caption: 	'Unknown variable: Ride please correct, or cancel:'
+		choice: 	2
+		name: 	#Ride
+		interval: 	(1 to: 4)
+	Receiver's instance variables: 
+		node: 	OCVariableNode(Ride)
+		requestor: 	a StPlaygroundInteractionModel
+
+
+OpalCompiler>>checkNotice:
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+		aNotice: 	OCUndeclaredVariableNotice(1:Undeclared variable)
+		reparator: 	an OCCodeReparator
+		res: 	nil
+	Receiver's instance variables: 
+		ast: 	DoIt
+
+	Ride
+		source: 	'Ride'
+		compilationContext: 	an OCCompilationContext
+		compilationContextClass: 	nil
+		permitFaulty: 	false
+		permitUndeclared: 	false
+		failBlock: 	[ 
+				self announcer announce: (SpCodeEvaluationFailedAnnouncem[..]
+		logged: 	nil
+		changeStamp: 	nil
+		protocol: 	nil
+		requestor: 	a StPlaygroundInteractionModel
+		priorMethod: 	nil
+
+
+[ :n |
+			| check |
+			check := self checkNotice: n.
+			check ifNil: [ ^ ast ].
+			check ifFalse: [
+				ast := nil.
+				^ self failBlock ifNotNil: [ :block | block cull: n ] ifNil: [ nil ].
+				] ] in OpalCompiler>>parse
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+		parser: 	an OCParser
+		n: 	OCUndeclaredVariableNotice(1:Undeclared variable)
+		check: 	nil
+	Receiver's instance variables: 
+		ast: 	DoIt
+
+	Ride
+		source: 	'Ride'
+		compilationContext: 	an OCCompilationContext
+		compilationContextClass: 	nil
+		permitFaulty: 	false
+		permitUndeclared: 	false
+		failBlock: 	[ 
+				self announcer announce: (SpCodeEvaluationFailedAnnouncem[..]
+		logged: 	nil
+		changeStamp: 	nil
+		protocol: 	nil
+		requestor: 	a StPlaygroundInteractionModel
+		priorMethod: 	nil
+
+
+OrderedCollection>>do:
+	Receiver: an OrderedCollection(OCUndeclaredVariableNotice(1:Undeclared variable))
+	Arguments and temporary variables: 
+		aBlock: 	[ :n |
+			| check |
+			check := self checkNotice: n.
+			check ifNil[..]
+		index: 	1
+	Receiver's instance variables: 
+		array: 	an Array(OCUndeclaredVariableNotice(1:Undeclared variable) nil nil n[..]
+		firstIndex: 	1
+		lastIndex: 	1
+
+
+OpalCompiler>>parse
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+		parser: 	an OCParser
+	Receiver's instance variables: 
+		ast: 	DoIt
+
+	Ride
+		source: 	'Ride'
+		compilationContext: 	an OCCompilationContext
+		compilationContextClass: 	nil
+		permitFaulty: 	false
+		permitUndeclared: 	false
+		failBlock: 	[ 
+				self announcer announce: (SpCodeEvaluationFailedAnnouncem[..]
+		logged: 	nil
+		changeStamp: 	nil
+		protocol: 	nil
+		requestor: 	a StPlaygroundInteractionModel
+		priorMethod: 	nil
+
+
+OpalCompiler>>compile
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+		result: 	nil
+	Receiver's instance variables: 
+		ast: 	DoIt
+
+	Ride
+		source: 	'Ride'
+		compilationContext: 	an OCCompilationContext
+		compilationContextClass: 	nil
+		permitFaulty: 	false
+		permitUndeclared: 	false
+		failBlock: 	[ 
+				self announcer announce: (SpCodeEvaluationFailedAnnouncem[..]
+		logged: 	nil
+		changeStamp: 	nil
+		protocol: 	nil
+		requestor: 	a StPlaygroundInteractionModel
+		priorMethod: 	nil
+
+
+OpalCompiler>>evaluate
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+		value: 	nil
+		doItMethod: 	nil
+	Receiver's instance variables: 
+		ast: 	DoIt
+
+	Ride
+		source: 	'Ride'
+		compilationContext: 	an OCCompilationContext
+		compilationContextClass: 	nil
+		permitFaulty: 	false
+		permitUndeclared: 	false
+		failBlock: 	[ 
+				self announcer announce: (SpCodeEvaluationFailedAnnouncem[..]
+		logged: 	nil
+		changeStamp: 	nil
+		protocol: 	nil
+		requestor: 	a StPlaygroundInteractionModel
+		priorMethod: 	nil
+
+
+[
+		self announcer announce: (SpCodeWillBeEvaluatedAnnouncement newContent: aString).
+		oldBindings := self interactionModel bindings copy.
+		result := self interactionModel compiler
+			source: aString;
+			environment: self environment;
+			failBlock:  [ 
+				self announcer announce: (SpCodeEvaluationFailedAnnouncement newContent: aString).
+				^ compileErrorBlock value ];
+			evaluate.
+		oldBindings size = self interactionModel bindings size 
+			ifFalse: [ self refreshStyling ].
+		self announcer announce: (SpCodeEvaluationSucceedAnnouncement newContent: aString).
+		result ] in SpCodePresenter>>evaluate:onCompileError:onError:
+	Receiver: a SpCodePresenter
+	Arguments and temporary variables: 
+		aString: 	'Ride'
+		compileErrorBlock: 	[ ^ self ]
+		errorBlock: 	[ :e | e pass ]
+		result: 	nil
+		oldBindings: 	a Dictionary()
+	Receiver's instance variables: 
+		dependents: 	a DependentsArray(a SpMorphicCodeAdapter)
+		announcer: 	an Announcer
+		owner: 	a StPlaygroundPagePresenter
+		adapter: 	a SpMorphicCodeAdapter
+		needRebuild: 	true
+		eventHandler: 	a SpEventHandler
+		properties: 	a SmallDictionary()
+		application: 	nil
+		focusOrder: 	nil
+		contextKeyBindings: 	an ObservableValueHolder[ nil ]
+		windowIcon: 	an ObservableValueHolder[ nil ]
+		aboutText: 	an ObservableValueHolder[ nil ]
+		askOkToClose: 	an ObservableValueHolder[ false ]
+		titleHolder: 	an ObservableValueHolder[ 'Code' ]
+		additionalSubpresentersMap: 	nil
+		layout: 	an ObservableValueHolder[ a SpAbstractWidgetLayout ]
+		visible: 	an ObservableValueHolder[ true ]
+		extent: 	an ObservableValueHolder[ nil ]
+		styles: 	#()
+		userActionGroup: 	an ObservableValueHolder[ a SpCommandGroup ]
+		internalActionGroup: 	a SpActionGroup
+		borderWidth: 	an ObservableValueHolder[ nil ]
+		borderColor: 	an ObservableValueHolder[ nil ]
+		dragEnabled: 	an ObservableValueHolder[ false ]
+		dropEnabled: 	an ObservableValueHolder[ false ]
+		color: 	an ObservableValueHolder[ nil ]
+		help: 	an ObservableValueHolder[ nil ]
+		enabled: 	an ObservableValueHolder[ true ]
+		wantsDrop: 	an ObservableValueHolder[ [ :transfer | self dropEnabled ] ]
+		acceptDrop: 	an ObservableValueHolder[ [ :transfer | ] ]
+		deferredActions: 	nil
+		selection: 	an ObservableValueHolder[ (1 to: 4) ]
+		text: 	an ObservableValueHolder[ 'Ride' ]
+		actionToPerform: 	an ObservableValueHolder[ [ :txt |  ] ]
+		readSelection: 	an ObservableValueHolder[ [ selection ] ]
+		placeholder: 	an ObservableValueHolder[ '' ]
+		editable: 	an ObservableValueHolder[ true ]
+		contextMenu: 	an ObservableValueHolder[ nil ]
+		scrollValue: 	an ObservableValueHolder[ (0@0) ]
+		editionContextMenu: 	an ObservableValueHolder[ true ]
+		wrapWord: 	an ObservableValueHolder[ true ]
+		undoRedoHistory: 	true
+		wrapScrollBars: 	true
+		propagateNaturalHeight: 	false
+		propagateNaturalWidth: 	false
+		scrollBarStyles: 	#()
+		syntaxHighlight: 	an ObservableValueHolder[ true ]
+		smartCharacters: 	an ObservableValueHolder[ true ]
+		lineNumbers: 	an ObservableValueHolder[ true ]
+		interactionModel: 	an ObservableValueHolder[ a StPlaygroundInteractionModel ]
+		overrideContextMenu: 	true
+		submitBlock: 	nil
+		resetBlock: 	nil
+		environment: 	nil
+		systemNavigation: 	nil
+		syntaxHighlightTheme: 	an ObservableValueHolder[ nil ]
+		styleScheme: 	nil
+
+
+FullBlockClosure(BlockClosure)>>on:do:
+	Receiver: [
+		self announcer announce: (SpCodeWillBeEvaluatedAnnouncement newContent: aString).
+[..]
+	Arguments and temporary variables: 
+		exception: 	Error
+		handlerAction: 	[ :e |
+		self announcer announce: (SpCodeEvaluationFailedAnn[..]
+	Receiver's instance variables: 
+		outerContext: 	SpCodePresenter>>evaluate:onCompileError:onError:
+		compiledBlock: 	a CompiledBlock: [
+		self announcer announce: (SpCodeWillBeE[..]
+		numArgs: 	0
+		receiver: 	a SpCodePresenter
+
+
+SpCodePresenter>>evaluate:onCompileError:onError:
+	Receiver: a SpCodePresenter
+	Arguments and temporary variables: 
+		result: 	nil
+		oldBindings: 	a Dictionary()
+		aString: 	'Ride'
+		compileErrorBlock: 	[ ^ self ]
+		errorBlock: 	[ :e | e pass ]
+	Receiver's instance variables: 
+		dependents: 	a DependentsArray(a SpMorphicCodeAdapter)
+		announcer: 	an Announcer
+		owner: 	a StPlaygroundPagePresenter
+		adapter: 	a SpMorphicCodeAdapter
+		needRebuild: 	true
+		eventHandler: 	a SpEventHandler
+		properties: 	a SmallDictionary()
+		application: 	nil
+		focusOrder: 	nil
+		contextKeyBindings: 	an ObservableValueHolder[ nil ]
+		windowIcon: 	an ObservableValueHolder[ nil ]
+		aboutText: 	an ObservableValueHolder[ nil ]
+		askOkToClose: 	an ObservableValueHolder[ false ]
+		titleHolder: 	an ObservableValueHolder[ 'Code' ]
+		additionalSubpresentersMap: 	nil
+		layout: 	an ObservableValueHolder[ a SpAbstractWidgetLayout ]
+		visible: 	an ObservableValueHolder[ true ]
+		extent: 	an ObservableValueHolder[ nil ]
+		styles: 	#()
+		userActionGroup: 	an ObservableValueHolder[ a SpCommandGroup ]
+		internalActionGroup: 	a SpActionGroup
+		borderWidth: 	an ObservableValueHolder[ nil ]
+		borderColor: 	an ObservableValueHolder[ nil ]
+		dragEnabled: 	an ObservableValueHolder[ false ]
+		dropEnabled: 	an ObservableValueHolder[ false ]
+		color: 	an ObservableValueHolder[ nil ]
+		help: 	an ObservableValueHolder[ nil ]
+		enabled: 	an ObservableValueHolder[ true ]
+		wantsDrop: 	an ObservableValueHolder[ [ :transfer | self dropEnabled ] ]
+		acceptDrop: 	an ObservableValueHolder[ [ :transfer | ] ]
+		deferredActions: 	nil
+		selection: 	an ObservableValueHolder[ (1 to: 4) ]
+		text: 	an ObservableValueHolder[ 'Ride' ]
+		actionToPerform: 	an ObservableValueHolder[ [ :txt |  ] ]
+		readSelection: 	an ObservableValueHolder[ [ selection ] ]
+		placeholder: 	an ObservableValueHolder[ '' ]
+		editable: 	an ObservableValueHolder[ true ]
+		contextMenu: 	an ObservableValueHolder[ nil ]
+		scrollValue: 	an ObservableValueHolder[ (0@0) ]
+		editionContextMenu: 	an ObservableValueHolder[ true ]
+		wrapWord: 	an ObservableValueHolder[ true ]
+		undoRedoHistory: 	true
+		wrapScrollBars: 	true
+		propagateNaturalHeight: 	false
+		propagateNaturalWidth: 	false
+		scrollBarStyles: 	#()
+		syntaxHighlight: 	an ObservableValueHolder[ true ]
+		smartCharacters: 	an ObservableValueHolder[ true ]
+		lineNumbers: 	an ObservableValueHolder[ true ]
+		interactionModel: 	an ObservableValueHolder[ a StPlaygroundInteractionModel ]
+		overrideContextMenu: 	true
+		submitBlock: 	nil
+		resetBlock: 	nil
+		environment: 	nil
+		systemNavigation: 	nil
+		syntaxHighlightTheme: 	an ObservableValueHolder[ nil ]
+		styleScheme: 	nil
+
+
+SpCodeInspectItCommand(SpCodeSelectionCommand)>>evaluate:andDo:
+	Receiver: a SpCodeInspectItCommand
+	Arguments and temporary variables: 
+		aString: 	'Ride'
+		aBlock: 	[ :result | 
+		self inspectObject: result ]
+	Receiver's instance variables: 
+		context: 	a SpCodePresenter
+		basicName: 	'Inspect it'
+		basicDescription: 	'Evaluate selection and inspect the result.'
+		transform: 	[ :aContext | aContext ]
+
+
+SpCodeInspectItCommand(SpCodeSelectionCommand)>>evaluateSelectionAndDo:
+	Receiver: a SpCodeInspectItCommand
+	Arguments and temporary variables: 
+		aBlock: 	[ :result | 
+		self inspectObject: result ]
+		selection: 	'Ride'
+	Receiver's instance variables: 
+		context: 	a SpCodePresenter
+		basicName: 	'Inspect it'
+		basicDescription: 	'Evaluate selection and inspect the result.'
+		transform: 	[ :aContext | aContext ]
+
+
+SpCodeInspectItCommand>>execute
+	Receiver: a SpCodeInspectItCommand
+	Arguments and temporary variables: 
+x
+	Receiver's instance variables: 
+		context: 	a SpCodePresenter
+		basicName: 	'Inspect it'
+		basicDescription: 	'Evaluate selection and inspect the result.'
+		transform: 	[ :aContext | aContext ]
+
+
+SpCommand(CmCommandDecorator)>>execute
+	Receiver: a SpCommand(Inspect it)
+	Arguments and temporary variables: 
+x
+	Receiver's instance variables: 
+		decoratedCommand: 	a SpCodeInspectItCommand
+		iconProvider: 	a StPharoApplication
+		iconName: 	#smallInspectIt
+		shortcutKey: 	a KMKeyCombinationChoice
+		displayStrategy: 	a CmUIDisableWhenCantBeRun
+		positionStrategy: 	a CmUILeftPositionStrategy
+		buildPresenterBlock: 	[ :specCommand | 
+		aButtonClass new
+			label: specCom[..]
+		presenter: 	nil
+
+
+[ self decoratedCommand execute ] in SpToolCurrentApplicationCommand>>execute
+	Receiver: a SpToolCurrentApplicationCommand
+	Arguments and temporary variables: 
+x
+	Receiver's instance variables: 
+		decoratedCommand: 	a SpCommand(Inspect it)
+
+
+[ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ] in SpToolCurrentApplication(DynamicVariable)>>value:during:
+	Receiver: a SpToolCurrentApplication
+	Arguments and temporary variables: 
+		anObject: 	a StPharoApplication
+		aBlock: 	[ self decoratedCommand execute ]
+		activeProcess: 	a Process in nil
+		oldValue: 	a StPharoApplication
+	Receiver's instance variables: 
+		index: 	7
+
+
+FullBlockClosure(BlockClosure)>>ensure:
+	Receiver: [ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ]
+	Arguments and temporary variables: 
+		aBlock: 	[
+			activeProcess
+				psValueAt: index
+				put: oldValue ]
+		handler: 	[
+			activeProcess
+				psValueAt: index
+				put: oldValue ]
+		complete: 	nil
+		returnValue: 	nil
+	Receiver's instance variables: 
+		outerContext: 	SpToolCurrentApplication(DynamicVariable)>>value:during:
+		compiledBlock: 	a CompiledBlock: [ activeProcess
+			psValueAt: index
+			put:[..]
+		numArgs: 	0
+		receiver: 	a SpToolCurrentApplication
+
+
+SpToolCurrentApplication(DynamicVariable)>>value:during:
+	Receiver: a SpToolCurrentApplication
+	Arguments and temporary variables: 
+		anObject: 	a StPharoApplication
+		aBlock: 	[ self decoratedCommand execute ]
+		activeProcess: 	a Process in nil
+		oldValue: 	a StPharoApplication
+	Receiver's instance variables: 
+		index: 	7
+
+
+SpToolCurrentApplication class(DynamicVariable class)>>value:during:
+	Receiver: SpToolCurrentApplication
+	Arguments and temporary variables: 
+		anObject: 	a StPharoApplication
+		aBlock: 	[ self decoratedCommand execute ]
+	Receiver's instance variables: 
+		superclass: 	DynamicVariable
+		methodDict: 	a MethodDictionary()
+		format: 	65537
+		layout: 	a FixedLayout
+		protocols: 	#()
+		subclasses: 	nil
+		name: 	#SpToolCurrentApplication
+		classPool: 	nil
+		sharedPools: 	nil
+		environment: 	a SystemEnvironment(lots of globals)
+		commentSourcePointer: 	72369008
+		packageTag: 	a PackageTag(Presenters)
+		soleInstance: 	a SpToolCurrentApplication
+
+
+SpToolCurrentApplicationCommand>>execute
+	Receiver: a SpToolCurrentApplicationCommand
+	Arguments and temporary variables: 
+x
+	Receiver's instance variables: 
+		decoratedCommand: 	a SpCommand(Inspect it)
+
+
+[ self decoratedCommand execute ] in SpToolCurrentApplicationCommand>>execute
+	Receiver: a SpToolCurrentApplicationCommand
+	Arguments and temporary variables: 
+x
+	Receiver's instance variables: 
+		decoratedCommand: 	a SpToolCurrentApplicationCommand
+
+
+[ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ] in SpToolCurrentApplication(DynamicVariable)>>value:during:
+	Receiver: a SpToolCurrentApplication
+	Arguments and temporary variables: 
+		anObject: 	a StPharoApplication
+		aBlock: 	[ self decoratedCommand execute ]
+		activeProcess: 	a Process in nil
+		oldValue: 	nil
+	Receiver's instance variables: 
+		index: 	7
+
+
+FullBlockClosure(BlockClosure)>>ensure:
+	Receiver: [ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ]
+	Arguments and temporary variables: 
+		aBlock: 	[
+			activeProcess
+				psValueAt: index
+				put: oldValue ]
+		handler: 	[
+			activeProcess
+				psValueAt: index
+				put: oldValue ]
+		complete: 	nil
+		returnValue: 	nil
+	Receiver's instance variables: 
+		outerContext: 	SpToolCurrentApplication(DynamicVariable)>>value:during:
+		compiledBlock: 	a CompiledBlock: [ activeProcess
+			psValueAt: index
+			put:[..]
+		numArgs: 	0
+		receiver: 	a SpToolCurrentApplication
+
+
+SpToolCurrentApplication(DynamicVariable)>>value:during:
+	Receiver: a SpToolCurrentApplication
+	Arguments and temporary variables: 
+		anObject: 	a StPharoApplication
+		aBlock: 	[ self decoratedCommand execute ]
+		activeProcess: 	a Process in nil
+		oldValue: 	nil
+	Receiver's instance variables: 
+		index: 	7
+
+
+SpToolCurrentApplication class(DynamicVariable class)>>value:during:
+	Receiver: SpToolCurrentApplication
+	Arguments and temporary variables: 
+		anObject: 	a StPharoApplication
+		aBlock: 	[ self decoratedCommand execute ]
+	Receiver's instance variables: 
+		superclass: 	DynamicVariable
+		methodDict: 	a MethodDictionary()
+		format: 	65537
+		layout: 	a FixedLayout
+		protocols: 	#()
+		subclasses: 	nil
+		name: 	#SpToolCurrentApplication
+		classPool: 	nil
+		sharedPools: 	nil
+		environment: 	a SystemEnvironment(lots of globals)
+		commentSourcePointer: 	72369008
+		packageTag: 	a PackageTag(Presenters)
+		soleInstance: 	a SpToolCurrentApplication
+
+
+SpToolCurrentApplicationCommand>>execute
+	Receiver: a SpToolCurrentApplicationCommand
+	Arguments and temporary variables: 
+x
+	Receiver's instance variables: 
+		decoratedCommand: 	a SpToolCurrentApplicationCommand
+
+
+[ aCommand execute ] in SpActionMenuPresenterBuilder(SpMenuPresenterBuilder)>>fillItem:with:
+	Receiver: a SpActionMenuPresenterBuilder
+	Arguments and temporary variables: 
+		aMenuItem: 	a SpMenuItemPresenter
+		aCommand: 	a SpToolCurrentApplicationCommand
+	Receiver's instance variables: 
+		menuPresenter: 	a SpMenuPresenter
+		stack: 	a Stack(a SpMenuPresenter)
+
+
+
+--- The full stack ---
+OCSyntaxErrorNotice(OCNotice)>>signalError
+OpalCompiler>>checkNotice:
+[ :n |
+			| check |
+			check := self checkNotice: n.
+			check ifNil: [ ^ ast ].
+			check ifFalse: [
+				ast := nil.
+				^ self failBlock ifNotNil: [ :block | block cull: n ] ifNil: [ nil ].
+				] ] in OpalCompiler>>parse
+OrderedCollection>>do:
+OpalCompiler>>parse
+OpalCompiler>>compile
+OpalCompiler>>evaluate
+OCCodeReparator>>defineClassOrTrait:definitionString:
+OCCodeReparator>>defineClass:
+[ self defineClass: name asSymbol ] in [
+				[ self defineClass: name asSymbol ]
+					on: Abort
+					do: [ self openMenu ] ] in OCCodeReparator>>openMenu
+FullBlockClosure(BlockClosure)>>on:do:
+[
+				[ self defineClass: name asSymbol ]
+					on: Abort
+					do: [ self openMenu ] ] in OCCodeReparator>>openMenu
+OCCodeReparator>>openMenu
+OpalCompiler>>checkNotice:
+[ :n |
+			| check |
+			check := self checkNotice: n.
+			check ifNil: [ ^ ast ].
+			check ifFalse: [
+				ast := nil.
+				^ self failBlock ifNotNil: [ :block | block cull: n ] ifNil: [ nil ].
+				] ] in OpalCompiler>>parse
+OrderedCollection>>do:
+OpalCompiler>>parse
+OpalCompiler>>compile
+OpalCompiler>>evaluate
+[
+		self announcer announce: (SpCodeWillBeEvaluatedAnnouncement newContent: aString).
+		oldBindings := self interactionModel bindings copy.
+		result := self interactionModel compiler
+			source: aString;
+			environment: self environment;
+			failBlock:  [ 
+				self announcer announce: (SpCodeEvaluationFailedAnnouncement newContent: aString).
+				^ compileErrorBlock value ];
+			evaluate.
+		oldBindings size = self interactionModel bindings size 
+			ifFalse: [ self refreshStyling ].
+		self announcer announce: (SpCodeEvaluationSucceedAnnouncement newContent: aString).
+		result ] in SpCodePresenter>>evaluate:onCompileError:onError:
+FullBlockClosure(BlockClosure)>>on:do:
+SpCodePresenter>>evaluate:onCompileError:onError:
+SpCodeInspectItCommand(SpCodeSelectionCommand)>>evaluate:andDo:
+SpCodeInspectItCommand(SpCodeSelectionCommand)>>evaluateSelectionAndDo:
+SpCodeInspectItCommand>>execute
+SpCommand(CmCommandDecorator)>>execute
+[ self decoratedCommand execute ] in SpToolCurrentApplicationCommand>>execute
+[ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ] in SpToolCurrentApplication(DynamicVariable)>>value:during:
+FullBlockClosure(BlockClosure)>>ensure:
+SpToolCurrentApplication(DynamicVariable)>>value:during:
+SpToolCurrentApplication class(DynamicVariable class)>>value:during:
+SpToolCurrentApplicationCommand>>execute
+[ self decoratedCommand execute ] in SpToolCurrentApplicationCommand>>execute
+[ activeProcess
+			psValueAt: index
+			put: anObject.
+		aBlock value ] in SpToolCurrentApplication(DynamicVariable)>>value:during:
+FullBlockClosure(BlockClosure)>>ensure:
+SpToolCurrentApplication(DynamicVariable)>>value:during:
+SpToolCurrentApplication class(DynamicVariable class)>>value:during:
+SpToolCurrentApplicationCommand>>execute
+[ aCommand execute ] in SpActionMenuPresenterBuilder(SpMenuPresenterBuilder)>>fillItem:with:
+ - - - - - - - - - - - - - - -
+			- - - - - - - - - - - - - - - - - -
+FullBlockClosure(BlockClosure)>>cull:
+SpMenuItemPresenter>>performMenuActionWith:
+SpMorphicMenuItemAdapter>>performMenuActionWith:
+[ | selArgCount |  "show cursor in case item opens a new MVC window"
+		(selArgCount := selector numArgs) = 0
+			ifTrue:
+				[target perform: selector]
+			ifFalse:
+				[selArgCount = arguments size
+					ifTrue: [target perform: selector withArguments: arguments]
+					ifFalse: [target perform: selector withArguments: (arguments copyWith: evt)]].
+		self showShortcut.
+		self changed] in SpToggleMenuItemMorph(MenuItemMorph)>>invokeWithEvent:
+FullBlockClosure(BlockClosure)>>ensure:
+CursorWithMask(Cursor)>>showWhile:
+SpToggleMenuItemMorph(MenuItemMorph)>>invokeWithEvent:
+SpToggleMenuItemMorph(MenuItemMorph)>>mouseUp:
+SpToggleMenuItemMorph(MenuItemMorph)>>handleMouseUp:
+MouseButtonEvent>>sentTo:
+SpToggleMenuItemMorph(Morph)>>handleEvent:
+MorphicEventDispatcher>>dispatchDefault:with:
+MorphicEventDispatcher>>handleMouseUp:
+MouseButtonEvent>>sentTo:
+[ ^ anEvent sentTo: self ] in MorphicEventDispatcher>>dispatchEvent:with:
+FullBlockClosure(BlockClosure)>>ensure:
+MorphicEventDispatcher>>dispatchEvent:with:
+SpToggleMenuItemMorph(Morph)>>processEvent:using:
+MorphicEventDispatcher>>dispatchDefault:with:
+MorphicEventDispatcher>>handleMouseUp:
+MouseButtonEvent>>sentTo:
+[ ^ anEvent sentTo: self ] in MorphicEventDispatcher>>dispatchEvent:with:
+FullBlockClosure(BlockClosure)>>ensure:
+MorphicEventDispatcher>>dispatchEvent:with:
+MenuMorph(Morph)>>processEvent:using:
+MenuMorph(Morph)>>processEvent:
+MenuMorph>>handleFocusEvent:
+[
+		result := focusHolder handleFocusEvent: transformedEvent.
+	] in HandMorph>>sendFocusEvent:to:clear:
+FullBlockClosure(BlockClosure)>>on:do:
+WorldMorph>>becomeActiveDuring:
+HandMorph>>sendFocusEvent:to:clear:
+HandMorph>>sendEvent:focus:clear:
+HandMorph>>sendMouseEvent:
+HandMorph>>handleEvent:
+[
+		(morphicWorld activeHand isNotNil and: [ anEvent hand isNotNil ]) ifTrue: [
+			morphicWorld activeHand handleEvent: anEvent
+		]
+	] in OSWindowMorphicEventHandler>>dispatchMorphicEvent:
+WorldState>>runStepMethodsIn:
+WorldMorph>>runStepMethods
+WorldState>>doOneCycleFor:
+WorldMorph>>doOneCycleNow
+WorldMorph>>doOneCycle
+[
+		| extraWorldsToDraw |
+		extraWorldsToDraw := ExtraWorldListMutex critical: [
+			                     self extraWorldList ].
+		extraWorldsToDraw do: [ :world | world doOneCycle ].
+
+		(self currentWorld isNotNil and: [
+			 (extraWorldsToDraw includes: self currentWorld) not ]) ifTrue: [
+			self currentWorld doOneCycle ] ] in WorldMorph class>>doOneCycle
+FullBlockClosure(BlockClosure)>>ensure:
+WorldState class>>doDrawCycleWith:
+WorldMorph class>>doOneCycle
+MorphicRenderLoop>>doOneCycle
+MorphicRenderLoop>>doOneCycleWhile:
+MenuMorph>>invokeAt:in:allowKeyboard:
+MenuMorph>>invokeAt:in:
+MenuMorph>>invokeModal
+ByteSymbol(Symbol)>>value:
+RubEditingArea(RubAbstractTextArea)>>openMenu:and:
+RubEditingArea(RubAbstractTextArea)>>yellowButtonActivity:
+RubEditingArea(RubAbstractTextArea)>>mouseDown:
+RubEditingArea(Morph)>>handleMouseDown:
+MouseButtonEvent>>sentTo:
+RubEditingArea(Morph)>>handleEvent:
+MorphicEventDispatcher>>dispatchMouseDown:with:
+MorphicEventDispatcher>>handleMouseDown:
+MouseButtonEvent>>sentTo:
+[ ^ anEvent sentTo: self ] in MorphicEventDispatcher>>dispatchEvent:with:
+FullBlockClosure(BlockClosure)>>ensure:
+MorphicEventDispatcher>>dispatchEvent:with:
+RubEditingArea(Morph)>>processEvent:using:
+MorphicEventDispatcher>>dispatchMouseDown:with:
+MorphicEventDispatcher>>handleMouseDown:
+MouseButtonEvent>>sentTo:
+[ ^ anEvent sentTo: self ] in MorphicEventDispatcher>>dispatchEvent:with:
+FullBlockClosure(BlockClosure)>>ensure:
+MorphicEventDispatcher>>dispatchEvent:with:
+TransformWithLayoutMorph(Morph)>>processEvent:using:
+MorphicEventDispatcher>>dispatchMouseDown:with:
+MorphicEventDispatcher>>handleMouseDown:
+MouseButtonEvent>>sentTo:
+[ ^ anEvent sentTo: self ] in MorphicEventDispatcher>>dispatchEvent:with:
+FullBlockClosure(BlockClosure)>>ensure:
+MorphicEventDispatcher>>dispatchEvent:with:
+RubTextScrollPane(Morph)>>processEvent:using:
+MorphicEventDispatcher>>dispatchMouseDown:with:
+MorphicEventDispatcher>>handleMouseDown:
+MouseButtonEvent>>sentTo:
+[ ^ anEvent sentTo: self ] in MorphicEventDispatcher>>dispatchEvent:with:
+FullBlockClosure(BlockClosure)>>ensure:
+MorphicEventDispatcher>>dispatchEvent:with:
+SpRubScrolledTextMorph(Morph)>>processEvent:using:
+MorphicEventDispatcher>>dispatchMouseDown:with:
+MorphicEventDispatcher>>handleMouseDown:
+MouseButtonEvent>>sentTo:
+[ ^ anEvent sentTo: self ] in MorphicEventDispatcher>>dispatchEvent:with:
+FullBlockClosure(BlockClosure)>>ensure:
+MorphicEventDispatcher>>dispatchEvent:with:
+Morph>>processEvent:using:
+MorphicEventDispatcher>>dispatchMouseDown:with:
+MorphicEventDispatcher>>handleMouseDown:
+MouseButtonEvent>>sentTo:
+[ ^ anEvent sentTo: self ] in MorphicEventDispatcher>>dispatchEvent:with:
+FullBlockClosure(BlockClosure)>>ensure:
+MorphicEventDispatcher>>dispatchEvent:with:
+Morph>>processEvent:using:
+MorphicEventDispatcher>>dispatchMouseDown:with:
+MorphicEventDispatcher>>handleMouseDown:
+MouseButtonEvent>>sentTo:
+[ ^ anEvent sentTo: self ] in MorphicEventDispatcher>>dispatchEvent:with:
+FullBlockClosure(BlockClosure)>>ensure:
+MorphicEventDispatcher>>dispatchEvent:with:
+Morph>>processEvent:using:
+MorphicEventDispatcher>>dispatchMouseDown:with:
+MorphicEventDispatcher>>handleMouseDown:
+MouseButtonEvent>>sentTo:
+[ ^ anEvent sentTo: self ] in MorphicEventDispatcher>>dispatchEvent:with:
+FullBlockClosure(BlockClosure)>>ensure:
+MorphicEventDispatcher>>dispatchEvent:with:
+TransformWithLayoutMorph(Morph)>>processEvent:using:
+MorphicEventDispatcher>>dispatchMouseDown:with:
+MorphicEventDispatcher>>handleMouseDown:
+MouseButtonEvent>>sentTo:
+[ ^ anEvent sentTo: self ] in MorphicEventDispatcher>>dispatchEvent:with:
+FullBlockClosure(BlockClosure)>>ensure:
+MorphicEventDispatcher>>dispatchEvent:with:
+MillerScrollPaneMorph(Morph)>>processEvent:using:
+MorphicEventDispatcher>>dispatchMouseDown:with:
+MorphicEventDispatcher>>handleMouseDown:
+MouseButtonEvent>>sentTo:
+[ ^ anEvent sentTo: self ] in MorphicEventDispatcher>>dispatchEvent:with:
+FullBlockClosure(BlockClosure)>>ensure:
+MorphicEventDispatcher>>dispatchEvent:with:
+Morph>>processEvent:using:
+MorphicEventDispatcher>>dispatchMouseDown:with:
+MorphicEventDispatcher>>handleMouseDown:
+MouseButtonEvent>>sentTo:
+[ ^ anEvent sentTo: self ] in MorphicEventDispatcher>>dispatchEvent:with:
+FullBlockClosure(BlockClosure)>>ensure:
+MorphicEventDispatcher>>dispatchEvent:with:
+Morph>>processEvent:using:
+MorphicEventDispatcher>>dispatchMouseDown:with:
+MorphicEventDispatcher>>handleMouseDown:
+MouseButtonEvent>>sentTo:
+[ ^ anEvent sentTo: self ] in MorphicEventDispatcher>>dispatchEvent:with:
+FullBlockClosure(BlockClosure)>>ensure:
+MorphicEventDispatcher>>dispatchEvent:with:
+Morph>>processEvent:using:
+MorphicEventDispatcher>>dispatchMouseDown:with:
+MorphicEventDispatcher>>handleMouseDown:
+MouseButtonEvent>>sentTo:
+[ ^ anEvent sentTo: self ] in MorphicEventDispatcher>>dispatchEvent:with:
+FullBlockClosure(BlockClosure)>>ensure:
+MorphicEventDispatcher>>dispatchEvent:with:
+Morph>>processEvent:using:
+MorphicEventDispatcher>>dispatchMouseDown:with:
+MorphicEventDispatcher>>handleMouseDown:
+MouseButtonEvent>>sentTo:
+[ ^ anEvent sentTo: self ] in MorphicEventDispatcher>>dispatchEvent:with:
+FullBlockClosure(BlockClosure)>>ensure:
+MorphicEventDispatcher>>dispatchEvent:with:
+Morph>>processEvent:using:
+MorphicEventDispatcher>>dispatchMouseDown:with:
+MorphicEventDispatcher>>handleMouseDown:
+MouseButtonEvent>>sentTo:
+[ ^ anEvent sentTo: self ] in MorphicEventDispatcher>>dispatchEvent:with:
+FullBlockClosure(BlockClosure)>>ensure:
+MorphicEventDispatcher>>dispatchEvent:with:
+SpWindow(Morph)>>processEvent:using:
+MorphicEventDispatcher>>dispatchMouseDown:with:
+-- and more not shown ---------------------------------------------------------------------------------
+
+THERE_BE_DRAGONS_HERE
+1 in #()
+13 July 2025 10:58:12.902105 pm
+
+VM: Mac OS - arm64 - 1000 - CoInterpreter VMMaker-tonel.1 uuid: 4ad855a3-09f3-0d00-a59e-2bc906d86bc4 Jun  3 2025
+StackToRegisterMappingCogit VMMaker-tonel.1 uuid: 4ad855a3-09f3-0d00-a59e-2bc906d86bc4 Jun  3 2025
+v10.3.5+0.be20a0222 - Commit: be20a0222 - Date: 2025-06-03 11:15:04 +0200
+
+Image: Pharo13.0.0SNAPSHOT [Build information: Pharo-13.0.0+SNAPSHOT.build.682.sha.e698f2016913f479cbb80dee1008a01ca1fa30ac (64 Bit)]
+
+Array(Object)>>errorSubscriptBounds:
+	Receiver: #()
+	Arguments and temporary variables: 
+		index: 	1
+	Receiver's instance variables: 
+#()
+
+Array(Object)>>at:
+	Receiver: #()
+	Arguments and temporary variables: 
+		index: 	1
+	Receiver's instance variables: 
+#()
+
+Array(SequenceableCollection)>>first
+	Receiver: #()
+	Arguments and temporary variables: 
+x
+	Receiver's instance variables: 
+#()
+
+ClyFullBrowserMethodGroupContext(ClyBrowserContext)>>lastSelectedObjectIn:
+	Receiver: a ClyFullBrowserMethodGroupContext
+	Arguments and temporary variables: 
+		selectedObjects: 	#()
+	Receiver's instance variables: 
+		tool: 	a ClyFullBrowserMorph(384656896)
+		selectedItems: 	#()
+		metaLevelScope: 	ClyInstanceSideScope
+
+
+ClyFullBrowserMethodGroupContext(ClySystemBrowserContext)>>lastSelectedClass
+	Receiver: a ClyFullBrowserMethodGroupContext
+	Arguments and temporary variables: 
+x
+	Receiver's instance variables: 
+		tool: 	a ClyFullBrowserMorph(384656896)
+		selectedItems: 	#()
+		metaLevelScope: 	ClyInstanceSideScope
+
+
+[ :presenter | presenter concernedClass: aToolContext lastSelectedClass ] in SycAddNewProtocolCommand>>prepareFullExecutionInContext:
+	Receiver: a SycAddNewProtocolCommand
+	Arguments and temporary variables: 
+		aToolContext: 	a ClyFullBrowserMethodGroupContext
+		presenter: 	a StProtocolNameChooserPresenter
+	Receiver's instance variables: 
+		targetClass: 	nil
+		protocol: 	nil
+
+
+FullBlockClosure(BlockClosure)>>cull:
+	Receiver: [ :presenter | presenter concernedClass: aToolContext lastSelectedClass ]
+	Arguments and temporary variables: 
+		anArg: 	a StProtocolNameChooserPresenter
+	Receiver's instance variables: 
+		outerContext: 	SycAddNewProtocolCommand>>prepareFullExecutionInContext:
+		compiledBlock: 	a CompiledBlock: [ :presenter | presenter concernedClass: aT[..]
+		numArgs: 	1
+		receiver: 	a SycAddNewProtocolCommand
+
+
+FullBlockClosure(BlockClosure)>>cull:cull:
+	Receiver: [ :presenter | presenter concernedClass: aToolContext lastSelectedClass ]
+	Arguments and temporary variables: 
+		firstArg: 	a StProtocolNameChooserPresenter
+		secondArg: 	a SpBlockedDialogWindowPresenter
+	Receiver's instance variables: 
+		outerContext: 	SycAddNewProtocolCommand>>prepareFullExecutionInContext:
+		compiledBlock: 	a CompiledBlock: [ :presenter | presenter concernedClass: aT[..]
+		numArgs: 	1
+		receiver: 	a SycAddNewProtocolCommand
+
+
+StProtocolNameChooserPresenter class>>requestProtocolNameConfiguring:
+	Receiver: StProtocolNameChooserPresenter
+	Arguments and temporary variables: 
+		aBlock: 	[ :presenter | presenter concernedClass: aToolContext lastSelectedC[..]
+		protocolName: 	nil
+		presenter: 	a StProtocolNameChooserPresenter
+		dialog: 	a SpBlockedDialogWindowPresenter
+	Receiver's instance variables: 
+		superclass: 	StPresenter
+		methodDict: 	a MethodDictionary(#concernedClass->StProtocolNameChooserPresen[..]
+		format: 	65562
+		layout: 	a FixedLayout
+		protocols: 	an Array(Protocol (accessing) - 4 selector(s) Protocol (initiali[..]
+		subclasses: 	nil
+		name: 	#StProtocolNameChooserPresenter
+		classPool: 	nil
+		sharedPools: 	an OrderedCollection()
+		environment: 	a SystemEnvironment(lots of globals)
+		commentSourcePointer: 	75901596
+		packageTag: 	a PackageTag(Calypso)
+		customExtent: 	nil
+
+
+SycAddNewProtocolCommand>>prepareFullExecutionInContext:
+	Receiver: a SycAddNewProtocolCommand
+	Arguments and temporary variables: 
+		aToolContext: 	a ClyFullBrowserMethodGroupContext
+	Receiver's instance variables: 
+		targetClass: 	nil
+		protocol: 	nil
+
+
+ClyFullBrowserMethodGroupContext(CmdToolContext)>>prepareFullExecutionOf:
+	Receiver: a ClyFullBrowserMethodGroupContext
+	Arguments and temporary variables: 
+		aCommand: 	a SycAddNewProtocolCommand
+	Receiver's instance variables: 
+		tool: 	a ClyFullBrowserMorph(384656896)
+		selectedItems: 	#()
+		metaLevelScope: 	ClyInstanceSideScope
+
+
+CmdCommandActivator>>prepareCommandForExecution
+	Receiver: a CmdCommandActivator(a SycAddNewProtocolCommand)
+	Arguments and temporary variables: 
+x
+	Receiver's instance variables: 
+		command: 	a SycAddNewProtocolCommand
+		context: 	a ClyFullBrowserMethodGroupContext
+		activationStrategy: 	a CmdContextMenuActivation(CmdRootMenuGroup; 2)
+
+
+[self prepareCommandForExecution.
+	context executeCommand: command by: self.
+	self applyCommandResult] in CmdCommandActivator>>executeCommand
+	Receiver: a CmdCommandActivator(a SycAddNewProtocolCommand)
+	Arguments and temporary variables: 
+x
+	Receiver's instance variables: 
+		command: 	a SycAddNewProtocolCommand
+		context: 	a ClyFullBrowserMethodGroupContext
+		activationStrategy: 	a CmdContextMenuActivation(CmdRootMenuGroup; 2)
+
+
+FullBlockClosure(BlockClosure)>>on:do:
+	Receiver: [self prepareCommandForExecution.
+	context executeCommand: command by: self.
+	self app[..]
+	Arguments and temporary variables: 
+		exception: 	Exception
+		handlerAction: 	[ :exc | self processCommandFailure: exc ]
+	Receiver's instance variables: 
+		outerContext: 	CmdCommandActivator>>executeCommand
+		compiledBlock: 	a CompiledBlock: [self prepareCommandForExecution.
+	context [..]
+		numArgs: 	0
+		receiver: 	a CmdCommandActivator(a SycAddNewProtocolCommand)
+
+
+CmdCommandActivator>>executeCommand
+	Receiver: a CmdCommandActivator(a SycAddNewProtocolCommand)
+	Arguments and temporary variables: 
+x
+	Receiver's instance variables: 
+		command: 	a SycAddNewProtocolCommand
+		context: 	a ClyFullBrowserMethodGroupContext
+		activationStrategy: 	a CmdContextMenuActivation(CmdRootMenuGroup; 2)
+
+
+[ | selArgCount |  "show cursor in case item opens a new MVC window"
+		(selArgCount := selector numArgs) = 0
+			ifTrue:
+				[target perform: selector]
+			ifFalse:
+				[selArgCount = arguments size
+					ifTrue: [target perform: selector withArguments: arguments]
+					ifFalse: [target perform: selector withArguments: (arguments copyWith: evt)]].
+		self showShortcut.
+		self changed] in ToggleMenuItemMorph(MenuItemMorph)>>invokeWithEvent:
+	Receiver: a ToggleMenuItemMorph(210489344)'New protocol'
+	Arguments and temporary variables: 
+		evt: 	[(585@195) mouseUp 1700811 nil]
+		w: 	a WorldMorph(384518656) [world]
+		selArgCount: 	0
+	Receiver's instance variables: 
+		bounds: 	(552.0@181.0) corner: (655.0@199.0)
+		owner: 	a MenuMorph(958758400)
+		submorphs: 	#()
+		fullBounds: 	(552.0@181.0) corner: (655.0@199.0)
+		color: 	Color white
+		extension: 	a MorphExtension (203225600)
+		font: 	a LogicalFont
+ familyName: 'Source Sans Pro'
+ emphasis: nil
+ pointSiz[..]
+		emphasis: 	0
+		contents: 	'New protocol'
+		hasFocus: 	false
+		backgroundColor: 	Color transparent
+		isEnabled: 	true
+		subMenu: 	nil
+		isSelected: 	false
+		target: 	a CmdCommandActivator(a SycAddNewProtocolCommand)
+		selector: 	#executeCommand
+		arguments: 	#()
+		iconFormSet: 	a FormSet
+		keyText: 	nil
+		getStateSelector: 	nil
+		enablementSelector: 	nil
+
+
+FullBlockClosure(BlockClosure)>>ensure:
+	Receiver: [ | selArgCount |  "show cursor in case item opens a new MVC window"
+		(selArgCount :=[..]
+	Arguments and temporary variables: 
+		aBlock: 	[oldcursor show]
+		handler: 	[oldcursor show]
+		complete: 	nil
+		returnValue: 	nil
+	Receiver's instance variables: 
+		outerContext: 	ToggleMenuItemMorph(MenuItemMorph)>>invokeWithEvent:
+		compiledBlock: 	a CompiledBlock: [ | selArgCount |  "show cursor in case ite[..]
+		numArgs: 	0
+		receiver: 	a ToggleMenuItemMorph(210489344)'New protocol'
+
+
+CursorWithMask(Cursor)>>showWhile:
+	Receiver: ((CursorWithMask
+	extent: (16@16)
+	depth: 1
+	fromArray: #(
+		2r0
+		2r10000000000000000[..]
+	Arguments and temporary variables: 
+		aBlock: 	[ | selArgCount |  "show cursor in case item opens a new MVC window[..]
+		oldcursor: 	((CursorWithMask
+	extent: (16@16)
+	depth: 1
+	fromArray: #(
+		2r0[..]
+	Receiver's instance variables: 
+		bits: 	a Bitmap of length 16
+		width: 	16
+		height: 	16
+		depth: 	1
+		offset: 	(-1@ -1)
+		maskForm: 	Form(16x16x1)
+
+
+ToggleMenuItemMorph(MenuItemMorph)>>invokeWithEvent:
+	Receiver: a ToggleMenuItemMorph(210489344)'New protocol'
+	Arguments and temporary variables: 
+		evt: 	[(585@195) mouseUp 1700811 nil]
+		w: 	a WorldMorph(384518656) [world]
+	Receiver's instance variables: 
+		bounds: 	(552.0@181.0) corner: (655.0@199.0)
+		owner: 	a MenuMorph(958758400)
+		submorphs: 	#()
+		fullBounds: 	(552.0@181.0) corner: (655.0@199.0)
+		color: 	Color white
+		extension: 	a MorphExtension (203225600)
+		font: 	a LogicalFont
+ familyName: 'Source Sans Pro'
+ emphasis: nil
+ pointSiz[..]
+		emphasis: 	0
+		contents: 	'New protocol'
+		hasFocus: 	false
+		backgroundColor: 	Color transparent
+		isEnabled: 	true
+		subMenu: 	nil
+		isSelected: 	false
+		target: 	a CmdCommandActivator(a SycAddNewProtocolCommand)
+		selector: 	#executeCommand
+		arguments: 	#()
+		iconFormSet: 	a FormSet
+		keyText: 	nil
+		getStateSelector: 	nil
+		enablementSelector: 	nil
+
+
+ToggleMenuItemMorph(MenuItemMorph)>>mouseUp:
+	Receiver: a ToggleMenuItemMorph(210489344)'New protocol'
+	Arguments and temporary variables: 
+		evt: 	[(585@195) mouseUp 1700811 nil]
+	Receiver's instance variables: 
+		bounds: 	(552.0@181.0) corner: (655.0@199.0)
+		owner: 	a MenuMorph(958758400)
+		submorphs: 	#()
+		fullBounds: 	(552.0@181.0) corner: (655.0@199.0)
+		color: 	Color white
+		extension: 	a MorphExtension (203225600)
+		font: 	a LogicalFont
+ familyName: 'Source Sans Pro'
+ emphasis: nil
+ pointSiz[..]
+		emphasis: 	0
+		contents: 	'New protocol'
+		hasFocus: 	false
+		backgroundColor: 	Color transparent
+		isEnabled: 	true
+		subMenu: 	nil
+		isSelected: 	false
+		target: 	a CmdCommandActivator(a SycAddNewProtocolCommand)
+		selector: 	#executeCommand
+		arguments: 	#()
+		iconFormSet: 	a FormSet
+		keyText: 	nil
+		getStateSelector: 	nil
+		enablementSelector: 	nil
+
+
+ToggleMenuItemMorph(MenuItemMorph)>>handleMouseUp:
+	Receiver: a ToggleMenuItemMorph(210489344)'New protocol'
+	Arguments and temporary variables: 
+		anEvent: 	[(585@195) mouseUp 1700811 nil]
+	Receiver's instance variables: 
+		bounds: 	(552.0@181.0) corner: (655.0@199.0)
+		owner: 	a MenuMorph(958758400)
+		submorphs: 	#()
+		fullBounds: 	(552.0@181.0) corner: (655.0@199.0)
+		color: 	Color white
+		extension: 	a MorphExtension (203225600)
+		font: 	a LogicalFont
+ familyName: 'Source Sans Pro'
+ emphasis: nil
+ pointSiz[..]
+		emphasis: 	0
+		contents: 	'New protocol'
+		hasFocus: 	false
+		backgroundColor: 	Color transparent
+		isEnabled: 	true
+		subMenu: 	nil
+		isSelected: 	false
+		target: 	a CmdCommandActivator(a SycAddNewProtocolCommand)
+		selector: 	#executeCommand
+		arguments: 	#()
+		iconFormSet: 	a FormSet
+		keyText: 	nil
+		getStateSelector: 	nil
+		enablementSelector: 	nil
+
+
+MouseButtonEvent>>sentTo:
+	Receiver: [(585@195) mouseUp 1700811 nil]
+	Arguments and temporary variables: 
+		anObject: 	a ToggleMenuItemMorph(210489344)'New protocol'
+	Receiver's instance variables: 
+		timeStamp: 	1700811
+		source: 	a HandMorph(1009577472)
+		windowIndex: 	nil
+		type: 	#mouseUp
+		buttons: 	0
+		position: 	(585@195)
+		handler: 	nil
+		wasHandled: 	true
+		whichButton: 	4
+
+
+ToggleMenuItemMorph(Morph)>>handleEvent:
+	Receiver: a ToggleMenuItemMorph(210489344)'New protocol'
+	Arguments and temporary variables: 
+		anEvent: 	[(585@195) mouseUp 1700811 nil]
+	Receiver's instance variables: 
+		bounds: 	(552.0@181.0) corner: (655.0@199.0)
+		owner: 	a MenuMorph(958758400)
+		submorphs: 	#()
+		fullBounds: 	(552.0@181.0) corner: (655.0@199.0)
+		color: 	Color white
+		extension: 	a MorphExtension (203225600)
+		font: 	a LogicalFont
+ familyName: 'Source Sans Pro'
+ emphasis: nil
+ pointSiz[..]
+		emphasis: 	0
+		contents: 	'New protocol'
+		hasFocus: 	false
+		backgroundColor: 	Color transparent
+		isEnabled: 	true
+		subMenu: 	nil
+		isSelected: 	false
+		target: 	a CmdCommandActivator(a SycAddNewProtocolCommand)
+		selector: 	#executeCommand
+		arguments: 	#()
+		iconFormSet: 	a FormSet
+		keyText: 	nil
+		getStateSelector: 	nil
+		enablementSelector: 	nil
+
+
+MorphicEventDispatcher>>dispatchDefault:with:
+	Receiver: a MorphicEventDispatcher
+	Arguments and temporary variables: 
+		anEvent: 	[(585@195) mouseUp 1700811 nil]
+		aMorph: 	a ToggleMenuItemMorph(210489344)'New protocol'
+		localEvt: 	nil
+		index: 	1
+		child: 	nil
+		morphs: 	#()
+		inside: 	true
+	Receiver's instance variables: 
+		morph: 	a ToggleMenuItemMorph(210489344)'New protocol'
+
+
+MorphicEventDispatcher>>handleMouseUp:
+	Receiver: a MorphicEventDispatcher
+	Arguments and temporary variables: 
+		anEvent: 	[(585@195) mouseUp 1700811 nil]
+	Receiver's instance variables: 
+		morph: 	a ToggleMenuItemMorph(210489344)'New protocol'
+
+
+MouseButtonEvent>>sentTo:
+	Receiver: [(585@195) mouseUp 1700811 nil]
+	Arguments and temporary variables: 
+		anObject: 	a MorphicEventDispatcher
+	Receiver's instance variables: 
+		timeStamp: 	1700811
+		source: 	a HandMorph(1009577472)
+		windowIndex: 	nil
+		type: 	#mouseUp
+		buttons: 	0
+		position: 	(585@195)
+		handler: 	nil
+		wasHandled: 	true
+		whichButton: 	4
+
+
+[ ^ anEvent sentTo: self ] in MorphicEventDispatcher>>dispatchEvent:with:
+	Receiver: a MorphicEventDispatcher
+	Arguments and temporary variables: 
+		anEvent: 	[(585@195) mouseUp 1700811 nil]
+		aMorph: 	a ToggleMenuItemMorph(210489344)'New protocol'
+	Receiver's instance variables: 
+		morph: 	a ToggleMenuItemMorph(210489344)'New protocol'
+
+
+FullBlockClosure(BlockClosure)>>ensure:
+	Receiver: [ ^ anEvent sentTo: self ]
+	Arguments and temporary variables: 
+		aBlock: 	[ morph := nil ]
+		handler: 	[ morph := nil ]
+		complete: 	nil
+		returnValue: 	nil
+	Receiver's instance variables: 
+		outerContext: 	MorphicEventDispatcher>>dispatchEvent:with:
+		compiledBlock: 	a CompiledBlock: [ ^ anEvent sentTo: self ]
+		numArgs: 	0
+		receiver: 	a MorphicEventDispatcher
+
+
+MorphicEventDispatcher>>dispatchEvent:with:
+	Receiver: a MorphicEventDispatcher
+	Arguments and temporary variables: 
+		anEvent: 	[(585@195) mouseUp 1700811 nil]
+		aMorph: 	a ToggleMenuItemMorph(210489344)'New protocol'
+	Receiver's instance variables: 
+		morph: 	a ToggleMenuItemMorph(210489344)'New protocol'
+
+
+ToggleMenuItemMorph(Morph)>>processEvent:using:
+	Receiver: a ToggleMenuItemMorph(210489344)'New protocol'
+	Arguments and temporary variables: 
+		anEvent: 	[(585@195) mouseUp 1700811 nil]
+		defaultDispatcher: 	a MorphicEventDispatcher
+	Receiver's instance variables: 
+		bounds: 	(552.0@181.0) corner: (655.0@199.0)
+		owner: 	a MenuMorph(958758400)
+		submorphs: 	#()
+		fullBounds: 	(552.0@181.0) corner: (655.0@199.0)
+		color: 	Color white
+		extension: 	a MorphExtension (203225600)
+		font: 	a LogicalFont
+ familyName: 'Source Sans Pro'
+ emphasis: nil
+ pointSiz[..]
+		emphasis: 	0
+		contents: 	'New protocol'
+		hasFocus: 	false
+		backgroundColor: 	Color transparent
+		isEnabled: 	true
+		subMenu: 	nil
+		isSelected: 	false
+		target: 	a CmdCommandActivator(a SycAddNewProtocolCommand)
+		selector: 	#executeCommand
+		arguments: 	#()
+		iconFormSet: 	a FormSet
+		keyText: 	nil
+		getStateSelector: 	nil
+		enablementSelector: 	nil
+
+
+MorphicEventDispatcher>>dispatchDefault:with:
+	Receiver: a MorphicEventDispatcher
+	Arguments and temporary variables: 
+		anEvent: 	[(585@195) mouseUp 1700811 nil]
+		aMorph: 	a MenuMorph(958758400)
+		localEvt: 	[(585@195) mouseUp 1700811 nil]
+		index: 	1
+		child: 	a ToggleMenuItemMorph(210489344)'New protocol'
+		morphs: 	an Array(a ToggleMenuItemMorph(210489344)'New protocol')
+		inside: 	false
+	Receiver's instance variables: 
+		morph: 	a ToggleMenuItemMorph(210489344)'New protocol'
+
+
+MorphicEventDispatcher>>handleMouseUp:
+	Receiver: a MorphicEventDispatcher
+	Arguments and temporary variables: 
+		anEvent: 	[(585@195) mouseUp 1700811 nil]
+	Receiver's instance variables: 
+		morph: 	a ToggleMenuItemMorph(210489344)'New protocol'
+
+
+MouseButtonEvent>>sentTo:
+	Receiver: [(585@195) mouseUp 1700811 nil]
+	Arguments and temporary variables: 
+		anObject: 	a MorphicEventDispatcher
+	Receiver's instance variables: 
+		timeStamp: 	1700811
+		source: 	a HandMorph(1009577472)
+		windowIndex: 	nil
+		type: 	#mouseUp
+		buttons: 	0
+		position: 	(585@195)
+		handler: 	nil
+		wasHandled: 	false
+		whichButton: 	4
+
+
+[ ^ anEvent sentTo: self ] in MorphicEventDispatcher>>dispatchEvent:with:
+	Receiver: a MorphicEventDispatcher
+	Arguments and temporary variables: 
+		anEvent: 	[(585@195) mouseUp 1700811 nil]
+		aMorph: 	a MenuMorph(958758400)
+	Receiver's instance variables: 
+		morph: 	a ToggleMenuItemMorph(210489344)'New protocol'
+
+
+FullBlockClosure(BlockClosure)>>ensure:
+	Receiver: [ ^ anEvent sentTo: self ]
+	Arguments and temporary variables: 
+		aBlock: 	[ morph := nil ]
+		handler: 	[ morph := nil ]
+		complete: 	nil
+		returnValue: 	nil
+	Receiver's instance variables: 
+		outerContext: 	MorphicEventDispatcher>>dispatchEvent:with:
+		compiledBlock: 	a CompiledBlock: [ ^ anEvent sentTo: self ]
+		numArgs: 	0
+		receiver: 	a MorphicEventDispatcher
+
+
+MorphicEventDispatcher>>dispatchEvent:with:
+	Receiver: a MorphicEventDispatcher
+	Arguments and temporary variables: 
+		anEvent: 	[(585@195) mouseUp 1700811 nil]
+		aMorph: 	a MenuMorph(958758400)
+	Receiver's instance variables: 
+		morph: 	a ToggleMenuItemMorph(210489344)'New protocol'
+
+
+MenuMorph(Morph)>>processEvent:using:
+	Receiver: a MenuMorph(958758400)
+	Arguments and temporary variables: 
+		anEvent: 	[(585@195) mouseUp 1700811 nil]
+		defaultDispatcher: 	a MorphicEventDispatcher
+	Receiver's instance variables: 
+		bounds: 	(548.0@177.0) corner: (659.0@203.0)
+		owner: 	nil
+		submorphs: 	an Array(a ToggleMenuItemMorph(210489344)'New protocol')
+		fullBounds: 	(548.0@177.0) corner: (659.0@203.0)
+		color: 	(Color r: 0.20039100684261973 g: 0.2404692082111437 b: 0.37047898338[..]
+		extension: 	a MorphExtension (761098240) [other:  (basicColor -> (Color r: 0[..]
+		borderWidth: 	1
+		borderColor: 	(Color r: 0.29423264907135877 g: 0.3411534701857282 b: 0.49071[..]
+		defaultTarget: 	a ClyQueryViewMorph(656359936)
+		selectedItem: 	a ToggleMenuItemMorph(210489344)'New protocol'
+		stayUp: 	false
+		popUpOwner: 	nil
+		activeSubMenu: 	nil
+		titleMorph: 	nil
+		selection: 	nil
+
+
+MenuMorph(Morph)>>processEvent:
+	Receiver: a MenuMorph(958758400)
+	Arguments and temporary variables: 
+		anEvent: 	[(585@195) mouseUp 1700811 nil]
+	Receiver's instance variables: 
+		bounds: 	(548.0@177.0) corner: (659.0@203.0)
+		owner: 	nil
+		submorphs: 	an Array(a ToggleMenuItemMorph(210489344)'New protocol')
+		fullBounds: 	(548.0@177.0) corner: (659.0@203.0)
+		color: 	(Color r: 0.20039100684261973 g: 0.2404692082111437 b: 0.37047898338[..]
+		extension: 	a MorphExtension (761098240) [other:  (basicColor -> (Color r: 0[..]
+		borderWidth: 	1
+		borderColor: 	(Color r: 0.29423264907135877 g: 0.3411534701857282 b: 0.49071[..]
+		defaultTarget: 	a ClyQueryViewMorph(656359936)
+		selectedItem: 	a ToggleMenuItemMorph(210489344)'New protocol'
+		stayUp: 	false
+		popUpOwner: 	nil
+		activeSubMenu: 	nil
+		titleMorph: 	nil
+		selection: 	nil
+
+
+MenuMorph>>handleFocusEvent:
+	Receiver: a MenuMorph(958758400)
+	Arguments and temporary variables: 
+		evt: 	[(585@195) mouseUp 1700811 nil]
+	Receiver's instance variables: 
+		bounds: 	(548.0@177.0) corner: (659.0@203.0)
+		owner: 	nil
+		submorphs: 	an Array(a ToggleMenuItemMorph(210489344)'New protocol')
+		fullBounds: 	(548.0@177.0) corner: (659.0@203.0)
+		color: 	(Color r: 0.20039100684261973 g: 0.2404692082111437 b: 0.37047898338[..]
+		extension: 	a MorphExtension (761098240) [other:  (basicColor -> (Color r: 0[..]
+		borderWidth: 	1
+		borderColor: 	(Color r: 0.29423264907135877 g: 0.3411534701857282 b: 0.49071[..]
+		defaultTarget: 	a ClyQueryViewMorph(656359936)
+		selectedItem: 	a ToggleMenuItemMorph(210489344)'New protocol'
+		stayUp: 	false
+		popUpOwner: 	nil
+		activeSubMenu: 	nil
+		titleMorph: 	nil
+		selection: 	nil
+
+
+
+--- The full stack ---
+Array(Object)>>errorSubscriptBounds:
+Array(Object)>>at:
+Array(SequenceableCollection)>>first
+ClyFullBrowserMethodGroupContext(ClyBrowserContext)>>lastSelectedObjectIn:
+ClyFullBrowserMethodGroupContext(ClySystemBrowserContext)>>lastSelectedClass
+[ :presenter | presenter concernedClass: aToolContext lastSelectedClass ] in SycAddNewProtocolCommand>>prepareFullExecutionInContext:
+FullBlockClosure(BlockClosure)>>cull:
+FullBlockClosure(BlockClosure)>>cull:cull:
+StProtocolNameChooserPresenter class>>requestProtocolNameConfiguring:
+SycAddNewProtocolCommand>>prepareFullExecutionInContext:
+ClyFullBrowserMethodGroupContext(CmdToolContext)>>prepareFullExecutionOf:
+CmdCommandActivator>>prepareCommandForExecution
+[self prepareCommandForExecution.
+	context executeCommand: command by: self.
+	self applyCommandResult] in CmdCommandActivator>>executeCommand
+FullBlockClosure(BlockClosure)>>on:do:
+CmdCommandActivator>>executeCommand
+[ | selArgCount |  "show cursor in case item opens a new MVC window"
+		(selArgCount := selector numArgs) = 0
+			ifTrue:
+				[target perform: selector]
+			ifFalse:
+				[selArgCount = arguments size
+					ifTrue: [target perform: selector withArguments: arguments]
+					ifFalse: [target perform: selector withArguments: (arguments copyWith: evt)]].
+		self showShortcut.
+		self changed] in ToggleMenuItemMorph(MenuItemMorph)>>invokeWithEvent:
+FullBlockClosure(BlockClosure)>>ensure:
+CursorWithMask(Cursor)>>showWhile:
+ToggleMenuItemMorph(MenuItemMorph)>>invokeWithEvent:
+ToggleMenuItemMorph(MenuItemMorph)>>mouseUp:
+ToggleMenuItemMorph(MenuItemMorph)>>handleMouseUp:
+MouseButtonEvent>>sentTo:
+ToggleMenuItemMorph(Morph)>>handleEvent:
+MorphicEventDispatcher>>dispatchDefault:with:
+MorphicEventDispatcher>>handleMouseUp:
+MouseButtonEvent>>sentTo:
+[ ^ anEvent sentTo: self ] in MorphicEventDispatcher>>dispatchEvent:with:
+FullBlockClosure(BlockClosure)>>ensure:
+MorphicEventDispatcher>>dispatchEvent:with:
+ToggleMenuItemMorph(Morph)>>processEvent:using:
+MorphicEventDispatcher>>dispatchDefault:with:
+MorphicEventDispatcher>>handleMouseUp:
+MouseButtonEvent>>sentTo:
+[ ^ anEvent sentTo: self ] in MorphicEventDispatcher>>dispatchEvent:with:
+FullBlockClosure(BlockClosure)>>ensure:
+MorphicEventDispatcher>>dispatchEvent:with:
+MenuMorph(Morph)>>processEvent:using:
+MenuMorph(Morph)>>processEvent:
+MenuMorph>>handleFocusEvent:
+ - - - - - - - - - - - - - - -
+			- - - - - - - - - - - - - - - - - -
+[
+		result := focusHolder handleFocusEvent: transformedEvent.
+	] in HandMorph>>sendFocusEvent:to:clear:
+FullBlockClosure(BlockClosure)>>on:do:
+WorldMorph>>becomeActiveDuring:
+HandMorph>>sendFocusEvent:to:clear:
+HandMorph>>sendEvent:focus:clear:
+HandMorph>>sendMouseEvent:
+HandMorph>>handleEvent:
+[
+		(morphicWorld activeHand isNotNil and: [ anEvent hand isNotNil ]) ifTrue: [
+			morphicWorld activeHand handleEvent: anEvent
+		]
+	] in OSWindowMorphicEventHandler>>dispatchMorphicEvent:
+WorldState>>runStepMethodsIn:
+WorldMorph>>runStepMethods
+WorldState>>doOneCycleFor:
+WorldMorph>>doOneCycleNow
+WorldMorph>>doOneCycle
+[
+		| extraWorldsToDraw |
+		extraWorldsToDraw := ExtraWorldListMutex critical: [
+			                     self extraWorldList ].
+		extraWorldsToDraw do: [ :world | world doOneCycle ].
+
+		(self currentWorld isNotNil and: [
+			 (extraWorldsToDraw includes: self currentWorld) not ]) ifTrue: [
+			self currentWorld doOneCycle ] ] in WorldMorph class>>doOneCycle
+FullBlockClosure(BlockClosure)>>ensure:
+WorldState class>>doDrawCycleWith:
+WorldMorph class>>doOneCycle
+MorphicRenderLoop>>doOneCycle
+MorphicRenderLoop>>doOneCycleWhile:
+[ MorphicRenderLoop new doOneCycleWhile: [ true ] ] in MorphicUIManager>>spawnNewProcess
+[self value.
+			"IMPORTANT: Do not step over next line of code. See method comments for details"
+			Processor terminateRealActive] in FullBlockClosure(BlockClosure)>>newProcess
+-------------------------------------------------------------------------------
+
+THERE_BE_DRAGONS_HERE
+Message not understood: Character >> #,
+20 July 2025 5:21:30.24758 pm
+
+VM: Mac OS - arm64 - 1000 - CoInterpreter VMMaker-tonel.1 uuid: 4ad855a3-09f3-0d00-a59e-2bc906d86bc4 Jun  3 2025
+StackToRegisterMappingCogit VMMaker-tonel.1 uuid: 4ad855a3-09f3-0d00-a59e-2bc906d86bc4 Jun  3 2025
+v10.3.5+0.be20a0222 - Commit: be20a0222 - Date: 2025-06-03 11:15:04 +0200
+
+Image: Pharo13.0.0SNAPSHOT [Build information: Pharo-13.0.0+SNAPSHOT.build.682.sha.e698f2016913f479cbb80dee1008a01ca1fa30ac (64 Bit)]
+
+Character(Object)>>doesNotUnderstand: #,
+	Receiver: Character cr
+	Arguments and temporary variables: 
+		aMessage: 	, '--- Driver Details ---'
+		exception: 	Instance of Character did not understand #,
+		resumeValue: 	nil
+	Receiver's instance variables: 
+Character cr
+
+Driver>>getDriverInfo
+	Receiver: a Driver
+	Arguments and temporary variables: 
+x
+	Receiver's instance variables: 
+		driverID: 	'D001'
+		name: 	'Alice Smith'
+		rating: 	4.8
+		assignedRides: 	an OrderedCollection(a StandardRide a PremiumRide a Standard[..]
+
+
+Object>>demonstrateSystemFunctionality
+	Receiver: an Object
+	Arguments and temporary variables: 
+		sandesh: 	a Rider
+		ride1: 	a StandardRide
+		ride2: 	a PremiumRide
+		ride3: 	a StandardRide
+		alice: 	a Driver
+		completedRide1: 	a StandardRide
+		completedRide2: 	a PremiumRide
+		completedRide3: 	a StandardRide
+		allRides: 	nil
+	Receiver's instance variables: 
+an Object
+
+UndefinedObject>>DoIt
+	Receiver: nil
+	Arguments and temporary variables: 
+x
+	Receiver's instance variables: 
+nil
+
+OCReceiverDoItSemanticScope(OCDoItSemanticScope)>>evaluateDoIt:
+	Receiver: an OCReceiverDoItSemanticScope
+	Arguments and temporary variables: 
+		doItMethod: 	UndefinedObject>>#DoIt
+	Receiver's instance variables: 
+		outerScope: 	nil
+		targetReceiver: 	nil
+
+
+OpalCompiler>>evaluate
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+		value: 	nil
+		doItMethod: 	UndefinedObject>>#DoIt
+	Receiver's instance variables: 
+		ast: 	DoIt
+
+	Object new demonstrateSystemFunctionality
+		source: 	'Object new demonstrateSystemFunctionality'
+		compilationContext: 	an OCCompilationContext
+		compilationContextClass: 	nil
+		permitFaulty: 	false
+		permitUndeclared: 	false
+		failBlock: 	[ 
+				self announcer announce: (SpCodeEvaluationFailedAnnouncem[..]
+		logged: 	nil
+		changeStamp: 	nil
+		protocol: 	nil
+		requestor: 	a StPlaygroundInteractionModel
+		priorMethod: 	nil
+
+
+[
+		self announcer announce: (SpCodeWillBeEvaluatedAnnouncement newContent: aString).
+		oldBindings := self interactionModel bindings copy.
+		result := self interactionModel compiler
+			source: aString;
+			environment: self environment;
+			failBlock:  [ 
+				self announcer announce: (SpCodeEvaluationFailedAnnouncement newContent: aString).
+				^ compileErrorBlock value ];
+			evaluate.
+		oldBindings size = self interactionModel bindings size 
+			ifFalse: [ self refreshStyling ].
+		self announcer announce: (SpCodeEvaluationSucceedAnnouncement newContent: aString).
+		result ] in SpCodePresenter>>evaluate:onCompileError:onError:
+	Receiver: a SpCodePresenter
+	Arguments and temporary variables: 
+		aString: 	'Object new demonstrateSystemFunctionality'
+		compileErrorBlock: 	[ ^ self ]
+		errorBlock: 	[ :e | e pass ]
+		result: 	nil
+		oldBindings: 	a Dictionary()
+	Receiver's instance variables: 
+		dependents: 	a DependentsArray(a SpMorphicCodeAdapter)
+		announcer: 	an Announcer
+		owner: 	a StPlaygroundPagePresenter
+		adapter: 	a SpMorphicCodeAdapter
+		needRebuild: 	true
+		eventHandler: 	a SpEventHandler
+		properties: 	a SmallDictionary()
+		application: 	nil
+		focusOrder: 	nil
+		contextKeyBindings: 	an ObservableValueHolder[ nil ]
+		windowIcon: 	an ObservableValueHolder[ nil ]
+		aboutText: 	an ObservableValueHolder[ nil ]
+		askOkToClose: 	an ObservableValueHolder[ false ]
+		titleHolder: 	an ObservableValueHolder[ 'Code' ]
+		additionalSubpresentersMap: 	nil
+		layout: 	an ObservableValueHolder[ a SpAbstractWidgetLayout ]
+		visible: 	an ObservableValueHolder[ true ]
+		extent: 	an ObservableValueHolder[ nil ]
+		styles: 	#()
+		userActionGroup: 	an ObservableValueHolder[ a SpCommandGroup ]
+		internalActionGroup: 	a SpActionGroup
+		borderWidth: 	an ObservableValueHolder[ nil ]
+		borderColor: 	an ObservableValueHolder[ nil ]
+		dragEnabled: 	an ObservableValueHolder[ false ]
+		dropEnabled: 	an ObservableValueHolder[ false ]
+		color: 	an ObservableValueHolder[ nil ]
+		help: 	an ObservableValueHolder[ nil ]
+		enabled: 	an ObservableValueHolder[ true ]
+		wantsDrop: 	an ObservableValueHolder[ [ :transfer | self dropEnabled ] ]
+		acceptDrop: 	an ObservableValueHolder[ [ :transfer | ] ]
+		deferredActions: 	nil
+		selection: 	an ObservableValueHolder[ (1 to: 41) ]
+		text: 	an ObservableValueHolder[ 'Object new demonstrateSystemFunctionality' ]
+		actionToPerform: 	an ObservableValueHolder[ [ :txt |  ] ]
+		readSelection: 	an ObservableValueHolder[ [ selection ] ]
+		placeholder: 	an ObservableValueHolder[ '' ]
+		editable: 	an ObservableValueHolder[ true ]
+		contextMenu: 	an ObservableValueHolder[ nil ]
+		scrollValue: 	an ObservableValueHolder[ (0@0) ]
+		editionContextMenu: 	an ObservableValueHolder[ true ]
+		wrapWord: 	an ObservableValueHolder[ true ]
+		undoRedoHistory: 	true
+		wrapScrollBars: 	true
+		propagateNaturalHeight: 	false
+		propagateNaturalWidth: 	false
+		scrollBarStyles: 	#()
+		syntaxHighlight: 	an ObservableValueHolder[ true ]
+		smartCharacters: 	an ObservableValueHolder[ true ]
+		lineNumbers: 	an ObservableValueHolder[ true ]
+		interactionModel: 	an ObservableValueHolder[ a StPlaygroundInteractionModel ]
+		overrideContextMenu: 	true
+		submitBlock: 	nil
+		resetBlock: 	nil
+		environment: 	nil
+		systemNavigation: 	nil
+		syntaxHighlightTheme: 	an ObservableValueHolder[ nil ]
+		styleScheme: 	nil
+
+
+FullBlockClosure(BlockClosure)>>on:do:
+	Receiver: [
+		self announcer announce: (SpCodeWillBeEvaluatedAnnouncement newContent: aString).
+[..]
+	Arguments and temporary variables: 
+		exception: 	Error
+		handlerAction: 	[ :e |
+		self announcer announce: (SpCodeEvaluationFailedAnn[..]
+	Receiver's instance variables: 
+		outerContext: 	SpCodePresenter>>evaluate:onCompileError:onError:
+		compiledBlock: 	a CompiledBlock: [
+		self announcer announce: (SpCodeWillBeE[..]
+		numArgs: 	0
+		receiver: 	a SpCodePresenter
+
+
+SpCodePresenter>>evaluate:onCompileError:onError:
+	Receiver: a SpCodePresenter
+	Arguments and temporary variables: 
+		result: 	nil
+		oldBindings: 	a Dictionary()
+		aString: 	'Object new demonstrateSystemFunctionality'
+		compileErrorBlock: 	[ ^ self ]
+		errorBlock: 	[ :e | e pass ]
+	Receiver's instance variables: 
+		dependents: 	a DependentsArray(a SpMorphicCodeAdapter)
+		announcer: 	an Announcer
+		owner: 	a StPlaygroundPagePresenter
+		adapter: 	a SpMorphicCodeAdapter
+		needRebuild: 	true
+		eventHandler: 	a SpEventHandler
+		properties: 	a SmallDictionary()
+		application: 	nil
+		focusOrder: 	nil
+		contextKeyBindings: 	an ObservableValueHolder[ nil ]
+		windowIcon: 	an ObservableValueHolder[ nil ]
+		aboutText: 	an ObservableValueHolder[ nil ]
+		askOkToClose: 	an ObservableValueHolder[ false ]
+		titleHolder: 	an ObservableValueHolder[ 'Code' ]
+		additionalSubpresentersMap: 	nil
+		layout: 	an ObservableValueHolder[ a SpAbstractWidgetLayout ]
+		visible: 	an ObservableValueHolder[ true ]
+		extent: 	an ObservableValueHolder[ nil ]
+		styles: 	#()
+		userActionGroup: 	an ObservableValueHolder[ a SpCommandGroup ]
+		internalActionGroup: 	a SpActionGroup
+		borderWidth: 	an ObservableValueHolder[ nil ]
+		borderColor: 	an ObservableValueHolder[ nil ]
+		dragEnabled: 	an ObservableValueHolder[ false ]
+		dropEnabled: 	an ObservableValueHolder[ false ]
+		color: 	an ObservableValueHolder[ nil ]
+		help: 	an ObservableValueHolder[ nil ]
+		enabled: 	an ObservableValueHolder[ true ]
+		wantsDrop: 	an ObservableValueHolder[ [ :transfer | self dropEnabled ] ]
+		acceptDrop: 	an ObservableValueHolder[ [ :transfer | ] ]
+		deferredActions: 	nil
+		selection: 	an ObservableValueHolder[ (1 to: 41) ]
+		text: 	an ObservableValueHolder[ 'Object new demonstrateSystemFunctionality' ]
+		actionToPerform: 	an ObservableValueHolder[ [ :txt |  ] ]
+		readSelection: 	an ObservableValueHolder[ [ selection ] ]
+		placeholder: 	an ObservableValueHolder[ '' ]
+		editable: 	an ObservableValueHolder[ true ]
+		contextMenu: 	an ObservableValueHolder[ nil ]
+		scrollValue: 	an ObservableValueHolder[ (0@0) ]
+		editionContextMenu: 	an ObservableValueHolder[ true ]
+		wrapWord: 	an ObservableValueHolder[ true ]
+		undoRedoHistory: 	true
+		wrapScrollBars: 	true
+		propagateNaturalHeight: 	false
+		propagateNaturalWidth: 	false
+		scrollBarStyles: 	#()
+		syntaxHighlight: 	an ObservableValueHolder[ true ]
+		smartCharacters: 	an ObservableValueHolder[ true ]
+		lineNumbers: 	an ObservableValueHolder[ true ]
+		interactionModel: 	an ObservableValueHolder[ a StPlaygroundInteractionModel ]
+		overrideContextMenu: 	true
+		submitBlock: 	nil
+		resetBlock: 	nil
+		environment: 	nil
+		systemNavigation: 	nil
+		syntaxHighlightTheme: 	an ObservableValueHolder[ nil ]
+		styleScheme: 	nil
+
+
+StPlaygroundPagePresenter>>doEvaluateAndGo
+	Receiver: a StPlaygroundPagePresenter
+	Arguments and temporary variables: 
+		value: 	nil
+	Receiver's instance variables: 
+		dependents: 	a DependentsArray(a SpMorphicBoxAdapter)
+		announcer: 	an Announcer
+		owner: 	a SpMillerColumnPresenter
+		adapter: 	a SpMorphicBoxAdapter
+		needRebuild: 	true
+		eventHandler: 	nil
+		properties: 	a SmallDictionary()
+		application: 	a StPharoApplication
+		focusOrder: 	nil
+		contextKeyBindings: 	an ObservableValueHolder[ nil ]
+		windowIcon: 	an ObservableValueHolder[ nil ]
+		aboutText: 	an ObservableValueHolder[ nil ]
+		askOkToClose: 	an ObservableValueHolder[ false ]
+		titleHolder: 	an ObservableValueHolder[ 'Playground' ]
+		additionalSubpresentersMap: 	a Dictionary()
+		layout: 	an ObservableValueHolder[ a SpBoxLayout ]
+		visible: 	an ObservableValueHolder[ true ]
+		extent: 	an ObservableValueHolder[ nil ]
+		styles: 	#()
+		userActionGroup: 	an ObservableValueHolder[ nil ]
+		internalActionGroup: 	nil
+		text: 	a SpCodePresenter
+		toolbar: 	a SpToolbarPresenter
+		statusbar: 	a SpPresenter
+		lineLabel: 	a SpLabelPresenter
+		toggleLineNumberButton: 	a SpToggleButtonPresenter
+		page: 	a StPlaygroundPage
+		activationBlock: 	[ :selection |
+		self changeSelection: selection from: new[..]
+		loading: 	false
+
+
+StPlaygroundPagePresenter>>doEvaluateAllAndGo
+	Receiver: a StPlaygroundPagePresenter
+	Arguments and temporary variables: 
+x
+	Receiver's instance variables: 
+		dependents: 	a DependentsArray(a SpMorphicBoxAdapter)
+		announcer: 	an Announcer
+		owner: 	a SpMillerColumnPresenter
+		adapter: 	a SpMorphicBoxAdapter
+		needRebuild: 	true
+		eventHandler: 	nil
+		properties: 	a SmallDictionary()
+		application: 	a StPharoApplication
+		focusOrder: 	nil
+		contextKeyBindings: 	an ObservableValueHolder[ nil ]
+		windowIcon: 	an ObservableValueHolder[ nil ]
+		aboutText: 	an ObservableValueHolder[ nil ]
+		askOkToClose: 	an ObservableValueHolder[ false ]
+		titleHolder: 	an ObservableValueHolder[ 'Playground' ]
+		additionalSubpresentersMap: 	a Dictionary()
+		layout: 	an ObservableValueHolder[ a SpBoxLayout ]
+		visible: 	an ObservableValueHolder[ true ]
+		extent: 	an ObservableValueHolder[ nil ]
+		styles: 	#()
+		userActionGroup: 	an ObservableValueHolder[ nil ]
+		internalActionGroup: 	nil
+		text: 	a SpCodePresenter
+		toolbar: 	a SpToolbarPresenter
+		statusbar: 	a SpPresenter
+		lineLabel: 	a SpLabelPresenter
+		toggleLineNumberButton: 	a SpToggleButtonPresenter
+		page: 	a StPlaygroundPage
+		activationBlock: 	[ :selection |
+		self changeSelection: selection from: new[..]
+		loading: 	false
+
+
+StPlaygroundDoItCommand>>execute
+	Receiver: a StPlaygroundDoItCommand
+	Arguments and temporary variables: 
+x
+	Receiver's instance variables: 
+		context: 	a StPlaygroundPagePresenter
+		basicName: 	'Do it all'
+		basicDescription: 	'Do it all and inspect.'
+
+
+SpCommand(CmCommandDecorator)>>execute
+	Receiver: a SpCommand(Do it all)
+	Arguments and temporary variables: 
+x
+	Receiver's instance variables: 
+		decoratedCommand: 	a StPlaygroundDoItCommand
+		iconProvider: 	a StPharoApplication
+		iconName: 	#go
+		shortcutKey: 	nil
+		displayStrategy: 	a CmUIDisableWhenCantBeRun
+		positionStrategy: 	a CmUILeftPositionStrategy
+		buildPresenterBlock: 	[ :specCommand | 
+		aButtonClass new
+			label: specCom[..]
+		presenter: 	a SpToolbarButtonPresenter
+
+
+[ specCommand execute ] in [ :specCommand | 
+		aButtonClass new
+			label: specCommand name;
+			help: specCommand description;
+			in: [ :button | 
+				specCommand hasIcon
+					ifTrue: [ button icon: specCommand icon ] ];
+			action: [ specCommand execute ];
+			enabled: specCommand canBeExecuted;
+			yourself ] in SpCommand>>configureAsButtonOfClass:
+	Receiver: a SpCommand(Do it all)
+	Arguments and temporary variables: 
+		aButtonClass: 	nil
+		specCommand: 	a SpCommand(Do it all)
+	Receiver's instance variables: 
+		decoratedCommand: 	a StPlaygroundDoItCommand
+		iconProvider: 	a StPharoApplication
+		iconName: 	#go
+		shortcutKey: 	nil
+		displayStrategy: 	a CmUIDisableWhenCantBeRun
+		positionStrategy: 	a CmUILeftPositionStrategy
+		buildPresenterBlock: 	[ :specCommand | 
+		aButtonClass new
+			label: specCom[..]
+		presenter: 	a SpToolbarButtonPresenter
+
+
+FullBlockClosure(BlockClosure)>>cull:
+	Receiver: [ specCommand execute ]
+	Arguments and temporary variables: 
+		anArg: 	a SpToolbarButtonPresenter
+	Receiver's instance variables: 
+		outerContext: 	[ :specCommand | 
+		aButtonClass new
+			label: specCommand na[..]
+		compiledBlock: 	a CompiledBlock: [ specCommand execute ]
+		numArgs: 	0
+		receiver: 	a SpCommand(Do it all)
+
+
+SpMorphicToolbarButtonAdapter>>execute
+	Receiver: a SpMorphicToolbarButtonAdapter
+	Arguments and temporary variables: 
+x
+	Receiver's instance variables: 
+		dependents: 	a DependentsArray(a SpToolbarButtonMorph(340883968))
+		announcer: 	nil
+		model: 	a SpToolbarButtonPresenter
+		widget: 	a SpToolbarButtonMorph(340883968)
+		selector: 	nil
+		owner: 	a SpToolbarButtonPresenter
+		unsubscribed: 	false
+
+
+SpToolbarButtonMorph(PluggableButtonMorph)>>performAction:
+	Receiver: a SpToolbarButtonMorph(340883968)
+	Arguments and temporary variables: 
+		event: 	[(23.0@17.0) mouseUp 158459438 nil]
+	Receiver's instance variables: 
+		bounds: 	(0.0@5.0) corner: (45.0@39.0)
+		owner: 	a Morph(94047744)
+		submorphs: 	an Array(an AlignmentMorph(406630400))
+		fullBounds: 	nil
+		color: 	(Color r: 0.22678396871945258 g: 0.2727272727272727 b: 0.37047898338[..]
+		extension: 	a MorphExtension (879329280) [balloonText]  [other:  (presenter [..]
+		borderWidth: 	0
+		borderColor: 	#simple
+		model: 	a SpMorphicToolbarButtonAdapter
+		label: 	'Do it all'
+		icon: 	Form(13x13x32)
+		getIconSelector: 	#icon
+		getStateSelector: 	#state
+		actionSelector: 	#execute
+		font: 	a LogicalFont
+ familyName: 'Source Sans Pro'
+ emphasis: nil
+ pointSiz[..]
+		getLabelSelector: 	#label
+		getMenuSelector: 	nil
+		shortcutCharacter: 	nil
+		askBeforeChanging: 	false
+		triggerOnMouseDown: 	false
+		offColor: 	nil
+		onColor: 	nil
+		feedbackColor: 	nil
+		showSelectionFeedback: 	false
+		allButtons: 	nil
+		arguments: 	#()
+		argumentsProvider: 	nil
+		argumentsSelector: 	nil
+		enabled: 	true
+		actionBlock: 	nil
+		getColorSelector: 	nil
+		getEnabledSelector: 	nil
+		getFontSelector: 	nil
+		labelMorph: 	a LabelMorph(946853888)'Do it all'
+		iconMorph: 	an ImageMorph(921077248)
+		iconPosition: 	#top
+		lastState: 	false
+		badgeFont: 	nil
+		badgeSelector: 	#badge
+
+
+[:m |
+		(m containsPoint: evt cursorPoint) ifTrue: [m enabled ifTrue: [ m performAction: evt ]]] in SpToolbarButtonMorph(PluggableButtonMorph)>>mouseUp:
+	Receiver: a SpToolbarButtonMorph(340883968)
+	Arguments and temporary variables: 
+		evt: 	[(23.0@17.0) mouseUp 158459438 nil]
+		all: 	an Array(a SpToolbarButtonMorph(340883968) a SpToolbarButtonMorph(7600[..]
+		m: 	a SpToolbarButtonMorph(340883968)
+	Receiver's instance variables: 
+		bounds: 	(0.0@5.0) corner: (45.0@39.0)
+		owner: 	a Morph(94047744)
+		submorphs: 	an Array(an AlignmentMorph(406630400))
+		fullBounds: 	nil
+		color: 	(Color r: 0.22678396871945258 g: 0.2727272727272727 b: 0.37047898338[..]
+		extension: 	a MorphExtension (879329280) [balloonText]  [other:  (presenter [..]
+		borderWidth: 	0
+		borderColor: 	#simple
+		model: 	a SpMorphicToolbarButtonAdapter
+		label: 	'Do it all'
+		icon: 	Form(13x13x32)
+		getIconSelector: 	#icon
+		getStateSelector: 	#state
+		actionSelector: 	#execute
+		font: 	a LogicalFont
+ familyName: 'Source Sans Pro'
+ emphasis: nil
+ pointSiz[..]
+		getLabelSelector: 	#label
+		getMenuSelector: 	nil
+		shortcutCharacter: 	nil
+		askBeforeChanging: 	false
+		triggerOnMouseDown: 	false
+		offColor: 	nil
+		onColor: 	nil
+		feedbackColor: 	nil
+		showSelectionFeedback: 	false
+		allButtons: 	nil
+		arguments: 	#()
+		argumentsProvider: 	nil
+		argumentsSelector: 	nil
+		enabled: 	true
+		actionBlock: 	nil
+		getColorSelector: 	nil
+		getEnabledSelector: 	nil
+		getFontSelector: 	nil
+		labelMorph: 	a LabelMorph(946853888)'Do it all'
+		iconMorph: 	an ImageMorph(921077248)
+		iconPosition: 	#top
+		lastState: 	false
+		badgeFont: 	nil
+		badgeSelector: 	#badge
+
+
+Array(SequenceableCollection)>>do:
+	Receiver: an Array(a SpToolbarButtonMorph(340883968) a SpToolbarButtonMorph(760000000) a SpToolb[..]
+	Arguments and temporary variables: 
+		aBlock: 	[:m |
+		(m containsPoint: evt cursorPoint) ifTrue: [m enabled ifTru[..]
+		index: 	1
+	Receiver's instance variables: 
+an Array(a SpToolbarButtonMorph(340883968) a SpToolbarButtonMorph(760000000) a SpToolb[..]
+
+SpToolbarButtonMorph(PluggableButtonMorph)>>mouseUp:
+	Receiver: a SpToolbarButtonMorph(340883968)
+	Arguments and temporary variables: 
+		evt: 	[(23.0@17.0) mouseUp 158459438 nil]
+		all: 	an Array(a SpToolbarButtonMorph(340883968) a SpToolbarButtonMorph(7600[..]
+	Receiver's instance variables: 
+		bounds: 	(0.0@5.0) corner: (45.0@39.0)
+		owner: 	a Morph(94047744)
+		submorphs: 	an Array(an AlignmentMorph(406630400))
+		fullBounds: 	nil
+		color: 	(Color r: 0.22678396871945258 g: 0.2727272727272727 b: 0.37047898338[..]
+		extension: 	a MorphExtension (879329280) [balloonText]  [other:  (presenter [..]
+		borderWidth: 	0
+		borderColor: 	#simple
+		model: 	a SpMorphicToolbarButtonAdapter
+		label: 	'Do it all'
+		icon: 	Form(13x13x32)
+		getIconSelector: 	#icon
+		getStateSelector: 	#state
+		actionSelector: 	#execute
+		font: 	a LogicalFont
+ familyName: 'Source Sans Pro'
+ emphasis: nil
+ pointSiz[..]
+		getLabelSelector: 	#label
+		getMenuSelector: 	nil
+		shortcutCharacter: 	nil
+		askBeforeChanging: 	false
+		triggerOnMouseDown: 	false
+		offColor: 	nil
+		onColor: 	nil
+		feedbackColor: 	nil
+		showSelectionFeedback: 	false
+		allButtons: 	nil
+		arguments: 	#()
+		argumentsProvider: 	nil
+		argumentsSelector: 	nil
+		enabled: 	true
+		actionBlock: 	nil
+		getColorSelector: 	nil
+		getEnabledSelector: 	nil
+		getFontSelector: 	nil
+		labelMorph: 	a LabelMorph(946853888)'Do it all'
+		iconMorph: 	an ImageMorph(921077248)
+		iconPosition: 	#top
+		lastState: 	false
+		badgeFont: 	nil
+		badgeSelector: 	#badge
+
+
+SpToolbarButtonMorph(Morph)>>handleMouseUp:
+	Receiver: a SpToolbarButtonMorph(340883968)
+	Arguments and temporary variables: 
+		anEvent: 	[(23.0@17.0) mouseUp 158459438 nil]
+		result: 	nil
+	Receiver's instance variables: 
+		bounds: 	(0.0@5.0) corner: (45.0@39.0)
+		owner: 	a Morph(94047744)
+		submorphs: 	an Array(an AlignmentMorph(406630400))
+		fullBounds: 	nil
+		color: 	(Color r: 0.22678396871945258 g: 0.2727272727272727 b: 0.37047898338[..]
+		extension: 	a MorphExtension (879329280) [balloonText]  [other:  (presenter [..]
+		borderWidth: 	0
+		borderColor: 	#simple
+		model: 	a SpMorphicToolbarButtonAdapter
+		label: 	'Do it all'
+		icon: 	Form(13x13x32)
+		getIconSelector: 	#icon
+		getStateSelector: 	#state
+		actionSelector: 	#execute
+		font: 	a LogicalFont
+ familyName: 'Source Sans Pro'
+ emphasis: nil
+ pointSiz[..]
+		getLabelSelector: 	#label
+		getMenuSelector: 	nil
+		shortcutCharacter: 	nil
+		askBeforeChanging: 	false
+		triggerOnMouseDown: 	false
+		offColor: 	nil
+		onColor: 	nil
+		feedbackColor: 	nil
+		showSelectionFeedback: 	false
+		allButtons: 	nil
+		arguments: 	#()
+		argumentsProvider: 	nil
+		argumentsSelector: 	nil
+		enabled: 	true
+		actionBlock: 	nil
+		getColorSelector: 	nil
+		getEnabledSelector: 	nil
+		getFontSelector: 	nil
+		labelMorph: 	a LabelMorph(946853888)'Do it all'
+		iconMorph: 	an ImageMorph(921077248)
+		iconPosition: 	#top
+		lastState: 	false
+		badgeFont: 	nil
+		badgeSelector: 	#badge
+
+
+MouseButtonEvent>>sentTo:
+	Receiver: [(23.0@17.0) mouseUp 158459438 nil]
+	Arguments and temporary variables: 
+		anObject: 	a SpToolbarButtonMorph(340883968)
+	Receiver's instance variables: 
+		timeStamp: 	158459438
+		source: 	a HandMorph(1009577472)
+		windowIndex: 	nil
+		type: 	#mouseUp
+		buttons: 	0
+		position: 	(23.0@17.0)
+		handler: 	nil
+		wasHandled: 	true
+		whichButton: 	4
+
+
+SpToolbarButtonMorph(Morph)>>handleEvent:
+	Receiver: a SpToolbarButtonMorph(340883968)
+	Arguments and temporary variables: 
+		anEvent: 	[(23.0@17.0) mouseUp 158459438 nil]
+	Receiver's instance variables: 
+		bounds: 	(0.0@5.0) corner: (45.0@39.0)
+		owner: 	a Morph(94047744)
+		submorphs: 	an Array(an AlignmentMorph(406630400))
+		fullBounds: 	nil
+		color: 	(Color r: 0.22678396871945258 g: 0.2727272727272727 b: 0.37047898338[..]
+		extension: 	a MorphExtension (879329280) [balloonText]  [other:  (presenter [..]
+		borderWidth: 	0
+		borderColor: 	#simple
+		model: 	a SpMorphicToolbarButtonAdapter
+		label: 	'Do it all'
+		icon: 	Form(13x13x32)
+		getIconSelector: 	#icon
+		getStateSelector: 	#state
+		actionSelector: 	#execute
+		font: 	a LogicalFont
+ familyName: 'Source Sans Pro'
+ emphasis: nil
+ pointSiz[..]
+		getLabelSelector: 	#label
+		getMenuSelector: 	nil
+		shortcutCharacter: 	nil
+		askBeforeChanging: 	false
+		triggerOnMouseDown: 	false
+		offColor: 	nil
+		onColor: 	nil
+		feedbackColor: 	nil
+		showSelectionFeedback: 	false
+		allButtons: 	nil
+		arguments: 	#()
+		argumentsProvider: 	nil
+		argumentsSelector: 	nil
+		enabled: 	true
+		actionBlock: 	nil
+		getColorSelector: 	nil
+		getEnabledSelector: 	nil
+		getFontSelector: 	nil
+		labelMorph: 	a LabelMorph(946853888)'Do it all'
+		iconMorph: 	an ImageMorph(921077248)
+		iconPosition: 	#top
+		lastState: 	false
+		badgeFont: 	nil
+		badgeSelector: 	#badge
+
+
+SpToolbarButtonMorph(Morph)>>handleFocusEvent:
+	Receiver: a SpToolbarButtonMorph(340883968)
+	Arguments and temporary variables: 
+		anEvent: 	[(23.0@17.0) mouseUp 158459438 nil]
+	Receiver's instance variables: 
+		bounds: 	(0.0@5.0) corner: (45.0@39.0)
+		owner: 	a Morph(94047744)
+		submorphs: 	an Array(an AlignmentMorph(406630400))
+		fullBounds: 	nil
+		color: 	(Color r: 0.22678396871945258 g: 0.2727272727272727 b: 0.37047898338[..]
+		extension: 	a MorphExtension (879329280) [balloonText]  [other:  (presenter [..]
+		borderWidth: 	0
+		borderColor: 	#simple
+		model: 	a SpMorphicToolbarButtonAdapter
+		label: 	'Do it all'
+		icon: 	Form(13x13x32)
+		getIconSelector: 	#icon
+		getStateSelector: 	#state
+		actionSelector: 	#execute
+		font: 	a LogicalFont
+ familyName: 'Source Sans Pro'
+ emphasis: nil
+ pointSiz[..]
+		getLabelSelector: 	#label
+		getMenuSelector: 	nil
+		shortcutCharacter: 	nil
+		askBeforeChanging: 	false
+		triggerOnMouseDown: 	false
+		offColor: 	nil
+		onColor: 	nil
+		feedbackColor: 	nil
+		showSelectionFeedback: 	false
+		allButtons: 	nil
+		arguments: 	#()
+		argumentsProvider: 	nil
+		argumentsSelector: 	nil
+		enabled: 	true
+		actionBlock: 	nil
+		getColorSelector: 	nil
+		getEnabledSelector: 	nil
+		getFontSelector: 	nil
+		labelMorph: 	a LabelMorph(946853888)'Do it all'
+		iconMorph: 	an ImageMorph(921077248)
+		iconPosition: 	#top
+		lastState: 	false
+		badgeFont: 	nil
+		badgeSelector: 	#badge
+
+
+[
+		result := focusHolder handleFocusEvent: transformedEvent.
+	] in HandMorph>>sendFocusEvent:to:clear:
+	Receiver: a HandMorph(1009577472)
+	Arguments and temporary variables: 
+		anEvent: 	[(74@83) mouseUp 158459438 nil]
+		focusHolder: 	a SpToolbarButtonMorph(340883968)
+		aBlock: 	[self mouseFocus: nil]
+		w: 	a WorldMorph(384518656) [world]
+		transformedEvent: 	[(23.0@17.0) mouseUp 158459438 nil]
+		result: 	nil
+	Receiver's instance variables: 
+		bounds: 	(74@83) corner: (90@99)
+		owner: 	a WorldMorph(384518656) [world]
+		submorphs: 	#()
+		fullBounds: 	(74@83) corner: (90@99)
+		color: 	Color blue
+		extension: 	a MorphExtension (152000000)
+		mouseFocus: 	nil
+		keyboardFocus: 	a RubEditingArea(383463424)
+		eventListeners: 	nil
+		mouseListeners: 	nil
+		mouseClickState: 	nil
+		mouseOverHandler: 	a MouseOverHandler
+		lastMouseEvent: 	[(74@83) mouseUp 158459438 nil]
+		targetOffset: 	(23.0@12.0)
+		damageRecorder: 	a DamageRecorder
+		cacheCanvas: 	nil
+		cachedCanvasHasHoles: 	false
+		temporaryCursor: 	nil
+		temporaryCursorOffset: 	nil
+		hardwareCursor: 	nil
+		hasChanged: 	true
+		savedPatch: 	nil
+		lastEventBuffer: 	#(1 0 0 0 0 0 nil nil)
+		captureBlock: 	nil
+		recentModifiers: 	0
+		pendingEventQueue: 	WaitfreeQueue with 0 items
+		supressNextKeyPress: 	false
+
+
+FullBlockClosure(BlockClosure)>>on:do:
+	Receiver: [
+		result := focusHolder handleFocusEvent: transformedEvent.
+	]
+	Arguments and temporary variables: 
+		exception: 	Error
+		handlerAction: 	[ :ex |
+			ActiveWorld := priorWorld.
+			ex pass ]
+	Receiver's instance variables: 
+		outerContext: 	HandMorph>>sendFocusEvent:to:clear:
+		compiledBlock: 	a CompiledBlock: [
+		result := focusHolder handleFocusEvent:[..]
+		numArgs: 	0
+		receiver: 	a HandMorph(1009577472)
+
+
+WorldMorph>>becomeActiveDuring:
+	Receiver: a WorldMorph(384518656) [world]
+	Arguments and temporary variables: 
+		aBlock: 	[
+		result := focusHolder handleFocusEvent: transformedEvent.
+	]
+		priorWorld: 	a WorldMorph(384518656) [world]
+	Receiver's instance variables: 
+		bounds: 	(0@0) corner: (976@665)
+		owner: 	nil
+		submorphs: 	an Array(a MenubarMorph(555055616) a TaskbarMorph(837305856) a S[..]
+		fullBounds: 	(0@0) corner: (976@665)
+		color: 	(Color r: 0.14858260019550343 g: 0.19648093841642228 b: 0.2199413489[..]
+		extension: 	a MorphExtension (442997760) [other:  (dragEnabled -> true) (dro[..]
+		borderWidth: 	0
+		borderColor: 	(Color r: 0.8611925708699902 g: 1.0 b: 0.7223851417399805 alph[..]
+		backgroundMorph: 	nil
+		worldState: 	a WorldState
+		griddingOn: 	nil
+		zoomFactor: 	1
+
+
+HandMorph>>sendFocusEvent:to:clear:
+	Receiver: a HandMorph(1009577472)
+	Arguments and temporary variables: 
+		result: 	nil
+		anEvent: 	[(74@83) mouseUp 158459438 nil]
+		focusHolder: 	a SpToolbarButtonMorph(340883968)
+		aBlock: 	[self mouseFocus: nil]
+		w: 	a WorldMorph(384518656) [world]
+		transformedEvent: 	[(23.0@17.0) mouseUp 158459438 nil]
+	Receiver's instance variables: 
+		bounds: 	(74@83) corner: (90@99)
+		owner: 	a WorldMorph(384518656) [world]
+		submorphs: 	#()
+		fullBounds: 	(74@83) corner: (90@99)
+		color: 	Color blue
+		extension: 	a MorphExtension (152000000)
+		mouseFocus: 	nil
+		keyboardFocus: 	a RubEditingArea(383463424)
+		eventListeners: 	nil
+		mouseListeners: 	nil
+		mouseClickState: 	nil
+		mouseOverHandler: 	a MouseOverHandler
+		lastMouseEvent: 	[(74@83) mouseUp 158459438 nil]
+		targetOffset: 	(23.0@12.0)
+		damageRecorder: 	a DamageRecorder
+		cacheCanvas: 	nil
+		cachedCanvasHasHoles: 	false
+		temporaryCursor: 	nil
+		temporaryCursorOffset: 	nil
+		hardwareCursor: 	nil
+		hasChanged: 	true
+		savedPatch: 	nil
+		lastEventBuffer: 	#(1 0 0 0 0 0 nil nil)
+		captureBlock: 	nil
+		recentModifiers: 	0
+		pendingEventQueue: 	WaitfreeQueue with 0 items
+		supressNextKeyPress: 	false
+
+
+HandMorph>>sendEvent:focus:clear:
+	Receiver: a HandMorph(1009577472)
+	Arguments and temporary variables: 
+		anEvent: 	[(74@83) mouseUp 158459438 nil]
+		focusHolder: 	a SpToolbarButtonMorph(340883968)
+		aBlock: 	[self mouseFocus: nil]
+		result: 	nil
+	Receiver's instance variables: 
+		bounds: 	(74@83) corner: (90@99)
+		owner: 	a WorldMorph(384518656) [world]
+		submorphs: 	#()
+		fullBounds: 	(74@83) corner: (90@99)
+		color: 	Color blue
+		extension: 	a MorphExtension (152000000)
+		mouseFocus: 	nil
+		keyboardFocus: 	a RubEditingArea(383463424)
+		eventListeners: 	nil
+		mouseListeners: 	nil
+		mouseClickState: 	nil
+		mouseOverHandler: 	a MouseOverHandler
+		lastMouseEvent: 	[(74@83) mouseUp 158459438 nil]
+		targetOffset: 	(23.0@12.0)
+		damageRecorder: 	a DamageRecorder
+		cacheCanvas: 	nil
+		cachedCanvasHasHoles: 	false
+		temporaryCursor: 	nil
+		temporaryCursorOffset: 	nil
+		hardwareCursor: 	nil
+		hasChanged: 	true
+		savedPatch: 	nil
+		lastEventBuffer: 	#(1 0 0 0 0 0 nil nil)
+		captureBlock: 	nil
+		recentModifiers: 	0
+		pendingEventQueue: 	WaitfreeQueue with 0 items
+		supressNextKeyPress: 	false
+
+
+HandMorph>>sendMouseEvent:
+	Receiver: a HandMorph(1009577472)
+	Arguments and temporary variables: 
+		anEvent: 	[(74@83) mouseUp 158459438 nil]
+	Receiver's instance variables: 
+		bounds: 	(74@83) corner: (90@99)
+		owner: 	a WorldMorph(384518656) [world]
+		submorphs: 	#()
+		fullBounds: 	(74@83) corner: (90@99)
+		color: 	Color blue
+		extension: 	a MorphExtension (152000000)
+		mouseFocus: 	nil
+		keyboardFocus: 	a RubEditingArea(383463424)
+		eventListeners: 	nil
+		mouseListeners: 	nil
+		mouseClickState: 	nil
+		mouseOverHandler: 	a MouseOverHandler
+		lastMouseEvent: 	[(74@83) mouseUp 158459438 nil]
+		targetOffset: 	(23.0@12.0)
+		damageRecorder: 	a DamageRecorder
+		cacheCanvas: 	nil
+		cachedCanvasHasHoles: 	false
+		temporaryCursor: 	nil
+		temporaryCursorOffset: 	nil
+		hardwareCursor: 	nil
+		hasChanged: 	true
+		savedPatch: 	nil
+		lastEventBuffer: 	#(1 0 0 0 0 0 nil nil)
+		captureBlock: 	nil
+		recentModifiers: 	0
+		pendingEventQueue: 	WaitfreeQueue with 0 items
+		supressNextKeyPress: 	false
+
+
+HandMorph>>handleEvent:
+	Receiver: a HandMorph(1009577472)
+	Arguments and temporary variables: 
+		anEvent: 	[(74@83) mouseUp 158459438 nil]
+		evt: 	[(74@83) mouseUp 158459438 nil]
+	Receiver's instance variables: 
+		bounds: 	(74@83) corner: (90@99)
+		owner: 	a WorldMorph(384518656) [world]
+		submorphs: 	#()
+		fullBounds: 	(74@83) corner: (90@99)
+		color: 	Color blue
+		extension: 	a MorphExtension (152000000)
+		mouseFocus: 	nil
+		keyboardFocus: 	a RubEditingArea(383463424)
+		eventListeners: 	nil
+		mouseListeners: 	nil
+		mouseClickState: 	nil
+		mouseOverHandler: 	a MouseOverHandler
+		lastMouseEvent: 	[(74@83) mouseUp 158459438 nil]
+		targetOffset: 	(23.0@12.0)
+		damageRecorder: 	a DamageRecorder
+		cacheCanvas: 	nil
+		cachedCanvasHasHoles: 	false
+		temporaryCursor: 	nil
+		temporaryCursorOffset: 	nil
+		hardwareCursor: 	nil
+		hasChanged: 	true
+		savedPatch: 	nil
+		lastEventBuffer: 	#(1 0 0 0 0 0 nil nil)
+		captureBlock: 	nil
+		recentModifiers: 	0
+		pendingEventQueue: 	WaitfreeQueue with 0 items
+		supressNextKeyPress: 	false
+
+
+[
+		(morphicWorld activeHand isNotNil and: [ anEvent hand isNotNil ]) ifTrue: [
+			morphicWorld activeHand handleEvent: anEvent
+		]
+	] in OSWindowMorphicEventHandler>>dispatchMorphicEvent:
+	Receiver: an OSWindowMorphicEventHandler
+	Arguments and temporary variables: 
+		anEvent: 	[(74@83) mouseUp 158459438 nil]
+	Receiver's instance variables: 
+		morphicWorld: 	a WorldMorph(384518656) [world]
+
+
+WorldState>>runStepMethodsIn:
+	Receiver: a WorldState
+	Arguments and temporary variables: 
+		aWorld: 	a WorldMorph(384518656) [world]
+		queue: 	WaitfreeQueue with 0 items
+		nextInQueue: 	[
+		(morphicWorld activeHand isNotNil and: [ anEvent hand isNo[..]
+	Receiver's instance variables: 
+		hands: 	an Array(a HandMorph(1009577472))
+		damageRecorder: 	a DamageRecorder
+		stepList: 	a Heap()
+		lastStepTime: 	158421570
+		lastStepMessage: 	nil
+		alarms: 	a Heap(MorphicAlarm(#hideShow -> a RubCursor(1005704704)))
+		lastAlarmTime: 	158459433
+		activeHand: 	a HandMorph(1009577472)
+		currentCursor: 	((CursorWithMask
+	extent: (16@16)
+	depth: 1
+	fromArray: #(
+	[..]
+		worldRenderer: 	an OSWorldRenderer
+		realWindowExtent: 	(976@665)
+		deferredUIMessages: 	WaitfreeQueue with 0 items
+
+
+WorldMorph>>runStepMethods
+	Receiver: a WorldMorph(384518656) [world]
+	Arguments and temporary variables: 
+x
+	Receiver's instance variables: 
+		bounds: 	(0@0) corner: (976@665)
+		owner: 	nil
+		submorphs: 	an Array(a MenubarMorph(555055616) a TaskbarMorph(837305856) a S[..]
+		fullBounds: 	(0@0) corner: (976@665)
+		color: 	(Color r: 0.14858260019550343 g: 0.19648093841642228 b: 0.2199413489[..]
+		extension: 	a MorphExtension (442997760) [other:  (dragEnabled -> true) (dro[..]
+		borderWidth: 	0
+		borderColor: 	(Color r: 0.8611925708699902 g: 1.0 b: 0.7223851417399805 alph[..]
+		backgroundMorph: 	nil
+		worldState: 	a WorldState
+		griddingOn: 	nil
+		zoomFactor: 	1
+
+
+WorldState>>doOneCycleFor:
+	Receiver: a WorldState
+	Arguments and temporary variables: 
+		aWorld: 	a WorldMorph(384518656) [world]
+	Receiver's instance variables: 
+		hands: 	an Array(a HandMorph(1009577472))
+		damageRecorder: 	a DamageRecorder
+		stepList: 	a Heap()
+		lastStepTime: 	158421570
+		lastStepMessage: 	nil
+		alarms: 	a Heap(MorphicAlarm(#hideShow -> a RubCursor(1005704704)))
+		lastAlarmTime: 	158459433
+		activeHand: 	a HandMorph(1009577472)
+		currentCursor: 	((CursorWithMask
+	extent: (16@16)
+	depth: 1
+	fromArray: #(
+	[..]
+		worldRenderer: 	an OSWorldRenderer
+		realWindowExtent: 	(976@665)
+		deferredUIMessages: 	WaitfreeQueue with 0 items
+
+
+WorldMorph>>doOneCycleNow
+	Receiver: a WorldMorph(384518656) [world]
+	Arguments and temporary variables: 
+x
+	Receiver's instance variables: 
+		bounds: 	(0@0) corner: (976@665)
+		owner: 	nil
+		submorphs: 	an Array(a MenubarMorph(555055616) a TaskbarMorph(837305856) a S[..]
+		fullBounds: 	(0@0) corner: (976@665)
+		color: 	(Color r: 0.14858260019550343 g: 0.19648093841642228 b: 0.2199413489[..]
+		extension: 	a MorphExtension (442997760) [other:  (dragEnabled -> true) (dro[..]
+		borderWidth: 	0
+		borderColor: 	(Color r: 0.8611925708699902 g: 1.0 b: 0.7223851417399805 alph[..]
+		backgroundMorph: 	nil
+		worldState: 	a WorldState
+		griddingOn: 	nil
+		zoomFactor: 	1
+
+
+WorldMorph>>doOneCycle
+	Receiver: a WorldMorph(384518656) [world]
+	Arguments and temporary variables: 
+x
+	Receiver's instance variables: 
+		bounds: 	(0@0) corner: (976@665)
+		owner: 	nil
+		submorphs: 	an Array(a MenubarMorph(555055616) a TaskbarMorph(837305856) a S[..]
+		fullBounds: 	(0@0) corner: (976@665)
+		color: 	(Color r: 0.14858260019550343 g: 0.19648093841642228 b: 0.2199413489[..]
+		extension: 	a MorphExtension (442997760) [other:  (dragEnabled -> true) (dro[..]
+		borderWidth: 	0
+		borderColor: 	(Color r: 0.8611925708699902 g: 1.0 b: 0.7223851417399805 alph[..]
+		backgroundMorph: 	nil
+		worldState: 	a WorldState
+		griddingOn: 	nil
+		zoomFactor: 	1
+
+
+[
+		| extraWorldsToDraw |
+		extraWorldsToDraw := ExtraWorldListMutex critical: [
+			                     self extraWorldList ].
+		extraWorldsToDraw do: [ :world | world doOneCycle ].
+
+		(self currentWorld isNotNil and: [
+			 (extraWorldsToDraw includes: self currentWorld) not ]) ifTrue: [
+			self currentWorld doOneCycle ] ] in WorldMorph class>>doOneCycle
+	Receiver: WorldMorph
+	Arguments and temporary variables: 
+		extraWorldsToDraw: 	#()
+	Receiver's instance variables: 
+		superclass: 	PasteUpMorph
+		methodDict: 	a MethodDictionary(#acceptDroppingMorph:event:->WorldMorph>>#ac[..]
+		format: 	65548
+		layout: 	a FixedLayout
+		protocols: 	an Array(Protocol (operations) - 1 selector(s) Protocol (structu[..]
+		subclasses: 	{AthensWorldMorph. OSWindowWorldMorph}
+		name: 	#WorldMorph
+		classPool: 	a Dictionary(#AllowDropFiles->nil #CursorOwnerWorld->a WorldMorp[..]
+		sharedPools: 	an OrderedCollection()
+		environment: 	a SystemEnvironment(lots of globals)
+		commentSourcePointer: 	87913918
+		packageTag: 	a PackageTag(Worlds)
+		announcer: 	nil
+		displayScaleFactor: 	1
+
+
+FullBlockClosure(BlockClosure)>>ensure:
+	Receiver: [
+		| extraWorldsToDraw |
+		extraWorldsToDraw := ExtraWorldListMutex critical: [
+			  [..]
+	Arguments and temporary variables: 
+		aBlock: 	[
+		self doInterCycleWait
+	]
+		handler: 	[
+		self doInterCycleWait
+	]
+		complete: 	nil
+		returnValue: 	nil
+	Receiver's instance variables: 
+		outerContext: 	WorldMorph class>>doOneCycle
+		compiledBlock: 	a CompiledBlock: [
+		| extraWorldsToDraw |
+		extraWorldsToDr[..]
+		numArgs: 	0
+		receiver: 	WorldMorph
+
+
+
+--- The full stack ---
+Character(Object)>>doesNotUnderstand: #,
+Driver>>getDriverInfo
+Object>>demonstrateSystemFunctionality
+UndefinedObject>>DoIt
+OCReceiverDoItSemanticScope(OCDoItSemanticScope)>>evaluateDoIt:
+OpalCompiler>>evaluate
+[
+		self announcer announce: (SpCodeWillBeEvaluatedAnnouncement newContent: aString).
+		oldBindings := self interactionModel bindings copy.
+		result := self interactionModel compiler
+			source: aString;
+			environment: self environment;
+			failBlock:  [ 
+				self announcer announce: (SpCodeEvaluationFailedAnnouncement newContent: aString).
+				^ compileErrorBlock value ];
+			evaluate.
+		oldBindings size = self interactionModel bindings size 
+			ifFalse: [ self refreshStyling ].
+		self announcer announce: (SpCodeEvaluationSucceedAnnouncement newContent: aString).
+		result ] in SpCodePresenter>>evaluate:onCompileError:onError:
+FullBlockClosure(BlockClosure)>>on:do:
+SpCodePresenter>>evaluate:onCompileError:onError:
+StPlaygroundPagePresenter>>doEvaluateAndGo
+StPlaygroundPagePresenter>>doEvaluateAllAndGo
+StPlaygroundDoItCommand>>execute
+SpCommand(CmCommandDecorator)>>execute
+[ specCommand execute ] in [ :specCommand | 
+		aButtonClass new
+			label: specCommand name;
+			help: specCommand description;
+			in: [ :button | 
+				specCommand hasIcon
+					ifTrue: [ button icon: specCommand icon ] ];
+			action: [ specCommand execute ];
+			enabled: specCommand canBeExecuted;
+			yourself ] in SpCommand>>configureAsButtonOfClass:
+FullBlockClosure(BlockClosure)>>cull:
+SpMorphicToolbarButtonAdapter>>execute
+SpToolbarButtonMorph(PluggableButtonMorph)>>performAction:
+[:m |
+		(m containsPoint: evt cursorPoint) ifTrue: [m enabled ifTrue: [ m performAction: evt ]]] in SpToolbarButtonMorph(PluggableButtonMorph)>>mouseUp:
+Array(SequenceableCollection)>>do:
+SpToolbarButtonMorph(PluggableButtonMorph)>>mouseUp:
+SpToolbarButtonMorph(Morph)>>handleMouseUp:
+MouseButtonEvent>>sentTo:
+SpToolbarButtonMorph(Morph)>>handleEvent:
+SpToolbarButtonMorph(Morph)>>handleFocusEvent:
+[
+		result := focusHolder handleFocusEvent: transformedEvent.
+	] in HandMorph>>sendFocusEvent:to:clear:
+FullBlockClosure(BlockClosure)>>on:do:
+WorldMorph>>becomeActiveDuring:
+HandMorph>>sendFocusEvent:to:clear:
+HandMorph>>sendEvent:focus:clear:
+HandMorph>>sendMouseEvent:
+HandMorph>>handleEvent:
+[
+		(morphicWorld activeHand isNotNil and: [ anEvent hand isNotNil ]) ifTrue: [
+			morphicWorld activeHand handleEvent: anEvent
+		]
+	] in OSWindowMorphicEventHandler>>dispatchMorphicEvent:
+WorldState>>runStepMethodsIn:
+WorldMorph>>runStepMethods
+WorldState>>doOneCycleFor:
+WorldMorph>>doOneCycleNow
+WorldMorph>>doOneCycle
+[
+		| extraWorldsToDraw |
+		extraWorldsToDraw := ExtraWorldListMutex critical: [
+			                     self extraWorldList ].
+		extraWorldsToDraw do: [ :world | world doOneCycle ].
+
+		(self currentWorld isNotNil and: [
+			 (extraWorldsToDraw includes: self currentWorld) not ]) ifTrue: [
+			self currentWorld doOneCycle ] ] in WorldMorph class>>doOneCycle
+FullBlockClosure(BlockClosure)>>ensure:
+ - - - - - - - - - - - - - - -
+			- - - - - - - - - - - - - - - - - -
+WorldState class>>doDrawCycleWith:
+WorldMorph class>>doOneCycle
+MorphicRenderLoop>>doOneCycle
+MorphicRenderLoop>>doOneCycleWhile:
+[ MorphicRenderLoop new doOneCycleWhile: [ true ] ] in MorphicUIManager>>spawnNewProcess
+[self value.
+			"IMPORTANT: Do not step over next line of code. See method comments for details"
+			Processor terminateRealActive] in FullBlockClosure(BlockClosure)>>newProcess
+-------------------------------------------------------------------------------
+
+THERE_BE_DRAGONS_HERE
+Message not understood: Rider >> #initialize:name:
+20 July 2025 5:53:36.404756 pm
+
+VM: Mac OS - arm64 - 1000 - CoInterpreter VMMaker-tonel.1 uuid: 4ad855a3-09f3-0d00-a59e-2bc906d86bc4 Jun  3 2025
+StackToRegisterMappingCogit VMMaker-tonel.1 uuid: 4ad855a3-09f3-0d00-a59e-2bc906d86bc4 Jun  3 2025
+v10.3.5+0.be20a0222 - Commit: be20a0222 - Date: 2025-06-03 11:15:04 +0200
+
+Image: Pharo13.0.0SNAPSHOT [Build information: Pharo-13.0.0+SNAPSHOT.build.682.sha.e698f2016913f479cbb80dee1008a01ca1fa30ac (64 Bit)]
+
+Rider(Object)>>doesNotUnderstand: #initialize:name:
+	Receiver: a Rider
+	Arguments and temporary variables: 
+		aMessage: 	initialize: 'R001' name: 'Sandesh Shrestha'
+		exception: 	Instance of Rider did not understand #initialize:name:
+		resumeValue: 	nil
+	Receiver's instance variables: 
+		riderID: 	nil
+		name: 	''
+		requestedRides: 	an OrderedCollection()
+
+
+Object>>demonstrateSystemFunctionality
+	Receiver: an Object
+	Arguments and temporary variables: 
+		sandesh: 	nil
+		ride1: 	nil
+		ride2: 	nil
+		ride3: 	nil
+		alice: 	nil
+		completedRide1: 	nil
+		completedRide2: 	nil
+		completedRide3: 	nil
+		allRides: 	nil
+	Receiver's instance variables: 
+an Object
+
+UndefinedObject>>DoIt
+	Receiver: nil
+	Arguments and temporary variables: 
+x
+	Receiver's instance variables: 
+nil
+
+OCReceiverDoItSemanticScope(OCDoItSemanticScope)>>evaluateDoIt:
+	Receiver: an OCReceiverDoItSemanticScope
+	Arguments and temporary variables: 
+		doItMethod: 	UndefinedObject>>#DoIt
+	Receiver's instance variables: 
+		outerScope: 	nil
+		targetReceiver: 	nil
+
+
+OpalCompiler>>evaluate
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+		value: 	nil
+		doItMethod: 	UndefinedObject>>#DoIt
+	Receiver's instance variables: 
+		ast: 	DoIt
+
+	Object new demonstrateSystemFunctionality
+		source: 	'Object new demonstrateSystemFunctionality'
+		compilationContext: 	an OCCompilationContext
+		compilationContextClass: 	nil
+		permitFaulty: 	false
+		permitUndeclared: 	false
+		failBlock: 	[ 
+				self announcer announce: (SpCodeEvaluationFailedAnnouncem[..]
+		logged: 	nil
+		changeStamp: 	nil
+		protocol: 	nil
+		requestor: 	a StPlaygroundInteractionModel
+		priorMethod: 	nil
+
+
+[
+		self announcer announce: (SpCodeWillBeEvaluatedAnnouncement newContent: aString).
+		oldBindings := self interactionModel bindings copy.
+		result := self interactionModel compiler
+			source: aString;
+			environment: self environment;
+			failBlock:  [ 
+				self announcer announce: (SpCodeEvaluationFailedAnnouncement newContent: aString).
+				^ compileErrorBlock value ];
+			evaluate.
+		oldBindings size = self interactionModel bindings size 
+			ifFalse: [ self refreshStyling ].
+		self announcer announce: (SpCodeEvaluationSucceedAnnouncement newContent: aString).
+		result ] in SpCodePresenter>>evaluate:onCompileError:onError:
+	Receiver: a SpCodePresenter
+	Arguments and temporary variables: 
+		aString: 	'Object new demonstrateSystemFunctionality'
+		compileErrorBlock: 	[ ^ self ]
+		errorBlock: 	[ :e | e pass ]
+		result: 	nil
+		oldBindings: 	a Dictionary()
+	Receiver's instance variables: 
+		dependents: 	a DependentsArray(a SpMorphicCodeAdapter)
+		announcer: 	an Announcer
+		owner: 	a StPlaygroundPagePresenter
+		adapter: 	a SpMorphicCodeAdapter
+		needRebuild: 	true
+		eventHandler: 	a SpEventHandler
+		properties: 	a SmallDictionary()
+		application: 	nil
+		focusOrder: 	nil
+		contextKeyBindings: 	an ObservableValueHolder[ nil ]
+		windowIcon: 	an ObservableValueHolder[ nil ]
+		aboutText: 	an ObservableValueHolder[ nil ]
+		askOkToClose: 	an ObservableValueHolder[ false ]
+		titleHolder: 	an ObservableValueHolder[ 'Code' ]
+		additionalSubpresentersMap: 	nil
+		layout: 	an ObservableValueHolder[ a SpAbstractWidgetLayout ]
+		visible: 	an ObservableValueHolder[ true ]
+		extent: 	an ObservableValueHolder[ nil ]
+		styles: 	#()
+		userActionGroup: 	an ObservableValueHolder[ a SpCommandGroup ]
+		internalActionGroup: 	a SpActionGroup
+		borderWidth: 	an ObservableValueHolder[ nil ]
+		borderColor: 	an ObservableValueHolder[ nil ]
+		dragEnabled: 	an ObservableValueHolder[ false ]
+		dropEnabled: 	an ObservableValueHolder[ false ]
+		color: 	an ObservableValueHolder[ nil ]
+		help: 	an ObservableValueHolder[ nil ]
+		enabled: 	an ObservableValueHolder[ true ]
+		wantsDrop: 	an ObservableValueHolder[ [ :transfer | self dropEnabled ] ]
+		acceptDrop: 	an ObservableValueHolder[ [ :transfer | ] ]
+		deferredActions: 	nil
+		selection: 	an ObservableValueHolder[ (1 to: 41) ]
+		text: 	an ObservableValueHolder[ 'Object new demonstrateSystemFunctionality' ]
+		actionToPerform: 	an ObservableValueHolder[ [ :txt |  ] ]
+		readSelection: 	an ObservableValueHolder[ [ selection ] ]
+		placeholder: 	an ObservableValueHolder[ '' ]
+		editable: 	an ObservableValueHolder[ true ]
+		contextMenu: 	an ObservableValueHolder[ nil ]
+		scrollValue: 	an ObservableValueHolder[ (0@0) ]
+		editionContextMenu: 	an ObservableValueHolder[ true ]
+		wrapWord: 	an ObservableValueHolder[ true ]
+		undoRedoHistory: 	true
+		wrapScrollBars: 	true
+		propagateNaturalHeight: 	false
+		propagateNaturalWidth: 	false
+		scrollBarStyles: 	#()
+		syntaxHighlight: 	an ObservableValueHolder[ true ]
+		smartCharacters: 	an ObservableValueHolder[ true ]
+		lineNumbers: 	an ObservableValueHolder[ true ]
+		interactionModel: 	an ObservableValueHolder[ a StPlaygroundInteractionModel ]
+		overrideContextMenu: 	true
+		submitBlock: 	nil
+		resetBlock: 	nil
+		environment: 	nil
+		systemNavigation: 	nil
+		syntaxHighlightTheme: 	an ObservableValueHolder[ nil ]
+		styleScheme: 	nil
+
+
+FullBlockClosure(BlockClosure)>>on:do:
+	Receiver: [
+		self announcer announce: (SpCodeWillBeEvaluatedAnnouncement newContent: aString).
+[..]
+	Arguments and temporary variables: 
+		exception: 	Error
+		handlerAction: 	[ :e |
+		self announcer announce: (SpCodeEvaluationFailedAnn[..]
+	Receiver's instance variables: 
+		outerContext: 	SpCodePresenter>>evaluate:onCompileError:onError:
+		compiledBlock: 	a CompiledBlock: [
+		self announcer announce: (SpCodeWillBeE[..]
+		numArgs: 	0
+		receiver: 	a SpCodePresenter
+
+
+SpCodePresenter>>evaluate:onCompileError:onError:
+	Receiver: a SpCodePresenter
+	Arguments and temporary variables: 
+		result: 	nil
+		oldBindings: 	a Dictionary()
+		aString: 	'Object new demonstrateSystemFunctionality'
+		compileErrorBlock: 	[ ^ self ]
+		errorBlock: 	[ :e | e pass ]
+	Receiver's instance variables: 
+		dependents: 	a DependentsArray(a SpMorphicCodeAdapter)
+		announcer: 	an Announcer
+		owner: 	a StPlaygroundPagePresenter
+		adapter: 	a SpMorphicCodeAdapter
+		needRebuild: 	true
+		eventHandler: 	a SpEventHandler
+		properties: 	a SmallDictionary()
+		application: 	nil
+		focusOrder: 	nil
+		contextKeyBindings: 	an ObservableValueHolder[ nil ]
+		windowIcon: 	an ObservableValueHolder[ nil ]
+		aboutText: 	an ObservableValueHolder[ nil ]
+		askOkToClose: 	an ObservableValueHolder[ false ]
+		titleHolder: 	an ObservableValueHolder[ 'Code' ]
+		additionalSubpresentersMap: 	nil
+		layout: 	an ObservableValueHolder[ a SpAbstractWidgetLayout ]
+		visible: 	an ObservableValueHolder[ true ]
+		extent: 	an ObservableValueHolder[ nil ]
+		styles: 	#()
+		userActionGroup: 	an ObservableValueHolder[ a SpCommandGroup ]
+		internalActionGroup: 	a SpActionGroup
+		borderWidth: 	an ObservableValueHolder[ nil ]
+		borderColor: 	an ObservableValueHolder[ nil ]
+		dragEnabled: 	an ObservableValueHolder[ false ]
+		dropEnabled: 	an ObservableValueHolder[ false ]
+		color: 	an ObservableValueHolder[ nil ]
+		help: 	an ObservableValueHolder[ nil ]
+		enabled: 	an ObservableValueHolder[ true ]
+		wantsDrop: 	an ObservableValueHolder[ [ :transfer | self dropEnabled ] ]
+		acceptDrop: 	an ObservableValueHolder[ [ :transfer | ] ]
+		deferredActions: 	nil
+		selection: 	an ObservableValueHolder[ (1 to: 41) ]
+		text: 	an ObservableValueHolder[ 'Object new demonstrateSystemFunctionality' ]
+		actionToPerform: 	an ObservableValueHolder[ [ :txt |  ] ]
+		readSelection: 	an ObservableValueHolder[ [ selection ] ]
+		placeholder: 	an ObservableValueHolder[ '' ]
+		editable: 	an ObservableValueHolder[ true ]
+		contextMenu: 	an ObservableValueHolder[ nil ]
+		scrollValue: 	an ObservableValueHolder[ (0@0) ]
+		editionContextMenu: 	an ObservableValueHolder[ true ]
+		wrapWord: 	an ObservableValueHolder[ true ]
+		undoRedoHistory: 	true
+		wrapScrollBars: 	true
+		propagateNaturalHeight: 	false
+		propagateNaturalWidth: 	false
+		scrollBarStyles: 	#()
+		syntaxHighlight: 	an ObservableValueHolder[ true ]
+		smartCharacters: 	an ObservableValueHolder[ true ]
+		lineNumbers: 	an ObservableValueHolder[ true ]
+		interactionModel: 	an ObservableValueHolder[ a StPlaygroundInteractionModel ]
+		overrideContextMenu: 	true
+		submitBlock: 	nil
+		resetBlock: 	nil
+		environment: 	nil
+		systemNavigation: 	nil
+		syntaxHighlightTheme: 	an ObservableValueHolder[ nil ]
+		styleScheme: 	nil
+
+
+StPlaygroundPagePresenter>>doEvaluateAndGo
+	Receiver: a StPlaygroundPagePresenter
+	Arguments and temporary variables: 
+		value: 	nil
+	Receiver's instance variables: 
+		dependents: 	a DependentsArray(a SpMorphicBoxAdapter)
+		announcer: 	an Announcer
+		owner: 	a SpMillerColumnPresenter
+		adapter: 	a SpMorphicBoxAdapter
+		needRebuild: 	true
+		eventHandler: 	nil
+		properties: 	a SmallDictionary()
+		application: 	a StPharoApplication
+		focusOrder: 	nil
+		contextKeyBindings: 	an ObservableValueHolder[ nil ]
+		windowIcon: 	an ObservableValueHolder[ nil ]
+		aboutText: 	an ObservableValueHolder[ nil ]
+		askOkToClose: 	an ObservableValueHolder[ false ]
+		titleHolder: 	an ObservableValueHolder[ 'Playground' ]
+		additionalSubpresentersMap: 	a Dictionary()
+		layout: 	an ObservableValueHolder[ a SpBoxLayout ]
+		visible: 	an ObservableValueHolder[ true ]
+		extent: 	an ObservableValueHolder[ nil ]
+		styles: 	#()
+		userActionGroup: 	an ObservableValueHolder[ nil ]
+		internalActionGroup: 	nil
+		text: 	a SpCodePresenter
+		toolbar: 	a SpToolbarPresenter
+		statusbar: 	a SpPresenter
+		lineLabel: 	a SpLabelPresenter
+		toggleLineNumberButton: 	a SpToggleButtonPresenter
+		page: 	a StPlaygroundPage
+		activationBlock: 	[ :selection |
+		self changeSelection: selection from: new[..]
+		loading: 	false
+
+
+StPlaygroundPagePresenter>>doEvaluateAllAndGo
+	Receiver: a StPlaygroundPagePresenter
+	Arguments and temporary variables: 
+x
+	Receiver's instance variables: 
+		dependents: 	a DependentsArray(a SpMorphicBoxAdapter)
+		announcer: 	an Announcer
+		owner: 	a SpMillerColumnPresenter
+		adapter: 	a SpMorphicBoxAdapter
+		needRebuild: 	true
+		eventHandler: 	nil
+		properties: 	a SmallDictionary()
+		application: 	a StPharoApplication
+		focusOrder: 	nil
+		contextKeyBindings: 	an ObservableValueHolder[ nil ]
+		windowIcon: 	an ObservableValueHolder[ nil ]
+		aboutText: 	an ObservableValueHolder[ nil ]
+		askOkToClose: 	an ObservableValueHolder[ false ]
+		titleHolder: 	an ObservableValueHolder[ 'Playground' ]
+		additionalSubpresentersMap: 	a Dictionary()
+		layout: 	an ObservableValueHolder[ a SpBoxLayout ]
+		visible: 	an ObservableValueHolder[ true ]
+		extent: 	an ObservableValueHolder[ nil ]
+		styles: 	#()
+		userActionGroup: 	an ObservableValueHolder[ nil ]
+		internalActionGroup: 	nil
+		text: 	a SpCodePresenter
+		toolbar: 	a SpToolbarPresenter
+		statusbar: 	a SpPresenter
+		lineLabel: 	a SpLabelPresenter
+		toggleLineNumberButton: 	a SpToggleButtonPresenter
+		page: 	a StPlaygroundPage
+		activationBlock: 	[ :selection |
+		self changeSelection: selection from: new[..]
+		loading: 	false
+
+
+StPlaygroundDoItCommand>>execute
+	Receiver: a StPlaygroundDoItCommand
+	Arguments and temporary variables: 
+x
+	Receiver's instance variables: 
+		context: 	a StPlaygroundPagePresenter
+		basicName: 	'Do it all'
+		basicDescription: 	'Do it all and inspect.'
+
+
+SpCommand(CmCommandDecorator)>>execute
+	Receiver: a SpCommand(Do it all)
+	Arguments and temporary variables: 
+x
+	Receiver's instance variables: 
+		decoratedCommand: 	a StPlaygroundDoItCommand
+		iconProvider: 	a StPharoApplication
+		iconName: 	#go
+		shortcutKey: 	nil
+		displayStrategy: 	a CmUIDisableWhenCantBeRun
+		positionStrategy: 	a CmUILeftPositionStrategy
+		buildPresenterBlock: 	[ :specCommand | 
+		aButtonClass new
+			label: specCom[..]
+		presenter: 	a SpToolbarButtonPresenter
+
+
+[ specCommand execute ] in [ :specCommand | 
+		aButtonClass new
+			label: specCommand name;
+			help: specCommand description;
+			in: [ :button | 
+				specCommand hasIcon
+					ifTrue: [ button icon: specCommand icon ] ];
+			action: [ specCommand execute ];
+			enabled: specCommand canBeExecuted;
+			yourself ] in SpCommand>>configureAsButtonOfClass:
+	Receiver: a SpCommand(Do it all)
+	Arguments and temporary variables: 
+		aButtonClass: 	nil
+		specCommand: 	a SpCommand(Do it all)
+	Receiver's instance variables: 
+		decoratedCommand: 	a StPlaygroundDoItCommand
+		iconProvider: 	a StPharoApplication
+		iconName: 	#go
+		shortcutKey: 	nil
+		displayStrategy: 	a CmUIDisableWhenCantBeRun
+		positionStrategy: 	a CmUILeftPositionStrategy
+		buildPresenterBlock: 	[ :specCommand | 
+		aButtonClass new
+			label: specCom[..]
+		presenter: 	a SpToolbarButtonPresenter
+
+
+FullBlockClosure(BlockClosure)>>cull:
+	Receiver: [ specCommand execute ]
+	Arguments and temporary variables: 
+		anArg: 	a SpToolbarButtonPresenter
+	Receiver's instance variables: 
+		outerContext: 	[ :specCommand | 
+		aButtonClass new
+			label: specCommand na[..]
+		compiledBlock: 	a CompiledBlock: [ specCommand execute ]
+		numArgs: 	0
+		receiver: 	a SpCommand(Do it all)
+
+
+SpMorphicToolbarButtonAdapter>>execute
+	Receiver: a SpMorphicToolbarButtonAdapter
+	Arguments and temporary variables: 
+x
+	Receiver's instance variables: 
+		dependents: 	a DependentsArray(a SpToolbarButtonMorph(69153280))
+		announcer: 	nil
+		model: 	a SpToolbarButtonPresenter
+		widget: 	a SpToolbarButtonMorph(69153280)
+		selector: 	nil
+		owner: 	a SpToolbarButtonPresenter
+		unsubscribed: 	false
+
+
+SpToolbarButtonMorph(PluggableButtonMorph)>>performAction:
+	Receiver: a SpToolbarButtonMorph(69153280)
+	Arguments and temporary variables: 
+		event: 	[(30.0@30.0) mouseUp 160385591 nil]
+	Receiver's instance variables: 
+		bounds: 	(0.0@5.0) corner: (45.0@39.0)
+		owner: 	a Morph(284189696)
+		submorphs: 	an Array(an AlignmentMorph(575622144))
+		fullBounds: 	nil
+		color: 	(Color r: 0.22678396871945258 g: 0.2727272727272727 b: 0.37047898338[..]
+		extension: 	a MorphExtension (750429184) [balloonText]  [other:  (presenter [..]
+		borderWidth: 	0
+		borderColor: 	#simple
+		model: 	a SpMorphicToolbarButtonAdapter
+		label: 	'Do it all'
+		icon: 	Form(13x13x32)
+		getIconSelector: 	#icon
+		getStateSelector: 	#state
+		actionSelector: 	#execute
+		font: 	a LogicalFont
+ familyName: 'Source Sans Pro'
+ emphasis: nil
+ pointSiz[..]
+		getLabelSelector: 	#label
+		getMenuSelector: 	nil
+		shortcutCharacter: 	nil
+		askBeforeChanging: 	false
+		triggerOnMouseDown: 	false
+		offColor: 	nil
+		onColor: 	nil
+		feedbackColor: 	nil
+		showSelectionFeedback: 	false
+		allButtons: 	nil
+		arguments: 	#()
+		argumentsProvider: 	nil
+		argumentsSelector: 	nil
+		enabled: 	true
+		actionBlock: 	nil
+		getColorSelector: 	nil
+		getEnabledSelector: 	nil
+		getFontSelector: 	nil
+		labelMorph: 	a LabelMorph(1011358720)'Do it all'
+		iconMorph: 	an ImageMorph(293444096)
+		iconPosition: 	#top
+		lastState: 	false
+		badgeFont: 	nil
+		badgeSelector: 	#badge
+
+
+[:m |
+		(m containsPoint: evt cursorPoint) ifTrue: [m enabled ifTrue: [ m performAction: evt ]]] in SpToolbarButtonMorph(PluggableButtonMorph)>>mouseUp:
+	Receiver: a SpToolbarButtonMorph(69153280)
+	Arguments and temporary variables: 
+		evt: 	[(30.0@30.0) mouseUp 160385591 nil]
+		all: 	an Array(a SpToolbarButtonMorph(69153280) a SpToolbarButtonMorph(10446[..]
+		m: 	a SpToolbarButtonMorph(69153280)
+	Receiver's instance variables: 
+		bounds: 	(0.0@5.0) corner: (45.0@39.0)
+		owner: 	a Morph(284189696)
+		submorphs: 	an Array(an AlignmentMorph(575622144))
+		fullBounds: 	nil
+		color: 	(Color r: 0.22678396871945258 g: 0.2727272727272727 b: 0.37047898338[..]
+		extension: 	a MorphExtension (750429184) [balloonText]  [other:  (presenter [..]
+		borderWidth: 	0
+		borderColor: 	#simple
+		model: 	a SpMorphicToolbarButtonAdapter
+		label: 	'Do it all'
+		icon: 	Form(13x13x32)
+		getIconSelector: 	#icon
+		getStateSelector: 	#state
+		actionSelector: 	#execute
+		font: 	a LogicalFont
+ familyName: 'Source Sans Pro'
+ emphasis: nil
+ pointSiz[..]
+		getLabelSelector: 	#label
+		getMenuSelector: 	nil
+		shortcutCharacter: 	nil
+		askBeforeChanging: 	false
+		triggerOnMouseDown: 	false
+		offColor: 	nil
+		onColor: 	nil
+		feedbackColor: 	nil
+		showSelectionFeedback: 	false
+		allButtons: 	nil
+		arguments: 	#()
+		argumentsProvider: 	nil
+		argumentsSelector: 	nil
+		enabled: 	true
+		actionBlock: 	nil
+		getColorSelector: 	nil
+		getEnabledSelector: 	nil
+		getFontSelector: 	nil
+		labelMorph: 	a LabelMorph(1011358720)'Do it all'
+		iconMorph: 	an ImageMorph(293444096)
+		iconPosition: 	#top
+		lastState: 	false
+		badgeFont: 	nil
+		badgeSelector: 	#badge
+
+
+Array(SequenceableCollection)>>do:
+	Receiver: an Array(a SpToolbarButtonMorph(69153280) a SpToolbarButtonMorph(1044631552) a SpToolb[..]
+	Arguments and temporary variables: 
+		aBlock: 	[:m |
+		(m containsPoint: evt cursorPoint) ifTrue: [m enabled ifTru[..]
+		index: 	1
+	Receiver's instance variables: 
+an Array(a SpToolbarButtonMorph(69153280) a SpToolbarButtonMorph(1044631552) a SpToolb[..]
+
+SpToolbarButtonMorph(PluggableButtonMorph)>>mouseUp:
+	Receiver: a SpToolbarButtonMorph(69153280)
+	Arguments and temporary variables: 
+		evt: 	[(30.0@30.0) mouseUp 160385591 nil]
+		all: 	an Array(a SpToolbarButtonMorph(69153280) a SpToolbarButtonMorph(10446[..]
+	Receiver's instance variables: 
+		bounds: 	(0.0@5.0) corner: (45.0@39.0)
+		owner: 	a Morph(284189696)
+		submorphs: 	an Array(an AlignmentMorph(575622144))
+		fullBounds: 	nil
+		color: 	(Color r: 0.22678396871945258 g: 0.2727272727272727 b: 0.37047898338[..]
+		extension: 	a MorphExtension (750429184) [balloonText]  [other:  (presenter [..]
+		borderWidth: 	0
+		borderColor: 	#simple
+		model: 	a SpMorphicToolbarButtonAdapter
+		label: 	'Do it all'
+		icon: 	Form(13x13x32)
+		getIconSelector: 	#icon
+		getStateSelector: 	#state
+		actionSelector: 	#execute
+		font: 	a LogicalFont
+ familyName: 'Source Sans Pro'
+ emphasis: nil
+ pointSiz[..]
+		getLabelSelector: 	#label
+		getMenuSelector: 	nil
+		shortcutCharacter: 	nil
+		askBeforeChanging: 	false
+		triggerOnMouseDown: 	false
+		offColor: 	nil
+		onColor: 	nil
+		feedbackColor: 	nil
+		showSelectionFeedback: 	false
+		allButtons: 	nil
+		arguments: 	#()
+		argumentsProvider: 	nil
+		argumentsSelector: 	nil
+		enabled: 	true
+		actionBlock: 	nil
+		getColorSelector: 	nil
+		getEnabledSelector: 	nil
+		getFontSelector: 	nil
+		labelMorph: 	a LabelMorph(1011358720)'Do it all'
+		iconMorph: 	an ImageMorph(293444096)
+		iconPosition: 	#top
+		lastState: 	false
+		badgeFont: 	nil
+		badgeSelector: 	#badge
+
+
+SpToolbarButtonMorph(Morph)>>handleMouseUp:
+	Receiver: a SpToolbarButtonMorph(69153280)
+	Arguments and temporary variables: 
+		anEvent: 	[(30.0@30.0) mouseUp 160385591 nil]
+		result: 	nil
+	Receiver's instance variables: 
+		bounds: 	(0.0@5.0) corner: (45.0@39.0)
+		owner: 	a Morph(284189696)
+		submorphs: 	an Array(an AlignmentMorph(575622144))
+		fullBounds: 	nil
+		color: 	(Color r: 0.22678396871945258 g: 0.2727272727272727 b: 0.37047898338[..]
+		extension: 	a MorphExtension (750429184) [balloonText]  [other:  (presenter [..]
+		borderWidth: 	0
+		borderColor: 	#simple
+		model: 	a SpMorphicToolbarButtonAdapter
+		label: 	'Do it all'
+		icon: 	Form(13x13x32)
+		getIconSelector: 	#icon
+		getStateSelector: 	#state
+		actionSelector: 	#execute
+		font: 	a LogicalFont
+ familyName: 'Source Sans Pro'
+ emphasis: nil
+ pointSiz[..]
+		getLabelSelector: 	#label
+		getMenuSelector: 	nil
+		shortcutCharacter: 	nil
+		askBeforeChanging: 	false
+		triggerOnMouseDown: 	false
+		offColor: 	nil
+		onColor: 	nil
+		feedbackColor: 	nil
+		showSelectionFeedback: 	false
+		allButtons: 	nil
+		arguments: 	#()
+		argumentsProvider: 	nil
+		argumentsSelector: 	nil
+		enabled: 	true
+		actionBlock: 	nil
+		getColorSelector: 	nil
+		getEnabledSelector: 	nil
+		getFontSelector: 	nil
+		labelMorph: 	a LabelMorph(1011358720)'Do it all'
+		iconMorph: 	an ImageMorph(293444096)
+		iconPosition: 	#top
+		lastState: 	false
+		badgeFont: 	nil
+		badgeSelector: 	#badge
+
+
+MouseButtonEvent>>sentTo:
+	Receiver: [(30.0@30.0) mouseUp 160385591 nil]
+	Arguments and temporary variables: 
+		anObject: 	a SpToolbarButtonMorph(69153280)
+	Receiver's instance variables: 
+		timeStamp: 	160385591
+		source: 	a HandMorph(1009577472)
+		windowIndex: 	nil
+		type: 	#mouseUp
+		buttons: 	0
+		position: 	(30.0@30.0)
+		handler: 	nil
+		wasHandled: 	true
+		whichButton: 	4
+
+
+SpToolbarButtonMorph(Morph)>>handleEvent:
+	Receiver: a SpToolbarButtonMorph(69153280)
+	Arguments and temporary variables: 
+		anEvent: 	[(30.0@30.0) mouseUp 160385591 nil]
+	Receiver's instance variables: 
+		bounds: 	(0.0@5.0) corner: (45.0@39.0)
+		owner: 	a Morph(284189696)
+		submorphs: 	an Array(an AlignmentMorph(575622144))
+		fullBounds: 	nil
+		color: 	(Color r: 0.22678396871945258 g: 0.2727272727272727 b: 0.37047898338[..]
+		extension: 	a MorphExtension (750429184) [balloonText]  [other:  (presenter [..]
+		borderWidth: 	0
+		borderColor: 	#simple
+		model: 	a SpMorphicToolbarButtonAdapter
+		label: 	'Do it all'
+		icon: 	Form(13x13x32)
+		getIconSelector: 	#icon
+		getStateSelector: 	#state
+		actionSelector: 	#execute
+		font: 	a LogicalFont
+ familyName: 'Source Sans Pro'
+ emphasis: nil
+ pointSiz[..]
+		getLabelSelector: 	#label
+		getMenuSelector: 	nil
+		shortcutCharacter: 	nil
+		askBeforeChanging: 	false
+		triggerOnMouseDown: 	false
+		offColor: 	nil
+		onColor: 	nil
+		feedbackColor: 	nil
+		showSelectionFeedback: 	false
+		allButtons: 	nil
+		arguments: 	#()
+		argumentsProvider: 	nil
+		argumentsSelector: 	nil
+		enabled: 	true
+		actionBlock: 	nil
+		getColorSelector: 	nil
+		getEnabledSelector: 	nil
+		getFontSelector: 	nil
+		labelMorph: 	a LabelMorph(1011358720)'Do it all'
+		iconMorph: 	an ImageMorph(293444096)
+		iconPosition: 	#top
+		lastState: 	false
+		badgeFont: 	nil
+		badgeSelector: 	#badge
+
+
+SpToolbarButtonMorph(Morph)>>handleFocusEvent:
+	Receiver: a SpToolbarButtonMorph(69153280)
+	Arguments and temporary variables: 
+		anEvent: 	[(30.0@30.0) mouseUp 160385591 nil]
+	Receiver's instance variables: 
+		bounds: 	(0.0@5.0) corner: (45.0@39.0)
+		owner: 	a Morph(284189696)
+		submorphs: 	an Array(an AlignmentMorph(575622144))
+		fullBounds: 	nil
+		color: 	(Color r: 0.22678396871945258 g: 0.2727272727272727 b: 0.37047898338[..]
+		extension: 	a MorphExtension (750429184) [balloonText]  [other:  (presenter [..]
+		borderWidth: 	0
+		borderColor: 	#simple
+		model: 	a SpMorphicToolbarButtonAdapter
+		label: 	'Do it all'
+		icon: 	Form(13x13x32)
+		getIconSelector: 	#icon
+		getStateSelector: 	#state
+		actionSelector: 	#execute
+		font: 	a LogicalFont
+ familyName: 'Source Sans Pro'
+ emphasis: nil
+ pointSiz[..]
+		getLabelSelector: 	#label
+		getMenuSelector: 	nil
+		shortcutCharacter: 	nil
+		askBeforeChanging: 	false
+		triggerOnMouseDown: 	false
+		offColor: 	nil
+		onColor: 	nil
+		feedbackColor: 	nil
+		showSelectionFeedback: 	false
+		allButtons: 	nil
+		arguments: 	#()
+		argumentsProvider: 	nil
+		argumentsSelector: 	nil
+		enabled: 	true
+		actionBlock: 	nil
+		getColorSelector: 	nil
+		getEnabledSelector: 	nil
+		getFontSelector: 	nil
+		labelMorph: 	a LabelMorph(1011358720)'Do it all'
+		iconMorph: 	an ImageMorph(293444096)
+		iconPosition: 	#top
+		lastState: 	false
+		badgeFont: 	nil
+		badgeSelector: 	#badge
+
+
+[
+		result := focusHolder handleFocusEvent: transformedEvent.
+	] in HandMorph>>sendFocusEvent:to:clear:
+	Receiver: a HandMorph(1009577472)
+	Arguments and temporary variables: 
+		anEvent: 	[(81@96) mouseUp 160385591 nil]
+		focusHolder: 	a SpToolbarButtonMorph(69153280)
+		aBlock: 	[self mouseFocus: nil]
+		w: 	a WorldMorph(384518656) [world]
+		transformedEvent: 	[(30.0@30.0) mouseUp 160385591 nil]
+		result: 	nil
+	Receiver's instance variables: 
+		bounds: 	(81@96) corner: (97@112)
+		owner: 	a WorldMorph(384518656) [world]
+		submorphs: 	#()
+		fullBounds: 	(81@96) corner: (97@112)
+		color: 	Color blue
+		extension: 	a MorphExtension (152000000)
+		mouseFocus: 	nil
+		keyboardFocus: 	a RubEditingArea(234447360)
+		eventListeners: 	nil
+		mouseListeners: 	nil
+		mouseClickState: 	nil
+		mouseOverHandler: 	a MouseOverHandler
+		lastMouseEvent: 	[(81@96) mouseUp 160385591 nil]
+		targetOffset: 	(30.0@25.0)
+		damageRecorder: 	a DamageRecorder
+		cacheCanvas: 	nil
+		cachedCanvasHasHoles: 	false
+		temporaryCursor: 	nil
+		temporaryCursorOffset: 	nil
+		hardwareCursor: 	nil
+		hasChanged: 	true
+		savedPatch: 	nil
+		lastEventBuffer: 	#(1 0 0 0 0 0 nil nil)
+		captureBlock: 	nil
+		recentModifiers: 	0
+		pendingEventQueue: 	WaitfreeQueue with 0 items
+		supressNextKeyPress: 	false
+
+
+FullBlockClosure(BlockClosure)>>on:do:
+	Receiver: [
+		result := focusHolder handleFocusEvent: transformedEvent.
+	]
+	Arguments and temporary variables: 
+		exception: 	Error
+		handlerAction: 	[ :ex |
+			ActiveWorld := priorWorld.
+			ex pass ]
+	Receiver's instance variables: 
+		outerContext: 	HandMorph>>sendFocusEvent:to:clear:
+		compiledBlock: 	a CompiledBlock: [
+		result := focusHolder handleFocusEvent:[..]
+		numArgs: 	0
+		receiver: 	a HandMorph(1009577472)
+
+
+WorldMorph>>becomeActiveDuring:
+	Receiver: a WorldMorph(384518656) [world]
+	Arguments and temporary variables: 
+		aBlock: 	[
+		result := focusHolder handleFocusEvent: transformedEvent.
+	]
+		priorWorld: 	a WorldMorph(384518656) [world]
+	Receiver's instance variables: 
+		bounds: 	(0@0) corner: (976@665)
+		owner: 	nil
+		submorphs: 	an Array(a MenubarMorph(555055616) a TaskbarMorph(837305856) a S[..]
+		fullBounds: 	nil
+		color: 	(Color r: 0.14858260019550343 g: 0.19648093841642228 b: 0.2199413489[..]
+		extension: 	a MorphExtension (442997760) [other:  (dragEnabled -> true) (dro[..]
+		borderWidth: 	0
+		borderColor: 	(Color r: 0.8611925708699902 g: 1.0 b: 0.7223851417399805 alph[..]
+		backgroundMorph: 	nil
+		worldState: 	a WorldState
+		griddingOn: 	nil
+		zoomFactor: 	1
+
+
+HandMorph>>sendFocusEvent:to:clear:
+	Receiver: a HandMorph(1009577472)
+	Arguments and temporary variables: 
+		result: 	nil
+		anEvent: 	[(81@96) mouseUp 160385591 nil]
+		focusHolder: 	a SpToolbarButtonMorph(69153280)
+		aBlock: 	[self mouseFocus: nil]
+		w: 	a WorldMorph(384518656) [world]
+		transformedEvent: 	[(30.0@30.0) mouseUp 160385591 nil]
+	Receiver's instance variables: 
+		bounds: 	(81@96) corner: (97@112)
+		owner: 	a WorldMorph(384518656) [world]
+		submorphs: 	#()
+		fullBounds: 	(81@96) corner: (97@112)
+		color: 	Color blue
+		extension: 	a MorphExtension (152000000)
+		mouseFocus: 	nil
+		keyboardFocus: 	a RubEditingArea(234447360)
+		eventListeners: 	nil
+		mouseListeners: 	nil
+		mouseClickState: 	nil
+		mouseOverHandler: 	a MouseOverHandler
+		lastMouseEvent: 	[(81@96) mouseUp 160385591 nil]
+		targetOffset: 	(30.0@25.0)
+		damageRecorder: 	a DamageRecorder
+		cacheCanvas: 	nil
+		cachedCanvasHasHoles: 	false
+		temporaryCursor: 	nil
+		temporaryCursorOffset: 	nil
+		hardwareCursor: 	nil
+		hasChanged: 	true
+		savedPatch: 	nil
+		lastEventBuffer: 	#(1 0 0 0 0 0 nil nil)
+		captureBlock: 	nil
+		recentModifiers: 	0
+		pendingEventQueue: 	WaitfreeQueue with 0 items
+		supressNextKeyPress: 	false
+
+
+HandMorph>>sendEvent:focus:clear:
+	Receiver: a HandMorph(1009577472)
+	Arguments and temporary variables: 
+		anEvent: 	[(81@96) mouseUp 160385591 nil]
+		focusHolder: 	a SpToolbarButtonMorph(69153280)
+		aBlock: 	[self mouseFocus: nil]
+		result: 	nil
+	Receiver's instance variables: 
+		bounds: 	(81@96) corner: (97@112)
+		owner: 	a WorldMorph(384518656) [world]
+		submorphs: 	#()
+		fullBounds: 	(81@96) corner: (97@112)
+		color: 	Color blue
+		extension: 	a MorphExtension (152000000)
+		mouseFocus: 	nil
+		keyboardFocus: 	a RubEditingArea(234447360)
+		eventListeners: 	nil
+		mouseListeners: 	nil
+		mouseClickState: 	nil
+		mouseOverHandler: 	a MouseOverHandler
+		lastMouseEvent: 	[(81@96) mouseUp 160385591 nil]
+		targetOffset: 	(30.0@25.0)
+		damageRecorder: 	a DamageRecorder
+		cacheCanvas: 	nil
+		cachedCanvasHasHoles: 	false
+		temporaryCursor: 	nil
+		temporaryCursorOffset: 	nil
+		hardwareCursor: 	nil
+		hasChanged: 	true
+		savedPatch: 	nil
+		lastEventBuffer: 	#(1 0 0 0 0 0 nil nil)
+		captureBlock: 	nil
+		recentModifiers: 	0
+		pendingEventQueue: 	WaitfreeQueue with 0 items
+		supressNextKeyPress: 	false
+
+
+HandMorph>>sendMouseEvent:
+	Receiver: a HandMorph(1009577472)
+	Arguments and temporary variables: 
+		anEvent: 	[(81@96) mouseUp 160385591 nil]
+	Receiver's instance variables: 
+		bounds: 	(81@96) corner: (97@112)
+		owner: 	a WorldMorph(384518656) [world]
+		submorphs: 	#()
+		fullBounds: 	(81@96) corner: (97@112)
+		color: 	Color blue
+		extension: 	a MorphExtension (152000000)
+		mouseFocus: 	nil
+		keyboardFocus: 	a RubEditingArea(234447360)
+		eventListeners: 	nil
+		mouseListeners: 	nil
+		mouseClickState: 	nil
+		mouseOverHandler: 	a MouseOverHandler
+		lastMouseEvent: 	[(81@96) mouseUp 160385591 nil]
+		targetOffset: 	(30.0@25.0)
+		damageRecorder: 	a DamageRecorder
+		cacheCanvas: 	nil
+		cachedCanvasHasHoles: 	false
+		temporaryCursor: 	nil
+		temporaryCursorOffset: 	nil
+		hardwareCursor: 	nil
+		hasChanged: 	true
+		savedPatch: 	nil
+		lastEventBuffer: 	#(1 0 0 0 0 0 nil nil)
+		captureBlock: 	nil
+		recentModifiers: 	0
+		pendingEventQueue: 	WaitfreeQueue with 0 items
+		supressNextKeyPress: 	false
+
+
+HandMorph>>handleEvent:
+	Receiver: a HandMorph(1009577472)
+	Arguments and temporary variables: 
+		anEvent: 	[(81@96) mouseUp 160385591 nil]
+		evt: 	[(81@96) mouseUp 160385591 nil]
+	Receiver's instance variables: 
+		bounds: 	(81@96) corner: (97@112)
+		owner: 	a WorldMorph(384518656) [world]
+		submorphs: 	#()
+		fullBounds: 	(81@96) corner: (97@112)
+		color: 	Color blue
+		extension: 	a MorphExtension (152000000)
+		mouseFocus: 	nil
+		keyboardFocus: 	a RubEditingArea(234447360)
+		eventListeners: 	nil
+		mouseListeners: 	nil
+		mouseClickState: 	nil
+		mouseOverHandler: 	a MouseOverHandler
+		lastMouseEvent: 	[(81@96) mouseUp 160385591 nil]
+		targetOffset: 	(30.0@25.0)
+		damageRecorder: 	a DamageRecorder
+		cacheCanvas: 	nil
+		cachedCanvasHasHoles: 	false
+		temporaryCursor: 	nil
+		temporaryCursorOffset: 	nil
+		hardwareCursor: 	nil
+		hasChanged: 	true
+		savedPatch: 	nil
+		lastEventBuffer: 	#(1 0 0 0 0 0 nil nil)
+		captureBlock: 	nil
+		recentModifiers: 	0
+		pendingEventQueue: 	WaitfreeQueue with 0 items
+		supressNextKeyPress: 	false
+
+
+[
+		(morphicWorld activeHand isNotNil and: [ anEvent hand isNotNil ]) ifTrue: [
+			morphicWorld activeHand handleEvent: anEvent
+		]
+	] in OSWindowMorphicEventHandler>>dispatchMorphicEvent:
+	Receiver: an OSWindowMorphicEventHandler
+	Arguments and temporary variables: 
+		anEvent: 	[(81@96) mouseUp 160385591 nil]
+	Receiver's instance variables: 
+		morphicWorld: 	a WorldMorph(384518656) [world]
+
+
+WorldState>>runStepMethodsIn:
+	Receiver: a WorldState
+	Arguments and temporary variables: 
+		aWorld: 	a WorldMorph(384518656) [world]
+		queue: 	WaitfreeQueue with 0 items
+		nextInQueue: 	[
+		(morphicWorld activeHand isNotNil and: [ anEvent hand isNo[..]
+	Receiver's instance variables: 
+		hands: 	an Array(a HandMorph(1009577472))
+		damageRecorder: 	a DamageRecorder
+		stepList: 	a Heap(StepMessage(#stepAt: -> a FadingMorph(659236864))(a Fading[..]
+		lastStepTime: 	160385587
+		lastStepMessage: 	nil
+		alarms: 	a Heap(MorphicAlarm(#hideShow -> a RubCursor(927446528)))
+		lastAlarmTime: 	160385587
+		activeHand: 	a HandMorph(1009577472)
+		currentCursor: 	((CursorWithMask
+	extent: (16@16)
+	depth: 1
+	fromArray: #(
+	[..]
+		worldRenderer: 	an OSWorldRenderer
+		realWindowExtent: 	(976@665)
+		deferredUIMessages: 	WaitfreeQueue with 0 items
+
+
+WorldMorph>>runStepMethods
+	Receiver: a WorldMorph(384518656) [world]
+	Arguments and temporary variables: 
+x
+	Receiver's instance variables: 
+		bounds: 	(0@0) corner: (976@665)
+		owner: 	nil
+		submorphs: 	an Array(a MenubarMorph(555055616) a TaskbarMorph(837305856) a S[..]
+		fullBounds: 	nil
+		color: 	(Color r: 0.14858260019550343 g: 0.19648093841642228 b: 0.2199413489[..]
+		extension: 	a MorphExtension (442997760) [other:  (dragEnabled -> true) (dro[..]
+		borderWidth: 	0
+		borderColor: 	(Color r: 0.8611925708699902 g: 1.0 b: 0.7223851417399805 alph[..]
+		backgroundMorph: 	nil
+		worldState: 	a WorldState
+		griddingOn: 	nil
+		zoomFactor: 	1
+
+
+WorldState>>doOneCycleFor:
+	Receiver: a WorldState
+	Arguments and temporary variables: 
+		aWorld: 	a WorldMorph(384518656) [world]
+	Receiver's instance variables: 
+		hands: 	an Array(a HandMorph(1009577472))
+		damageRecorder: 	a DamageRecorder
+		stepList: 	a Heap(StepMessage(#stepAt: -> a FadingMorph(659236864))(a Fading[..]
+		lastStepTime: 	160385587
+		lastStepMessage: 	nil
+		alarms: 	a Heap(MorphicAlarm(#hideShow -> a RubCursor(927446528)))
+		lastAlarmTime: 	160385587
+		activeHand: 	a HandMorph(1009577472)
+		currentCursor: 	((CursorWithMask
+	extent: (16@16)
+	depth: 1
+	fromArray: #(
+	[..]
+		worldRenderer: 	an OSWorldRenderer
+		realWindowExtent: 	(976@665)
+		deferredUIMessages: 	WaitfreeQueue with 0 items
+
+
+WorldMorph>>doOneCycleNow
+	Receiver: a WorldMorph(384518656) [world]
+	Arguments and temporary variables: 
+x
+	Receiver's instance variables: 
+		bounds: 	(0@0) corner: (976@665)
+		owner: 	nil
+		submorphs: 	an Array(a MenubarMorph(555055616) a TaskbarMorph(837305856) a S[..]
+		fullBounds: 	nil
+		color: 	(Color r: 0.14858260019550343 g: 0.19648093841642228 b: 0.2199413489[..]
+		extension: 	a MorphExtension (442997760) [other:  (dragEnabled -> true) (dro[..]
+		borderWidth: 	0
+		borderColor: 	(Color r: 0.8611925708699902 g: 1.0 b: 0.7223851417399805 alph[..]
+		backgroundMorph: 	nil
+		worldState: 	a WorldState
+		griddingOn: 	nil
+		zoomFactor: 	1
+
+
+WorldMorph>>doOneCycle
+	Receiver: a WorldMorph(384518656) [world]
+	Arguments and temporary variables: 
+x
+	Receiver's instance variables: 
+		bounds: 	(0@0) corner: (976@665)
+		owner: 	nil
+		submorphs: 	an Array(a MenubarMorph(555055616) a TaskbarMorph(837305856) a S[..]
+		fullBounds: 	nil
+		color: 	(Color r: 0.14858260019550343 g: 0.19648093841642228 b: 0.2199413489[..]
+		extension: 	a MorphExtension (442997760) [other:  (dragEnabled -> true) (dro[..]
+		borderWidth: 	0
+		borderColor: 	(Color r: 0.8611925708699902 g: 1.0 b: 0.7223851417399805 alph[..]
+		backgroundMorph: 	nil
+		worldState: 	a WorldState
+		griddingOn: 	nil
+		zoomFactor: 	1
+
+
+[
+		| extraWorldsToDraw |
+		extraWorldsToDraw := ExtraWorldListMutex critical: [
+			                     self extraWorldList ].
+		extraWorldsToDraw do: [ :world | world doOneCycle ].
+
+		(self currentWorld isNotNil and: [
+			 (extraWorldsToDraw includes: self currentWorld) not ]) ifTrue: [
+			self currentWorld doOneCycle ] ] in WorldMorph class>>doOneCycle
+	Receiver: WorldMorph
+	Arguments and temporary variables: 
+		extraWorldsToDraw: 	#()
+	Receiver's instance variables: 
+		superclass: 	PasteUpMorph
+		methodDict: 	a MethodDictionary(#acceptDroppingMorph:event:->WorldMorph>>#ac[..]
+		format: 	65548
+		layout: 	a FixedLayout
+		protocols: 	an Array(Protocol (operations) - 1 selector(s) Protocol (structu[..]
+		subclasses: 	{AthensWorldMorph. OSWindowWorldMorph}
+		name: 	#WorldMorph
+		classPool: 	a Dictionary(#AllowDropFiles->nil #CursorOwnerWorld->a WorldMorp[..]
+		sharedPools: 	an OrderedCollection()
+		environment: 	a SystemEnvironment(lots of globals)
+		commentSourcePointer: 	87913918
+		packageTag: 	a PackageTag(Worlds)
+		announcer: 	nil
+		displayScaleFactor: 	1
+
+
+FullBlockClosure(BlockClosure)>>ensure:
+	Receiver: [
+		| extraWorldsToDraw |
+		extraWorldsToDraw := ExtraWorldListMutex critical: [
+			  [..]
+	Arguments and temporary variables: 
+		aBlock: 	[
+		self doInterCycleWait
+	]
+		handler: 	[
+		self doInterCycleWait
+	]
+		complete: 	nil
+		returnValue: 	nil
+	Receiver's instance variables: 
+		outerContext: 	WorldMorph class>>doOneCycle
+		compiledBlock: 	a CompiledBlock: [
+		| extraWorldsToDraw |
+		extraWorldsToDr[..]
+		numArgs: 	0
+		receiver: 	WorldMorph
+
+
+WorldState class>>doDrawCycleWith:
+	Receiver: WorldState
+	Arguments and temporary variables: 
+		aBlock: 	[
+		| extraWorldsToDraw |
+		extraWorldsToDraw := ExtraWorldListMute[..]
+	Receiver's instance variables: 
+		superclass: 	Object
+		methodDict: 	a MethodDictionary(#activeHand->WorldState>>#activeHand #active[..]
+		format: 	65548
+		layout: 	a FixedLayout
+		protocols: 	an Array(Protocol (hands) - 12 selector(s) Protocol (alarms) - 5[..]
+		subclasses: 	{AthensWorldState}
+		name: 	#WorldState
+		classPool: 	a Dictionary(#CanSurrenderToOS->nil #DebugShowDamage->false #Des[..]
+		sharedPools: 	an OrderedCollection()
+		environment: 	a SystemEnvironment(lots of globals)
+		commentSourcePointer: 	87961200
+		packageTag: 	a PackageTag(Worlds)
+
+
+
+--- The full stack ---
+Rider(Object)>>doesNotUnderstand: #initialize:name:
+Object>>demonstrateSystemFunctionality
+UndefinedObject>>DoIt
+OCReceiverDoItSemanticScope(OCDoItSemanticScope)>>evaluateDoIt:
+OpalCompiler>>evaluate
+[
+		self announcer announce: (SpCodeWillBeEvaluatedAnnouncement newContent: aString).
+		oldBindings := self interactionModel bindings copy.
+		result := self interactionModel compiler
+			source: aString;
+			environment: self environment;
+			failBlock:  [ 
+				self announcer announce: (SpCodeEvaluationFailedAnnouncement newContent: aString).
+				^ compileErrorBlock value ];
+			evaluate.
+		oldBindings size = self interactionModel bindings size 
+			ifFalse: [ self refreshStyling ].
+		self announcer announce: (SpCodeEvaluationSucceedAnnouncement newContent: aString).
+		result ] in SpCodePresenter>>evaluate:onCompileError:onError:
+FullBlockClosure(BlockClosure)>>on:do:
+SpCodePresenter>>evaluate:onCompileError:onError:
+StPlaygroundPagePresenter>>doEvaluateAndGo
+StPlaygroundPagePresenter>>doEvaluateAllAndGo
+StPlaygroundDoItCommand>>execute
+SpCommand(CmCommandDecorator)>>execute
+[ specCommand execute ] in [ :specCommand | 
+		aButtonClass new
+			label: specCommand name;
+			help: specCommand description;
+			in: [ :button | 
+				specCommand hasIcon
+					ifTrue: [ button icon: specCommand icon ] ];
+			action: [ specCommand execute ];
+			enabled: specCommand canBeExecuted;
+			yourself ] in SpCommand>>configureAsButtonOfClass:
+FullBlockClosure(BlockClosure)>>cull:
+SpMorphicToolbarButtonAdapter>>execute
+SpToolbarButtonMorph(PluggableButtonMorph)>>performAction:
+[:m |
+		(m containsPoint: evt cursorPoint) ifTrue: [m enabled ifTrue: [ m performAction: evt ]]] in SpToolbarButtonMorph(PluggableButtonMorph)>>mouseUp:
+Array(SequenceableCollection)>>do:
+SpToolbarButtonMorph(PluggableButtonMorph)>>mouseUp:
+SpToolbarButtonMorph(Morph)>>handleMouseUp:
+MouseButtonEvent>>sentTo:
+SpToolbarButtonMorph(Morph)>>handleEvent:
+SpToolbarButtonMorph(Morph)>>handleFocusEvent:
+[
+		result := focusHolder handleFocusEvent: transformedEvent.
+	] in HandMorph>>sendFocusEvent:to:clear:
+FullBlockClosure(BlockClosure)>>on:do:
+WorldMorph>>becomeActiveDuring:
+HandMorph>>sendFocusEvent:to:clear:
+HandMorph>>sendEvent:focus:clear:
+HandMorph>>sendMouseEvent:
+HandMorph>>handleEvent:
+[
+		(morphicWorld activeHand isNotNil and: [ anEvent hand isNotNil ]) ifTrue: [
+			morphicWorld activeHand handleEvent: anEvent
+		]
+	] in OSWindowMorphicEventHandler>>dispatchMorphicEvent:
+WorldState>>runStepMethodsIn:
+WorldMorph>>runStepMethods
+WorldState>>doOneCycleFor:
+WorldMorph>>doOneCycleNow
+WorldMorph>>doOneCycle
+[
+		| extraWorldsToDraw |
+		extraWorldsToDraw := ExtraWorldListMutex critical: [
+			                     self extraWorldList ].
+		extraWorldsToDraw do: [ :world | world doOneCycle ].
+
+		(self currentWorld isNotNil and: [
+			 (extraWorldsToDraw includes: self currentWorld) not ]) ifTrue: [
+			self currentWorld doOneCycle ] ] in WorldMorph class>>doOneCycle
+FullBlockClosure(BlockClosure)>>ensure:
+WorldState class>>doDrawCycleWith:
+ - - - - - - - - - - - - - - -
+			- - - - - - - - - - - - - - - - - -
+WorldMorph class>>doOneCycle
+MorphicRenderLoop>>doOneCycle
+MorphicRenderLoop>>doOneCycleWhile:
+[ MorphicRenderLoop new doOneCycleWhile: [ true ] ] in MorphicUIManager>>spawnNewProcess
+[self value.
+			"IMPORTANT: Do not step over next line of code. See method comments for details"
+			Processor terminateRealActive] in FullBlockClosure(BlockClosure)>>newProcess
+-------------------------------------------------------------------------------
+

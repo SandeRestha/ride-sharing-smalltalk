@@ -1,0 +1,1981 @@
+OmEntry {
+	#tags : {
+		#prior : OmReference [ 'Pharo13.0-SNAPSHOT-64bit-e698f20169.49A972093E08', '30' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Ride,
+				#definitionSource : 'Ride << #StandardRide\r\tslots: {};\r\tpackage: \'RideSharingSystem\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #StandardRide,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Ride class << StandardRide class\r\tslots: {}',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'StandardRide class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #StandardRide,
+					#isMeta : false
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #RideSharingSystem,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '1' ],
+		#self : OmReference [ '2' ]
+	},
+	#content : EpClassModification {
+		#oldClass : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#definitionSource : 'Object << #StandardRide\r\tslots: {};\r\tpackage: \'RideSharingSystem\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #StandardRide,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Object class << StandardRide class\r\tslots: {}',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'StandardRide class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #StandardRide,
+					#isMeta : false
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #RideSharingSystem,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#newClass : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Ride,
+				#definitionSource : 'Ride << #StandardRide\r\tslots: {};\r\tpackage: \'RideSharingSystem\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #StandardRide,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Ride class << StandardRide class\r\tslots: {}',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'StandardRide class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @24
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #StandardRide,
+					#isMeta : false
+				},
+				#parent : @24,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #RideSharingSystem,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '2' ],
+		#self : OmReference [ '3' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Ride,
+				#definitionSource : 'Ride << #StandardRide\r\tslots: {};\r\tpackage: \'RideSharingSystem\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #StandardRide,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Ride class << StandardRide class\r\tslots: {}',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'StandardRide class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #StandardRide,
+					#isMeta : false
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #RideSharingSystem,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'as yet unclassified'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '3' ],
+		#self : OmReference [ '4' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #StandardRide,
+				#isMeta : false
+			},
+			#name : #calculateFare,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calculateFare\r    | ratePerMile | "Declare local variable"\r    ratePerMile := 2.0.\r    self setFare: (distance * ratePerMile). "Use the setter defined in Ride"',
+			#stamp : '2025-07-18T21:33:26.013914-04:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '4' ],
+		#self : OmReference [ '5' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #StandardRide,
+				#isMeta : false
+			},
+			#name : #calculateFare,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calculateFare\r    | ratePerMile | "Declare local variable"\r    ratePerMile := 2.0.\r    self setFare: (distance * ratePerMile). "Use the setter defined in Ride"',
+			#stamp : '2025-07-18T21:33:26.013914-04:00',
+			#package : #RideSharingSystem
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #StandardRide,
+				#isMeta : false
+			},
+			#name : #calculateFare,
+			#protocol : #initialization,
+			#sourceCode : 'calculateFare\r    | ratePerMile | "Declare local variable"\r    ratePerMile := 2.0.\r    self setFare: (distance * ratePerMile). "Use the setter defined in Ride"',
+			#stamp : '2025-07-18T21:33:26.013914-04:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '5' ],
+		#self : OmReference [ '6' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Ride,
+				#definitionSource : 'Ride << #PremiumRide\r\tslots: {};\r\tpackage: \'RideSharingSystem\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #PremiumRide,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Ride class << PremiumRide class\r\tslots: {}',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'PremiumRide class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #PremiumRide,
+					#isMeta : false
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #RideSharingSystem,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '6' ],
+		#self : OmReference [ '7' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Ride,
+				#definitionSource : 'Ride << #PremiumRide\r\tslots: {};\r\tpackage: \'RideSharingSystem\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #PremiumRide,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Ride class << PremiumRide class\r\tslots: {}',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'PremiumRide class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #PremiumRide,
+					#isMeta : false
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #RideSharingSystem,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'as yet unclassified'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '7' ],
+		#self : OmReference [ '8' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #PremiumRide,
+				#isMeta : false
+			},
+			#name : #'initialize:pickup:dropoff:distance:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'initialize: anID pickup: aPickup dropoff: aDropoff distance: aDistance\r    super initialize: anID pickup: aPickup dropoff: aDropoff distance: aDistance.\r    self calculateFare.',
+			#stamp : '2025-07-18T21:36:57.134206-04:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '8' ],
+		#self : OmReference [ '9' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Ride,
+				#definitionSource : 'Ride << #PremiumRide\r\tslots: {};\r\tpackage: \'RideSharingSystem\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #PremiumRide,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Ride class << PremiumRide class\r\tslots: {}',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'PremiumRide class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #PremiumRide,
+					#isMeta : false
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #RideSharingSystem,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #initialization
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '9' ],
+		#self : OmReference [ '10' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #PremiumRide,
+				#isMeta : false
+			},
+			#name : #'initialize:pickup:dropoff:distance:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'initialize: anID pickup: aPickup dropoff: aDropoff distance: aDistance\r    super initialize: anID pickup: aPickup dropoff: aDropoff distance: aDistance.\r    self calculateFare.',
+			#stamp : '2025-07-18T21:36:57.134206-04:00',
+			#package : #RideSharingSystem
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #PremiumRide,
+				#isMeta : false
+			},
+			#name : #'initialize:pickup:dropoff:distance:',
+			#protocol : #initialization,
+			#sourceCode : 'initialize: anID pickup: aPickup dropoff: aDropoff distance: aDistance\r    super initialize: anID pickup: aPickup dropoff: aDropoff distance: aDistance.\r    self calculateFare.',
+			#stamp : '2025-07-18T21:36:57.134206-04:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '10' ],
+		#self : OmReference [ '11' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #PremiumRide,
+				#isMeta : false
+			},
+			#name : #calculateFare,
+			#protocol : #initialization,
+			#sourceCode : 'calculateFare\r    | ratePerMile premiumSurcharge | "Declare local variables"\r    ratePerMile := 3.5.\r    premiumSurcharge := 5.0.\r    self setFare: (distance * ratePerMile + premiumSurcharge). "Use the setter defined in Ride"',
+			#stamp : '2025-07-18T21:37:08.798555-04:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '11' ],
+		#self : OmReference [ '12' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#definitionSource : 'Object << #Driver\r\tslots: { #driverID . #name . #rating . #assignedRides };\r\tpackage: \'RideSharingSystem\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Driver,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Driver,
+						#isMeta : false
+					},
+					#name : #driverID,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Driver,
+						#isMeta : false
+					},
+					#name : #name,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Driver,
+						#isMeta : false
+					},
+					#name : #rating,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Driver,
+						#isMeta : false
+					},
+					#name : #assignedRides,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Object class << Driver class\r\tslots: {}',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Driver class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Driver,
+					#isMeta : false
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #RideSharingSystem,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '12' ],
+		#self : OmReference [ '13' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#definitionSource : 'Object << #Driver\r\tslots: { #driverID . #name . #rating . #assignedRides };\r\tpackage: \'RideSharingSystem\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Driver,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Driver,
+						#isMeta : false
+					},
+					#name : #driverID,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Driver,
+						#isMeta : false
+					},
+					#name : #name,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Driver,
+						#isMeta : false
+					},
+					#name : #rating,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Driver,
+						#isMeta : false
+					},
+					#name : #assignedRides,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Object class << Driver class\r\tslots: {}',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Driver class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Driver,
+					#isMeta : false
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #RideSharingSystem,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'as yet unclassified'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '13' ],
+		#self : OmReference [ '14' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Driver,
+				#isMeta : false
+			},
+			#name : #'initialize:name:rating:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'initialize: anID name: aName rating: aRating\r    driverID := anID.\r    name := aName.\r    rating := aRating.\r    assignedRides := OrderedCollection new. "Initialize an empty collection for rides"',
+			#stamp : '2025-07-18T21:38:44.358019-04:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '14' ],
+		#self : OmReference [ '15' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#definitionSource : 'Object << #Driver\r\tslots: { #driverID . #name . #rating . #assignedRides };\r\tpackage: \'RideSharingSystem\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Driver,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Driver,
+						#isMeta : false
+					},
+					#name : #driverID,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Driver,
+						#isMeta : false
+					},
+					#name : #name,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Driver,
+						#isMeta : false
+					},
+					#name : #rating,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Driver,
+						#isMeta : false
+					},
+					#name : #assignedRides,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Object class << Driver class\r\tslots: {}',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Driver class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Driver,
+					#isMeta : false
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #RideSharingSystem,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #initialization
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '15' ],
+		#self : OmReference [ '16' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Driver,
+				#isMeta : false
+			},
+			#name : #'initialize:name:rating:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'initialize: anID name: aName rating: aRating\r    driverID := anID.\r    name := aName.\r    rating := aRating.\r    assignedRides := OrderedCollection new. "Initialize an empty collection for rides"',
+			#stamp : '2025-07-18T21:38:44.358019-04:00',
+			#package : #RideSharingSystem
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Driver,
+				#isMeta : false
+			},
+			#name : #'initialize:name:rating:',
+			#protocol : #initialization,
+			#sourceCode : 'initialize: anID name: aName rating: aRating\r    driverID := anID.\r    name := aName.\r    rating := aRating.\r    assignedRides := OrderedCollection new. "Initialize an empty collection for rides"',
+			#stamp : '2025-07-18T21:38:44.358019-04:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '16' ],
+		#self : OmReference [ '17' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Driver,
+				#isMeta : false
+			},
+			#name : #'addRide:',
+			#protocol : #initialization,
+			#sourceCode : 'addRide: aRide\r    assignedRides add: aRide.',
+			#stamp : '2025-07-18T21:38:56.626658-04:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '17' ],
+		#self : OmReference [ '18' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Driver,
+				#isMeta : false
+			},
+			#name : #getDriverInfo,
+			#protocol : #initialization,
+			#sourceCode : 'getDriverInfo\r    Transcript show: Character cr, \'--- Driver Details ---\'; cr.\r    Transcript show: \'Driver ID: \', driverID; cr.\r    Transcript show: \'Name: \', name; cr.\r    Transcript show: \'Rating: \', rating asString, \'/5.0\'; cr.\r    Transcript show: \'Completed Rides (\', assignedRides size asString, \'):\'; cr.\r\r    assignedRides isEmpty\r        ifTrue: [ Transcript show: \'  No rides completed yet.\'; cr. ]\r        ifFalse: [\r            assignedRides do: [:eachRide |\r                eachRide rideDetails. "Polymorphic call"\r                Transcript show: \'--------------------\'; cr.\r            ].\r        ].',
+			#stamp : '2025-07-18T21:39:16.472277-04:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '18' ],
+		#self : OmReference [ '19' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#definitionSource : 'Object << #Rider\r\tslots: { #riderID . #name . #requestedRides };\r\tpackage: \'RideSharingSystem\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Rider,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Rider,
+						#isMeta : false
+					},
+					#name : #riderID,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Rider,
+						#isMeta : false
+					},
+					#name : #name,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Rider,
+						#isMeta : false
+					},
+					#name : #requestedRides,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Object class << Rider class\r\tslots: {}',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Rider class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Rider,
+					#isMeta : false
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #RideSharingSystem,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '19' ],
+		#self : OmReference [ '20' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#definitionSource : 'Object << #Rider\r\tslots: { #riderID . #name . #requestedRides };\r\tpackage: \'RideSharingSystem\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Rider,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Rider,
+						#isMeta : false
+					},
+					#name : #riderID,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Rider,
+						#isMeta : false
+					},
+					#name : #name,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Rider,
+						#isMeta : false
+					},
+					#name : #requestedRides,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Object class << Rider class\r\tslots: {}',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Rider class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Rider,
+					#isMeta : false
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #RideSharingSystem,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'as yet unclassified'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '20' ],
+		#self : OmReference [ '21' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Rider,
+				#isMeta : false
+			},
+			#name : #'initialize:name:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'initialize: anID name: aName\r    riderID := anID.\r    name := aName.\r    requestedRides := OrderedCollection new. "Initialize an empty collection for rides"',
+			#stamp : '2025-07-18T21:40:15.245472-04:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '21' ],
+		#self : OmReference [ '22' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#definitionSource : 'Object << #Rider\r\tslots: { #riderID . #name . #requestedRides };\r\tpackage: \'RideSharingSystem\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Rider,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Rider,
+						#isMeta : false
+					},
+					#name : #riderID,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Rider,
+						#isMeta : false
+					},
+					#name : #name,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Rider,
+						#isMeta : false
+					},
+					#name : #requestedRides,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Object class << Rider class\r\tslots: {}',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Rider class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Rider,
+					#isMeta : false
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #RideSharingSystem,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #initialization
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '22' ],
+		#self : OmReference [ '23' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Rider,
+				#isMeta : false
+			},
+			#name : #'initialize:name:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'initialize: anID name: aName\r    riderID := anID.\r    name := aName.\r    requestedRides := OrderedCollection new. "Initialize an empty collection for rides"',
+			#stamp : '2025-07-18T21:40:15.245472-04:00',
+			#package : #RideSharingSystem
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Rider,
+				#isMeta : false
+			},
+			#name : #'initialize:name:',
+			#protocol : #initialization,
+			#sourceCode : 'initialize: anID name: aName\r    riderID := anID.\r    name := aName.\r    requestedRides := OrderedCollection new. "Initialize an empty collection for rides"',
+			#stamp : '2025-07-18T21:40:15.245472-04:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '23' ],
+		#self : OmReference [ '24' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#definitionSource : 'Object << #Rider\r\tslots: { #riderID . #name . #requestedRides };\r\tpackage: \'RideSharingSystem\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Rider,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Rider,
+						#isMeta : false
+					},
+					#name : #riderID,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Rider,
+						#isMeta : false
+					},
+					#name : #name,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Rider,
+						#isMeta : false
+					},
+					#name : #requestedRides,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Object class << Rider class\r\tslots: {}',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Rider class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Rider,
+					#isMeta : false
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #RideSharingSystem,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'as yet unclassified'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '24' ],
+		#self : OmReference [ '25' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Rider,
+				#isMeta : false
+			},
+			#name : #'requestRide:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'requestRide: aRide\r    Transcript show: Character cr, name, \' requested a ride.\'; cr.\r    aRide rideDetails. "Show requested ride details"\r    requestedRides add: aRide.',
+			#stamp : '2025-07-18T21:40:32.605241-04:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '25' ],
+		#self : OmReference [ '26' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Rider,
+				#isMeta : false
+			},
+			#name : #viewRides,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'viewRides\r    Transcript show: Character cr, \'--- \', name, \'\'\'s Ride History ---\'; cr.\r    requestedRides isEmpty\r        ifTrue: [ Transcript show: \'  No rides requested yet.\'; cr. ]\r        ifFalse: [\r            requestedRides do: [:eachRide |\r                eachRide rideDetails. "Polymorphic call"\r                Transcript show: \'--------------------\'; cr.\r            ].\r        ].',
+			#stamp : '2025-07-18T21:40:52.289082-04:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '26' ],
+		#self : OmReference [ '27' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Rider,
+				#isMeta : false
+			},
+			#name : #'requestRide:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'requestRide: aRide\r    Transcript show: Character cr, name, \' requested a ride.\'; cr.\r    aRide rideDetails. "Show requested ride details"\r    requestedRides add: aRide.',
+			#stamp : '2025-07-18T21:40:32.605241-04:00',
+			#package : #RideSharingSystem
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Rider,
+				#isMeta : false
+			},
+			#name : #'requestRide:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'requestRide: aRide\r    | messageString | "Declare a local variable"\r    messageString := name, \' requested a ride.\'.\r    Transcript show: Character cr. "Print newline first for clean output"\r    Transcript show: messageString; cr.\r    aRide rideDetails.\r    requestedRides add: aRide.',
+			#stamp : '2025-07-18T21:43:51.44317-04:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '27' ],
+		#self : OmReference [ '28' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #ProtoObject,
+				#definitionSource : 'ProtoObject << #Object\r\tslots: {};\r\ttag: \'Objects\';\r\tpackage: \'Kernel\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Object,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'ProtoObject class << Object class\r\tslots: {}',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Object class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Object,
+					#isMeta : false
+				},
+				#parent : @6,
+				#content : '`Object` is the root class for almost all of the other classes in the class hierarchy. The exceptions are ProtoObject (the superclass of Object) and its subclasses.\r\rClass `Object` provides default behavior common to all normal objects, such as access, copying, comparison, error handling, message sending, and reflection. Also utility messages that all objects should respond to are defined here.\r\r`Object` has no instance variables, nor should any be added. This is due to several classes of objects that inherit from Object that have special implementations (SmallInteger and UndefinedObject for example) or the VM knows about and depends on the structure and layout of certain standard classes.\r\rClass Variables:\r\tDependentsFields\t\tan IdentityDictionary\r\t\tProvides a virtual \'dependents\' field so that any object may have one\r\t\tor more dependent views, synchronized by the changed:/update: protocol.\r\t\tNote that class Model has a real slot for its dependents, and overrides\r\t\tthe associated protocol with more efficient implementations.\r\rBecause `Object` is the root of the inheritance tree, methods are often defined in Object to give all objects special behaviors needed by certain subsystems or applications, or to respond to certain general test messages such as isMorph.\r\r\r###Miscellanous Discussions\r\rAbout `at:` index accepting float and not only integers\r \rThis behavior is also free in the sense that the failure code is only invoked when the primitive fails and so adds nothing to the cost of successful accesses, which are the high dynamic frequency operation.  It will also show up under\rprofiling if one is concerned about efficiency, and so isn\'t a hidden cost.\r\rIt is also in keeping with Pharo\'s mixed mode/arbitrary precision\rimplicit coercion number system that one *can* use fractions or floats as\rindices.  Stripping out coercions like this will make the system more brittle.  So \rplease do *not* remove this hack.  I think it\'s a feature and a useful one.\r\rCan you give me an example that demonstrates the usefulness of this feature?\r\r```\r| a r |\ra := Array new: 10 withAll: 0.\rr := Random new.\r100 timesRepeat: [| v | v := r next * 10 + 1. a at: v put: (a at: v) + 1].\ra\r```\r\ri.e. I didn\'t have to provide an explicit rounding step.  That\'s useful.  But in general anywhere \rwhere an index is derived by some calculation not having to provide the rounding step could be \ruseful/helpful/more concise.  e.g. (n roundTo: 0.1) * 10 vs ((n roundTo: 0.1) * 10) asInteger.\r\rSome thought went into the original choice.  It is not a hack but there by intent.  The integers are \rsimply a subset of the reals and forcing the programmer to use them is favouring the machine \rabove the programmer.\r\rBut I think you should justify getting rid of it rather than my having to justify keeping it.  Getting \rrid of it risks breaking code.  If it is there but does not harm then why get rid of it?\r\rbest Eliot Miranda ',
+				#stamp : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #Kernel,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Objects,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'as yet unclassified'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '28' ],
+		#self : OmReference [ '29' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Object,
+				#isMeta : false
+			},
+			#name : #demonstrateSystemFunctionality,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'demonstrateSystemFunctionality\r    | sandesh ride1 ride2 ride3 alice completedRide1 completedRide2 completedRide3 allRides |\r\r    "Clear the Transcript (console) before running"\r    Transcript clear.\r    Transcript show: \'--- Pharo Ride Sharing System Demonstration ---\'; cr.\r\r    "Create a Rider"\r    sandesh := Rider new initialize: \'R001\' name: \'Sandesh Shrestha\'.\r\r    "Create some rides"\r    ride1 := StandardRide new initialize: \'S001\' pickup: \'Downtown\' dropoff: \'Suburb A\' distance: 10.5.\r    ride2 := PremiumRide new initialize: \'P002\' pickup: \'Airport\' dropoff: \'City Center\' distance: 25.0.\r    ride3 := StandardRide new initialize: \'S003\' pickup: \'Park\' dropoff: \'Museum\' distance: 3.2.\r\r    "Rider requests rides"\r    sandesh requestRide: ride1.\r    sandesh requestRide: ride2.\r    sandesh requestRide: ride3.\r\r    "Create a Driver"\r    alice := Driver new initialize: \'D001\' name: \'Alice Smith\' rating: 4.8.\r\r    "Simulate assigning rides to a driver.\r    In Pharo, objects are passed by reference, so you can directly assign the requested rides.\r    No need for unique_ptr like in C++ or creating new objects for the driver\'s list,\r    unless you want to explicitly model distinct ride instances for each.\r    For simplicity, we\'ll create new ones here just like in the C++ example\'s intent."\r    completedRide1 := StandardRide new initialize: \'S001-C\' pickup: \'Downtown\' dropoff: \'Suburb A\' distance: 10.5.\r    completedRide2 := PremiumRide new initialize: \'P002-C\' pickup: \'Airport\' dropoff: \'City Center\' distance: 25.0.\r    completedRide3 := StandardRide new initialize: \'S003-C\' pickup: \'Park\' dropoff: \'Museum\' distance: 3.2.\r\r    alice addRide: completedRide1.\r    alice addRide: completedRide2.\r    alice addRide: completedRide3.\r\r    "View driver information"\r    alice getDriverInfo.\r\r    "View rider\'s ride history"\r    sandesh viewRides.\r\r    "Demonstrate polymorphism by storing different ride types in a collection"\r    Transcript show: Character cr, \'--- Polymorphism Demonstration (List of All Rides in System) ---\'; cr.\r    allRides := OrderedCollection new.\r    allRides add: (StandardRide new initialize: \'Poly01\' pickup: \'Library\' dropoff: \'Cafe\' distance: 7.0).\r    allRides add: (PremiumRide new initialize: \'Poly02\' pickup: \'Mall\' dropoff: \'Home\' distance: 4.5).\r    allRides add: (StandardRide new initialize: \'Poly03\' pickup: \'Office\' dropoff: \'Gym\' distance: 2.0).\r    allRides add: (PremiumRide new initialize: \'Poly04\' pickup: \'School\' dropoff: \'Park\' distance: 12.0).\r\r    allRides do: [:eachRide |\r        eachRide calculateFare. "Polymorphic call"\r        eachRide rideDetails.   "Polymorphic call"\r        Transcript show: \'--------------------\'; cr.\r    ].\r\r    Transcript show: Character cr, \'--- Demonstration Complete ---\'; cr.',
+			#stamp : '2025-07-19T08:42:57.085997-04:00',
+			#package : #Kernel
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '29' ],
+		#self : OmReference [ '30' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Driver,
+				#isMeta : false
+			},
+			#name : #getDriverInfo,
+			#protocol : #initialization,
+			#sourceCode : 'getDriverInfo\r    Transcript show: Character cr, \'--- Driver Details ---\'; cr.\r    Transcript show: \'Driver ID: \', driverID; cr.\r    Transcript show: \'Name: \', name; cr.\r    Transcript show: \'Rating: \', rating asString, \'/5.0\'; cr.\r    Transcript show: \'Completed Rides (\', assignedRides size asString, \'):\'; cr.\r\r    assignedRides isEmpty\r        ifTrue: [ Transcript show: \'  No rides completed yet.\'; cr. ]\r        ifFalse: [\r            assignedRides do: [:eachRide |\r                eachRide rideDetails. "Polymorphic call"\r                Transcript show: \'--------------------\'; cr.\r            ].\r        ].',
+			#stamp : '2025-07-18T21:39:16.472277-04:00',
+			#package : #RideSharingSystem
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Driver,
+				#isMeta : false
+			},
+			#name : #getDriverInfo,
+			#protocol : #initialization,
+			#sourceCode : 'getDriverInfo\r    Transcript show: Character cr asString, \'--- Driver Details ---\'; cr. "FIX THIS LINE"\r    Transcript show: \'Driver ID: \', driverID; cr.\r    Transcript show: \'Name: \', name; cr.\r    Transcript show: \'Rating: \', rating asString, \'/5.0\'; cr.\r    Transcript show: \'Completed Rides (\', assignedRides size asString, \'):\'; cr.\r\r    assignedRides isEmpty\r        ifTrue: [ Transcript show: \'  No rides completed yet.\'; cr. ]\r        ifFalse: [\r            assignedRides do: [:eachRide |\r                eachRide rideDetails.\r                Transcript show: \'--------------------\'; cr.\r            ].\r        ].',
+			#stamp : '2025-07-20T17:24:24.356328-04:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '30' ],
+		#self : OmReference [ '31' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Driver,
+				#isMeta : false
+			},
+			#name : #getDriverInfo,
+			#protocol : #initialization,
+			#sourceCode : 'getDriverInfo\r    Transcript show: Character cr asString, \'--- Driver Details ---\'; cr. "FIX THIS LINE"\r    Transcript show: \'Driver ID: \', driverID; cr.\r    Transcript show: \'Name: \', name; cr.\r    Transcript show: \'Rating: \', rating asString, \'/5.0\'; cr.\r    Transcript show: \'Completed Rides (\', assignedRides size asString, \'):\'; cr.\r\r    assignedRides isEmpty\r        ifTrue: [ Transcript show: \'  No rides completed yet.\'; cr. ]\r        ifFalse: [\r            assignedRides do: [:eachRide |\r                eachRide rideDetails.\r                Transcript show: \'--------------------\'; cr.\r            ].\r        ].',
+			#stamp : '2025-07-20T17:24:24.356328-04:00',
+			#package : #RideSharingSystem
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Driver,
+				#isMeta : false
+			},
+			#name : #getDriverInfo,
+			#protocol : #initialization,
+			#sourceCode : 'getDriverInfo\r    Transcript\r        cr; "Start with a new line"\r        show: \'--- Driver Details ---\';\r        cr.\r    Transcript show: \'Driver ID: \', driverID; cr.\r    Transcript show: \'Name: \', name; cr.\r    Transcript show: \'Rating: \', rating asString, \'/5.0\'; cr.\r    Transcript show: \'Completed Rides (\', assignedRides size asString, \'):\'; cr.\r\r    assignedRides isEmpty\r        ifTrue: [ Transcript show: \'  No rides completed yet.\'; cr. ]\r        ifFalse: [\r            assignedRides do: [:eachRide |\r                eachRide rideDetails.\r                Transcript show: \'--------------------\'; cr.\r            ].\r        ].',
+			#stamp : '2025-07-20T17:24:42.238538-04:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '31' ],
+		#self : OmReference [ '32' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Driver,
+				#isMeta : false
+			},
+			#name : #getDriverInfo,
+			#protocol : #initialization,
+			#sourceCode : 'getDriverInfo\r    Transcript\r        cr; "Start with a new line"\r        show: \'--- Driver Details ---\';\r        cr.\r    Transcript show: \'Driver ID: \', driverID; cr.\r    Transcript show: \'Name: \', name; cr.\r    Transcript show: \'Rating: \', rating asString, \'/5.0\'; cr.\r    Transcript show: \'Completed Rides (\', assignedRides size asString, \'):\'; cr.\r\r    assignedRides isEmpty\r        ifTrue: [ Transcript show: \'  No rides completed yet.\'; cr. ]\r        ifFalse: [\r            assignedRides do: [:eachRide |\r                eachRide rideDetails.\r                Transcript show: \'--------------------\'; cr.\r            ].\r        ].',
+			#stamp : '2025-07-20T17:24:42.238538-04:00',
+			#package : #RideSharingSystem
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Driver,
+				#isMeta : false
+			},
+			#name : #getDriverInfo,
+			#protocol : #initialization,
+			#sourceCode : 'getDriverInfo\r    "Use cascading messages for initial header output"\r    Transcript\r        cr; "Start with a new line"\r        show: \'--- Driver Details ---\';\r        cr.\r\r    "Construct strings first, then show them"\r    Transcript show: (\'Driver ID: \', driverID); cr.\r    Transcript show: (\'Name: \', name); cr.\r    Transcript show: (\'Rating: \', rating asString, \'/5.0\'); cr.\r    Transcript show: (\'Completed Rides (\', assignedRides size asString, \'):\'); cr.\r\r    assignedRides isEmpty\r        ifTrue: [ Transcript show: \'  No rides completed yet.\'; cr. ]\r        ifFalse: [\r            assignedRides do: [:eachRide |\r                eachRide rideDetails.\r                Transcript show: \'--------------------\'; cr.\r            ].\r        ].',
+			#stamp : '2025-07-20T17:25:27.900936-04:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '32' ],
+		#self : OmReference [ '33' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Driver,
+				#isMeta : false
+			},
+			#name : #getDriverInfo,
+			#protocol : #initialization,
+			#sourceCode : 'getDriverInfo\r    "Use cascading messages for initial header output"\r    Transcript\r        cr; "Start with a new line"\r        show: \'--- Driver Details ---\';\r        cr.\r\r    "Construct strings first, then show them"\r    Transcript show: (\'Driver ID: \', driverID); cr.\r    Transcript show: (\'Name: \', name); cr.\r    Transcript show: (\'Rating: \', rating asString, \'/5.0\'); cr.\r    Transcript show: (\'Completed Rides (\', assignedRides size asString, \'):\'); cr.\r\r    assignedRides isEmpty\r        ifTrue: [ Transcript show: \'  No rides completed yet.\'; cr. ]\r        ifFalse: [\r            assignedRides do: [:eachRide |\r                eachRide rideDetails.\r                Transcript show: \'--------------------\'; cr.\r            ].\r        ].',
+			#stamp : '2025-07-20T17:25:27.900936-04:00',
+			#package : #RideSharingSystem
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Driver,
+				#isMeta : false
+			},
+			#name : #getDriverInfo,
+			#protocol : #initialization,
+			#sourceCode : 'getDriverInfo\r    Transcript\r        cr; "Start with a new line"\r        show: \'--- Driver Details ---\';\r        cr.\r\r    Transcript show: (\'Driver ID: \', driverID); cr.\r    Transcript show: (\'Name: \', name); cr.\r    Transcript show: (\'Rating: \', rating asString, \'/5.0\'); cr.\r    Transcript show: (\'Completed Rides (\', assignedRides size asString, \'):\'); cr.\r\r    assignedRides isEmpty\r        ifTrue: [ Transcript show: \'  No rides completed yet.\'; cr. ]\r        ifFalse: [\r            assignedRides do: [:eachRide |\r                eachRide rideDetails.\r                Transcript show: \'--------------------\'; cr.\r            ].\r        ].',
+			#stamp : '2025-07-20T17:26:14.464179-04:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '33' ],
+		#self : OmReference [ '34' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Rider,
+				#isMeta : false
+			},
+			#name : #'requestRide:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'requestRide: aRide\r    | messageString | "Declare a local variable"\r    messageString := name, \' requested a ride.\'.\r    Transcript show: Character cr. "Print newline first for clean output"\r    Transcript show: messageString; cr.\r    aRide rideDetails.\r    requestedRides add: aRide.',
+			#stamp : '2025-07-18T21:43:51.44317-04:00',
+			#package : #RideSharingSystem
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Rider,
+				#isMeta : false
+			},
+			#name : #'requestRide:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'requestRide: aRide\r    | messageString | "Declare a local variable"\r    messageString := name, \' requested a ride.\'.\r    Transcript show: Character cr; show: (name, \' requested a ride.\'); cr.\r    Transcript show: messageString; cr.\r    aRide rideDetails.\r    requestedRides add: aRide.',
+			#stamp : '2025-07-20T17:26:58.47562-04:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '34' ],
+		#self : OmReference [ '35' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : '/Users/sanderestha/Documents/Pharo/images/RideSharingSmalltalk/RideSharingSmalltalk.image'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '35' ],
+		#self : OmReference [ '36' ]
+	},
+	#content : EpProtocolRemoval {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#definitionSource : 'Object << #Rider\r\tslots: { #riderID . #name . #requestedRides };\r\tpackage: \'RideSharingSystem\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Rider,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Rider,
+						#isMeta : false
+					},
+					#name : #riderID,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Rider,
+						#isMeta : false
+					},
+					#name : #name,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Rider,
+						#isMeta : false
+					},
+					#name : #requestedRides,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Object class << Rider class\r\tslots: {}',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Rider class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Rider,
+					#isMeta : false
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #RideSharingSystem,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #initialization
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '36' ],
+		#self : OmReference [ '37' ]
+	},
+	#content : EpMethodRemoval {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Rider,
+				#isMeta : false
+			},
+			#name : #'initialize:name:',
+			#protocol : #initialization,
+			#sourceCode : 'initialize: anID name: aName\r    riderID := anID.\r    name := aName.\r    requestedRides := OrderedCollection new. "Initialize an empty collection for rides"',
+			#stamp : '2025-07-18T21:40:15.245472-04:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '37' ],
+		#self : OmReference [ '38' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#definitionSource : 'Object << #Rider\r\tslots: { #riderID . #name . #requestedRides };\r\tpackage: \'RideSharingSystem\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Rider,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Rider,
+						#isMeta : false
+					},
+					#name : #riderID,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Rider,
+						#isMeta : false
+					},
+					#name : #name,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Rider,
+						#isMeta : false
+					},
+					#name : #requestedRides,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Object class << Rider class\r\tslots: {}',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Rider class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Rider,
+					#isMeta : false
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #RideSharingSystem,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #initialization
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '38' ],
+		#self : OmReference [ '39' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Rider,
+				#isMeta : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize\r    super initialize.\r    requestedRides := OrderedCollection new.\r    name := \'\'.\r',
+			#stamp : '2025-07-20T17:34:54.617914-04:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '39' ],
+		#self : OmReference [ '40' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Rider,
+				#isMeta : false
+			},
+			#name : #'requestRide:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'requestRide: aRide\r    | messageString | "Declare a local variable"\r    messageString := name, \' requested a ride.\'.\r    Transcript show: Character cr; show: (name, \' requested a ride.\'); cr.\r    Transcript show: messageString; cr.\r    aRide rideDetails.\r    requestedRides add: aRide.',
+			#stamp : '2025-07-20T17:26:58.47562-04:00',
+			#package : #RideSharingSystem
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Rider,
+				#isMeta : false
+			},
+			#name : #'requestRide:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'requestRide: aRide\r    Transcript\r        cr; "Start with a new line"\r        show: name; "Show rider\'s name"\r        show: \' requested a ride.\'; "Append the rest of the message"\r        cr. "Add a carriage return"\r    aRide rideDetails. "Show requested ride details"\r    requestedRides add: aRide.',
+			#stamp : '2025-07-20T17:42:18.765781-04:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '40' ],
+		#self : OmReference [ '41' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Ride,
+				#isMeta : false
+			},
+			#name : #rideDetails,
+			#protocol : #initialization,
+			#sourceCode : 'rideDetails\r    Transcript show: \'Ride ID: \', rideID; cr.\r    Transcript show: \'  Pickup: \', pickupLocation; cr.\r    Transcript show: \'  Dropoff: \', dropoffLocation; cr.\r    Transcript show: \'  Distance: \', distance asString, \' miles\'; cr.\r    Transcript show: \'  Fare: $\', fare asString; cr.',
+			#stamp : '2025-07-13T23:06:41.784162-04:00',
+			#package : #RideSharingSystem
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Ride,
+				#isMeta : false
+			},
+			#name : #rideDetails,
+			#protocol : #initialization,
+			#sourceCode : 'rideDetails\r    Transcript show: (\'Ride ID: \', rideID); cr.\r    Transcript show: (\'  Pickup: \', pickupLocation); cr.\r    Transcript show: (\'  Dropoff: \', dropoffLocation); cr.\r    Transcript show: (\'  Distance: \', distance asString, \' miles\'); cr.\r    Transcript show: (\'  Fare: $\', fare asString); cr.',
+			#stamp : '2025-07-20T17:42:59.208442-04:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '41' ],
+		#self : OmReference [ '42' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Rider,
+				#isMeta : false
+			},
+			#name : #viewRides,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'viewRides\r    Transcript show: Character cr, \'--- \', name, \'\'\'s Ride History ---\'; cr.\r    requestedRides isEmpty\r        ifTrue: [ Transcript show: \'  No rides requested yet.\'; cr. ]\r        ifFalse: [\r            requestedRides do: [:eachRide |\r                eachRide rideDetails. "Polymorphic call"\r                Transcript show: \'--------------------\'; cr.\r            ].\r        ].',
+			#stamp : '2025-07-18T21:40:52.289082-04:00',
+			#package : #RideSharingSystem
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Rider,
+				#isMeta : false
+			},
+			#name : #viewRides,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'viewRides\r    Transcript\r        cr; "Start with a new line"\r        show: \'--- \', name, \'\'\'s Ride History ---\'; "Concatenate name with string before showing"\r        cr.\r    requestedRides isEmpty\r        ifTrue: [ Transcript show: \'  No rides requested yet.\'; cr. ]\r        ifFalse: [\r            requestedRides do: [:eachRide |\r                eachRide rideDetails.\r                Transcript show: \'--------------------\'; cr.\r            ].\r        ].',
+			#stamp : '2025-07-20T17:43:53.619282-04:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '42' ],
+		#self : OmReference [ '43' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Object,
+				#isMeta : false
+			},
+			#name : #demonstrateSystemFunctionality,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'demonstrateSystemFunctionality\r    | sandesh ride1 ride2 ride3 alice completedRide1 completedRide2 completedRide3 allRides |\r\r    "Clear the Transcript (console) before running"\r    Transcript clear.\r    Transcript show: \'--- Pharo Ride Sharing System Demonstration ---\'; cr.\r\r    "Create a Rider"\r    sandesh := Rider new initialize: \'R001\' name: \'Sandesh Shrestha\'.\r\r    "Create some rides"\r    ride1 := StandardRide new initialize: \'S001\' pickup: \'Downtown\' dropoff: \'Suburb A\' distance: 10.5.\r    ride2 := PremiumRide new initialize: \'P002\' pickup: \'Airport\' dropoff: \'City Center\' distance: 25.0.\r    ride3 := StandardRide new initialize: \'S003\' pickup: \'Park\' dropoff: \'Museum\' distance: 3.2.\r\r    "Rider requests rides"\r    sandesh requestRide: ride1.\r    sandesh requestRide: ride2.\r    sandesh requestRide: ride3.\r\r    "Create a Driver"\r    alice := Driver new initialize: \'D001\' name: \'Alice Smith\' rating: 4.8.\r\r    "Simulate assigning rides to a driver.\r    In Pharo, objects are passed by reference, so you can directly assign the requested rides.\r    No need for unique_ptr like in C++ or creating new objects for the driver\'s list,\r    unless you want to explicitly model distinct ride instances for each.\r    For simplicity, we\'ll create new ones here just like in the C++ example\'s intent."\r    completedRide1 := StandardRide new initialize: \'S001-C\' pickup: \'Downtown\' dropoff: \'Suburb A\' distance: 10.5.\r    completedRide2 := PremiumRide new initialize: \'P002-C\' pickup: \'Airport\' dropoff: \'City Center\' distance: 25.0.\r    completedRide3 := StandardRide new initialize: \'S003-C\' pickup: \'Park\' dropoff: \'Museum\' distance: 3.2.\r\r    alice addRide: completedRide1.\r    alice addRide: completedRide2.\r    alice addRide: completedRide3.\r\r    "View driver information"\r    alice getDriverInfo.\r\r    "View rider\'s ride history"\r    sandesh viewRides.\r\r    "Demonstrate polymorphism by storing different ride types in a collection"\r    Transcript show: Character cr, \'--- Polymorphism Demonstration (List of All Rides in System) ---\'; cr.\r    allRides := OrderedCollection new.\r    allRides add: (StandardRide new initialize: \'Poly01\' pickup: \'Library\' dropoff: \'Cafe\' distance: 7.0).\r    allRides add: (PremiumRide new initialize: \'Poly02\' pickup: \'Mall\' dropoff: \'Home\' distance: 4.5).\r    allRides add: (StandardRide new initialize: \'Poly03\' pickup: \'Office\' dropoff: \'Gym\' distance: 2.0).\r    allRides add: (PremiumRide new initialize: \'Poly04\' pickup: \'School\' dropoff: \'Park\' distance: 12.0).\r\r    allRides do: [:eachRide |\r        eachRide calculateFare. "Polymorphic call"\r        eachRide rideDetails.   "Polymorphic call"\r        Transcript show: \'--------------------\'; cr.\r    ].\r\r    Transcript show: Character cr, \'--- Demonstration Complete ---\'; cr.',
+			#stamp : '2025-07-19T08:42:57.085997-04:00',
+			#package : #Kernel
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Object,
+				#isMeta : false
+			},
+			#name : #demonstrateSystemFunctionality,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'demonstrateSystemFunctionality\r    | sandesh ride1 ride2 ride3 alice completedRide1 completedRide2 completedRide3 allRides |\r\r    "Clear the Transcript (console) before running"\r    Transcript clear.\r    Transcript show: \'--- Pharo Ride Sharing System Demonstration ---\'; cr.\r\r    "Create a Rider"\r    sandesh := Rider new initialize: \'R001\' name: \'Sandesh Shrestha\'.\r\r    "Create some rides"\r    ride1 := StandardRide new initialize: \'S001\' pickup: \'Downtown\' dropoff: \'Suburb A\' distance: 10.5.\r    ride2 := PremiumRide new initialize: \'P002\' pickup: \'Airport\' dropoff: \'City Center\' distance: 25.0.\r    ride3 := StandardRide new initialize: \'S003\' pickup: \'Park\' dropoff: \'Museum\' distance: 3.2.\r\r    "Rider requests rides"\r    sandesh requestRide: ride1.\r    sandesh requestRide: ride2.\r    sandesh requestRide: ride3.\r\r    "Create a Driver"\r    alice := Driver new initialize: \'D001\' name: \'Alice Smith\' rating: 4.8.\r\r    "Simulate assigning rides to a driver."\r    completedRide1 := StandardRide new initialize: \'S001-C\' pickup: \'Downtown\' dropoff: \'Suburb A\' distance: 10.5.\r    completedRide2 := PremiumRide new initialize: \'P002-C\' pickup: \'Airport\' dropoff: \'City Center\' distance: 25.0.\r    completedRide3 := StandardRide new initialize: \'S003-C\' pickup: \'Park\' dropoff: \'Museum\' distance: 3.2.\r\r    alice addRide: completedRide1.\r    alice addRide: completedRide2.\r    alice addRide: completedRide3.\r\r    "View driver information"\r    alice getDriverInfo.\r\r    "View rider\'s ride history"\r    sandesh viewRides.\r\r    "Demonstrate polymorphism by storing different ride types in a collection"\r    Transcript cr; show: \'--- Polymorphism Demonstration (List of All Rides in System) ---\'; cr.\r\r    allRides := OrderedCollection new.\r    allRides add: (StandardRide new initialize: \'Poly01\' pickup: \'Library\' dropoff: \'Cafe\' distance: 7.0).\r    allRides add: (PremiumRide new initialize: \'Poly02\' pickup: \'Mall\' dropoff: \'Home\' distance: 4.5).\r    allRides add: (StandardRide new initialize: \'Poly03\' pickup: \'Office\' dropoff: \'Gym\' distance: 2.0).\r    allRides add: (PremiumRide new initialize: \'Poly04\' pickup: \'School\' dropoff: \'Park\' distance: 12.0).\r\r    allRides do: [:eachRide |\r        eachRide calculateFare. "Polymorphic call"\r        eachRide rideDetails.   "Polymorphic call"\r        Transcript show: \'--------------------\'; cr.\r    ].\r\r    Transcript cr; show: \'--- Demonstration Complete ---\'; cr.',
+			#stamp : '2025-07-20T17:44:18.362527-04:00',
+			#package : #Kernel
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '43' ],
+		#self : OmReference [ '44' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Ride,
+				#isMeta : false
+			},
+			#name : #rideDetails,
+			#protocol : #initialization,
+			#sourceCode : 'rideDetails\r    Transcript show: (\'Ride ID: \', rideID); cr.\r    Transcript show: (\'  Pickup: \', pickupLocation); cr.\r    Transcript show: (\'  Dropoff: \', dropoffLocation); cr.\r    Transcript show: (\'  Distance: \', distance asString, \' miles\'); cr.\r    Transcript show: (\'  Fare: $\', fare asString); cr.',
+			#stamp : '2025-07-20T17:42:59.208442-04:00',
+			#package : #RideSharingSystem
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Ride,
+				#isMeta : false
+			},
+			#name : #rideDetails,
+			#protocol : #initialization,
+			#sourceCode : 'rideDetails\r    Transcript\r        nextPutAll: \'Ride ID: \'; nextPutAll: rideID; cr;\r        nextPutAll: \'  Pickup: \'; nextPutAll: pickupLocation; cr;\r        nextPutAll: \'  Dropoff: \'; nextPutAll: dropoffLocation; cr;\r        nextPutAll: \'  Distance: \'; nextPutAll: distance asString; nextPutAll: \' miles\'; cr;\r        nextPutAll: \'  Fare: $\'; nextPutAll: fare asString; cr.',
+			#stamp : '2025-07-20T17:46:36.749776-04:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '44' ],
+		#self : OmReference [ '45' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Rider,
+				#isMeta : false
+			},
+			#name : #viewRides,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'viewRides\r    Transcript\r        cr; "Start with a new line"\r        show: \'--- \', name, \'\'\'s Ride History ---\'; "Concatenate name with string before showing"\r        cr.\r    requestedRides isEmpty\r        ifTrue: [ Transcript show: \'  No rides requested yet.\'; cr. ]\r        ifFalse: [\r            requestedRides do: [:eachRide |\r                eachRide rideDetails.\r                Transcript show: \'--------------------\'; cr.\r            ].\r        ].',
+			#stamp : '2025-07-20T17:43:53.619282-04:00',
+			#package : #RideSharingSystem
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Rider,
+				#isMeta : false
+			},
+			#name : #viewRides,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'viewRides\r    Transcript\r        cr; "Start with a new line"\r        nextPutAll: \'--- \'; nextPutAll: name; nextPutAll: \'\'\'s Ride History ---\';\r        cr.\r    requestedRides isEmpty\r        ifTrue: [ Transcript nextPutAll: \'  No rides requested yet.\'; cr. ]\r        ifFalse: [\r            requestedRides do: [:eachRide |\r                eachRide rideDetails.\r                Transcript nextPutAll: \'--------------------\'; cr.\r            ].\r        ].',
+			#stamp : '2025-07-20T17:49:41.653306-04:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '45' ],
+		#self : OmReference [ '46' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Driver,
+				#isMeta : false
+			},
+			#name : #getDriverInfo,
+			#protocol : #initialization,
+			#sourceCode : 'getDriverInfo\r    Transcript\r        cr; "Start with a new line"\r        show: \'--- Driver Details ---\';\r        cr.\r\r    Transcript show: (\'Driver ID: \', driverID); cr.\r    Transcript show: (\'Name: \', name); cr.\r    Transcript show: (\'Rating: \', rating asString, \'/5.0\'); cr.\r    Transcript show: (\'Completed Rides (\', assignedRides size asString, \'):\'); cr.\r\r    assignedRides isEmpty\r        ifTrue: [ Transcript show: \'  No rides completed yet.\'; cr. ]\r        ifFalse: [\r            assignedRides do: [:eachRide |\r                eachRide rideDetails.\r                Transcript show: \'--------------------\'; cr.\r            ].\r        ].',
+			#stamp : '2025-07-20T17:43:20.582682-04:00',
+			#package : #RideSharingSystem
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Driver,
+				#isMeta : false
+			},
+			#name : #getDriverInfo,
+			#protocol : #initialization,
+			#sourceCode : 'getDriverInfo\r    Transcript\r        cr; "Start with a new line"\r        nextPutAll: \'--- Driver Details ---\';\r        cr.\r\r    Transcript\r        nextPutAll: \'Driver ID: \'; nextPutAll: driverID; cr;\r        nextPutAll: \'Name: \'; nextPutAll: name; cr;\r        nextPutAll: \'Rating: \'; nextPutAll: rating asString; nextPutAll: \'/5.0\'; cr;\r        nextPutAll: \'Completed Rides (\'; nextPutAll: assignedRides size asString; nextPutAll: \'):\'; cr.\r\r    assignedRides isEmpty\r        ifTrue: [ Transcript nextPutAll: \'  No rides completed yet.\'; cr. ]\r        ifFalse: [\r            assignedRides do: [:eachRide |\r                eachRide rideDetails.\r                Transcript nextPutAll: \'--------------------\'; cr.\r            ].\r        ].',
+			#stamp : '2025-07-20T17:49:54.539227-04:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '46' ],
+		#self : OmReference [ '47' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #ProtoObject,
+				#definitionSource : 'ProtoObject << #Object\r\tslots: {};\r\ttag: \'Objects\';\r\tpackage: \'Kernel\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Object,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'ProtoObject class << Object class\r\tslots: {}',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Object class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Object,
+					#isMeta : false
+				},
+				#parent : @6,
+				#content : '`Object` is the root class for almost all of the other classes in the class hierarchy. The exceptions are ProtoObject (the superclass of Object) and its subclasses.\r\rClass `Object` provides default behavior common to all normal objects, such as access, copying, comparison, error handling, message sending, and reflection. Also utility messages that all objects should respond to are defined here.\r\r`Object` has no instance variables, nor should any be added. This is due to several classes of objects that inherit from Object that have special implementations (SmallInteger and UndefinedObject for example) or the VM knows about and depends on the structure and layout of certain standard classes.\r\rClass Variables:\r\tDependentsFields\t\tan IdentityDictionary\r\t\tProvides a virtual \'dependents\' field so that any object may have one\r\t\tor more dependent views, synchronized by the changed:/update: protocol.\r\t\tNote that class Model has a real slot for its dependents, and overrides\r\t\tthe associated protocol with more efficient implementations.\r\rBecause `Object` is the root of the inheritance tree, methods are often defined in Object to give all objects special behaviors needed by certain subsystems or applications, or to respond to certain general test messages such as isMorph.\r\r\r###Miscellanous Discussions\r\rAbout `at:` index accepting float and not only integers\r \rThis behavior is also free in the sense that the failure code is only invoked when the primitive fails and so adds nothing to the cost of successful accesses, which are the high dynamic frequency operation.  It will also show up under\rprofiling if one is concerned about efficiency, and so isn\'t a hidden cost.\r\rIt is also in keeping with Pharo\'s mixed mode/arbitrary precision\rimplicit coercion number system that one *can* use fractions or floats as\rindices.  Stripping out coercions like this will make the system more brittle.  So \rplease do *not* remove this hack.  I think it\'s a feature and a useful one.\r\rCan you give me an example that demonstrates the usefulness of this feature?\r\r```\r| a r |\ra := Array new: 10 withAll: 0.\rr := Random new.\r100 timesRepeat: [| v | v := r next * 10 + 1. a at: v put: (a at: v) + 1].\ra\r```\r\ri.e. I didn\'t have to provide an explicit rounding step.  That\'s useful.  But in general anywhere \rwhere an index is derived by some calculation not having to provide the rounding step could be \ruseful/helpful/more concise.  e.g. (n roundTo: 0.1) * 10 vs ((n roundTo: 0.1) * 10) asInteger.\r\rSome thought went into the original choice.  It is not a hack but there by intent.  The integers are \rsimply a subset of the reals and forcing the programmer to use them is favouring the machine \rabove the programmer.\r\rBut I think you should justify getting rid of it rather than my having to justify keeping it.  Getting \rrid of it risks breaking code.  If it is there but does not harm then why get rid of it?\r\rbest Eliot Miranda ',
+				#stamp : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #Kernel,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Objects,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #initialization
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '47' ],
+		#self : OmReference [ '48' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Object,
+				#isMeta : false
+			},
+			#name : #demonstrateSystemFunctionality,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'demonstrateSystemFunctionality\r    | sandesh ride1 ride2 ride3 alice completedRide1 completedRide2 completedRide3 allRides |\r\r    "Clear the Transcript (console) before running"\r    Transcript clear.\r    Transcript show: \'--- Pharo Ride Sharing System Demonstration ---\'; cr.\r\r    "Create a Rider"\r    sandesh := Rider new initialize: \'R001\' name: \'Sandesh Shrestha\'.\r\r    "Create some rides"\r    ride1 := StandardRide new initialize: \'S001\' pickup: \'Downtown\' dropoff: \'Suburb A\' distance: 10.5.\r    ride2 := PremiumRide new initialize: \'P002\' pickup: \'Airport\' dropoff: \'City Center\' distance: 25.0.\r    ride3 := StandardRide new initialize: \'S003\' pickup: \'Park\' dropoff: \'Museum\' distance: 3.2.\r\r    "Rider requests rides"\r    sandesh requestRide: ride1.\r    sandesh requestRide: ride2.\r    sandesh requestRide: ride3.\r\r    "Create a Driver"\r    alice := Driver new initialize: \'D001\' name: \'Alice Smith\' rating: 4.8.\r\r    "Simulate assigning rides to a driver."\r    completedRide1 := StandardRide new initialize: \'S001-C\' pickup: \'Downtown\' dropoff: \'Suburb A\' distance: 10.5.\r    completedRide2 := PremiumRide new initialize: \'P002-C\' pickup: \'Airport\' dropoff: \'City Center\' distance: 25.0.\r    completedRide3 := StandardRide new initialize: \'S003-C\' pickup: \'Park\' dropoff: \'Museum\' distance: 3.2.\r\r    alice addRide: completedRide1.\r    alice addRide: completedRide2.\r    alice addRide: completedRide3.\r\r    "View driver information"\r    alice getDriverInfo.\r\r    "View rider\'s ride history"\r    sandesh viewRides.\r\r    "Demonstrate polymorphism by storing different ride types in a collection"\r    Transcript cr; show: \'--- Polymorphism Demonstration (List of All Rides in System) ---\'; cr.\r\r    allRides := OrderedCollection new.\r    allRides add: (StandardRide new initialize: \'Poly01\' pickup: \'Library\' dropoff: \'Cafe\' distance: 7.0).\r    allRides add: (PremiumRide new initialize: \'Poly02\' pickup: \'Mall\' dropoff: \'Home\' distance: 4.5).\r    allRides add: (StandardRide new initialize: \'Poly03\' pickup: \'Office\' dropoff: \'Gym\' distance: 2.0).\r    allRides add: (PremiumRide new initialize: \'Poly04\' pickup: \'School\' dropoff: \'Park\' distance: 12.0).\r\r    allRides do: [:eachRide |\r        eachRide calculateFare. "Polymorphic call"\r        eachRide rideDetails.   "Polymorphic call"\r        Transcript show: \'--------------------\'; cr.\r    ].\r\r    Transcript cr; show: \'--- Demonstration Complete ---\'; cr.',
+			#stamp : '2025-07-20T17:44:18.362527-04:00',
+			#package : #Kernel
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Object,
+				#isMeta : false
+			},
+			#name : #demonstrateSystemFunctionality,
+			#protocol : #initialization,
+			#sourceCode : 'demonstrateSystemFunctionality\r    | sandesh ride1 ride2 ride3 alice completedRide1 completedRide2 completedRide3 allRides |\r\r    "Clear the Transcript (console) before running"\r    Transcript clear.\r    Transcript show: \'--- Pharo Ride Sharing System Demonstration ---\'; cr.\r\r    "Create a Rider"\r    sandesh := Rider new initialize: \'R001\' name: \'Sandesh Shrestha\'.\r\r    "Create some rides"\r    ride1 := StandardRide new initialize: \'S001\' pickup: \'Downtown\' dropoff: \'Suburb A\' distance: 10.5.\r    ride2 := PremiumRide new initialize: \'P002\' pickup: \'Airport\' dropoff: \'City Center\' distance: 25.0.\r    ride3 := StandardRide new initialize: \'S003\' pickup: \'Park\' dropoff: \'Museum\' distance: 3.2.\r\r    "Rider requests rides"\r    sandesh requestRide: ride1.\r    sandesh requestRide: ride2.\r    sandesh requestRide: ride3.\r\r    "Create a Driver"\r    alice := Driver new initialize: \'D001\' name: \'Alice Smith\' rating: 4.8.\r\r    "Simulate assigning rides to a driver."\r    completedRide1 := StandardRide new initialize: \'S001-C\' pickup: \'Downtown\' dropoff: \'Suburb A\' distance: 10.5.\r    completedRide2 := PremiumRide new initialize: \'P002-C\' pickup: \'Airport\' dropoff: \'City Center\' distance: 25.0.\r    completedRide3 := StandardRide new initialize: \'S003-C\' pickup: \'Park\' dropoff: \'Museum\' distance: 3.2.\r\r    alice addRide: completedRide1.\r    alice addRide: completedRide2.\r    alice addRide: completedRide3.\r\r    "View driver information"\r    alice getDriverInfo.\r\r    "View rider\'s ride history"\r    sandesh viewRides.\r\r    "Demonstrate polymorphism by storing different ride types in a collection"\r    Transcript cr; show: \'--- Polymorphism Demonstration (List of All Rides in System) ---\'; cr.\r\r    allRides := OrderedCollection new.\r    allRides add: (StandardRide new initialize: \'Poly01\' pickup: \'Library\' dropoff: \'Cafe\' distance: 7.0).\r    allRides add: (PremiumRide new initialize: \'Poly02\' pickup: \'Mall\' dropoff: \'Home\' distance: 4.5).\r    allRides add: (StandardRide new initialize: \'Poly03\' pickup: \'Office\' dropoff: \'Gym\' distance: 2.0).\r    allRides add: (PremiumRide new initialize: \'Poly04\' pickup: \'School\' dropoff: \'Park\' distance: 12.0).\r\r    allRides do: [:eachRide |\r        eachRide calculateFare. "Polymorphic call"\r        eachRide rideDetails.   "Polymorphic call"\r        Transcript show: \'--------------------\'; cr.\r    ].\r\r    Transcript cr; show: \'--- Demonstration Complete ---\'; cr.',
+			#stamp : '2025-07-20T17:44:18.362527-04:00',
+			#package : #Kernel
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '48' ],
+		#self : OmReference [ '49' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Rider,
+				#isMeta : false
+			},
+			#name : #'requestRide:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'requestRide: aRide\r    Transcript\r        cr; "Start with a new line"\r        show: name; "Show rider\'s name"\r        show: \' requested a ride.\'; "Append the rest of the message"\r        cr. "Add a carriage return"\r    aRide rideDetails. "Show requested ride details"\r    requestedRides add: aRide.',
+			#stamp : '2025-07-20T17:43:37.970746-04:00',
+			#package : #RideSharingSystem
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Rider,
+				#isMeta : false
+			},
+			#name : #'requestRide:',
+			#protocol : #initialization,
+			#sourceCode : 'requestRide: aRide\r    Transcript\r        cr; "Start with a new line"\r        show: name; "Show rider\'s name"\r        show: \' requested a ride.\'; "Append the rest of the message"\r        cr. "Add a carriage return"\r    aRide rideDetails. "Show requested ride details"\r    requestedRides add: aRide.',
+			#stamp : '2025-07-20T17:43:37.970746-04:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '49' ],
+		#self : OmReference [ '50' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Rider,
+				#isMeta : false
+			},
+			#name : #viewRides,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'viewRides\r    Transcript\r        cr; "Start with a new line"\r        nextPutAll: \'--- \'; nextPutAll: name; nextPutAll: \'\'\'s Ride History ---\';\r        cr.\r    requestedRides isEmpty\r        ifTrue: [ Transcript nextPutAll: \'  No rides requested yet.\'; cr. ]\r        ifFalse: [\r            requestedRides do: [:eachRide |\r                eachRide rideDetails.\r                Transcript nextPutAll: \'--------------------\'; cr.\r            ].\r        ].',
+			#stamp : '2025-07-20T17:49:41.653306-04:00',
+			#package : #RideSharingSystem
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Rider,
+				#isMeta : false
+			},
+			#name : #viewRides,
+			#protocol : #initialization,
+			#sourceCode : 'viewRides\r    Transcript\r        cr; "Start with a new line"\r        nextPutAll: \'--- \'; nextPutAll: name; nextPutAll: \'\'\'s Ride History ---\';\r        cr.\r    requestedRides isEmpty\r        ifTrue: [ Transcript nextPutAll: \'  No rides requested yet.\'; cr. ]\r        ifFalse: [\r            requestedRides do: [:eachRide |\r                eachRide rideDetails.\r                Transcript nextPutAll: \'--------------------\'; cr.\r            ].\r        ].',
+			#stamp : '2025-07-20T17:49:41.653306-04:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '50' ],
+		#self : OmReference [ '51' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : '/Users/sanderestha/Documents/Pharo/images/RideSharingSmalltalk/RideSharingSmalltalk.image'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '51' ],
+		#self : OmReference [ '52' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Rider,
+				#isMeta : false
+			},
+			#name : #'initialize:name:',
+			#protocol : #initialization,
+			#sourceCode : 'initialize: anID name: aName\r    riderID := anID.\r    name := aName.\r    requestedRides := OrderedCollection new.',
+			#stamp : '2025-07-20T17:56:56.619603-04:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '52' ],
+		#self : OmReference [ '53' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Object,
+				#isMeta : false
+			},
+			#name : #demonstrateSystemFunctionality,
+			#protocol : #initialization,
+			#sourceCode : 'demonstrateSystemFunctionality\r    | sandesh ride1 ride2 ride3 alice completedRide1 completedRide2 completedRide3 allRides |\r\r    "Clear the Transcript (console) before running"\r    Transcript clear.\r    Transcript show: \'--- Pharo Ride Sharing System Demonstration ---\'; cr.\r\r    "Create a Rider"\r    sandesh := Rider new initialize: \'R001\' name: \'Sandesh Shrestha\'.\r\r    "Create some rides"\r    ride1 := StandardRide new initialize: \'S001\' pickup: \'Downtown\' dropoff: \'Suburb A\' distance: 10.5.\r    ride2 := PremiumRide new initialize: \'P002\' pickup: \'Airport\' dropoff: \'City Center\' distance: 25.0.\r    ride3 := StandardRide new initialize: \'S003\' pickup: \'Park\' dropoff: \'Museum\' distance: 3.2.\r\r    "Rider requests rides"\r    sandesh requestRide: ride1.\r    sandesh requestRide: ride2.\r    sandesh requestRide: ride3.\r\r    "Create a Driver"\r    alice := Driver new initialize: \'D001\' name: \'Alice Smith\' rating: 4.8.\r\r    "Simulate assigning rides to a driver."\r    completedRide1 := StandardRide new initialize: \'S001-C\' pickup: \'Downtown\' dropoff: \'Suburb A\' distance: 10.5.\r    completedRide2 := PremiumRide new initialize: \'P002-C\' pickup: \'Airport\' dropoff: \'City Center\' distance: 25.0.\r    completedRide3 := StandardRide new initialize: \'S003-C\' pickup: \'Park\' dropoff: \'Museum\' distance: 3.2.\r\r    alice addRide: completedRide1.\r    alice addRide: completedRide2.\r    alice addRide: completedRide3.\r\r    "View driver information"\r    alice getDriverInfo.\r\r    "View rider\'s ride history"\r    sandesh viewRides.\r\r    "Demonstrate polymorphism by storing different ride types in a collection"\r    Transcript cr; show: \'--- Polymorphism Demonstration (List of All Rides in System) ---\'; cr.\r\r    allRides := OrderedCollection new.\r    allRides add: (StandardRide new initialize: \'Poly01\' pickup: \'Library\' dropoff: \'Cafe\' distance: 7.0).\r    allRides add: (PremiumRide new initialize: \'Poly02\' pickup: \'Mall\' dropoff: \'Home\' distance: 4.5).\r    allRides add: (StandardRide new initialize: \'Poly03\' pickup: \'Office\' dropoff: \'Gym\' distance: 2.0).\r    allRides add: (PremiumRide new initialize: \'Poly04\' pickup: \'School\' dropoff: \'Park\' distance: 12.0).\r\r    allRides do: [:eachRide |\r        eachRide calculateFare. "Polymorphic call"\r        eachRide rideDetails.   "Polymorphic call"\r        Transcript show: \'--------------------\'; cr.\r    ].\r\r    Transcript cr; show: \'--- Demonstration Complete ---\'; cr.',
+			#stamp : '2025-07-20T17:44:18.362527-04:00',
+			#package : #Kernel
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Object,
+				#isMeta : false
+			},
+			#name : #demonstrateSystemFunctionality,
+			#protocol : #initialization,
+			#sourceCode : 'demonstrateSystemFunctionality\r    | sandesh ride1 ride2 ride3 alice completedRide1 completedRide2 completedRide3 allRides |\r\r    "Clear the Transcript (console) before running"\r    Transcript clear  a StThreadSafeTranscript.\r    Transcript show: \'--- Pharo Ride Sharing System Demonstration ---\'; cr.\r\r    "Create a Rider"\r    sandesh := Rider new initialize: \'R001\' name: \'Sandesh Shrestha\'.\r\r    "Create some rides"\r    ride1 := StandardRide new initialize: \'S001\' pickup: \'Downtown\' dropoff: \'Suburb A\' distance: 10.5.\r    ride2 := PremiumRide new initialize: \'P002\' pickup: \'Airport\' dropoff: \'City Center\' distance: 25.0.\r    ride3 := StandardRide new initialize: \'S003\' pickup: \'Park\' dropoff: \'Museum\' distance: 3.2.\r\r    "Rider requests rides"\r    sandesh requestRide: ride1.\r    sandesh requestRide: ride2.\r    sandesh requestRide: ride3.\r\r    "Create a Driver"\r    alice := Driver new initialize: \'D001\' name: \'Alice Smith\' rating: 4.8.\r\r    "Simulate assigning rides to a driver."\r    completedRide1 := StandardRide new initialize: \'S001-C\' pickup: \'Downtown\' dropoff: \'Suburb A\' distance: 10.5.\r    completedRide2 := PremiumRide new initialize: \'P002-C\' pickup: \'Airport\' dropoff: \'City Center\' distance: 25.0.\r    completedRide3 := StandardRide new initialize: \'S003-C\' pickup: \'Park\' dropoff: \'Museum\' distance: 3.2.\r\r    alice addRide: completedRide1.\r    alice addRide: completedRide2.\r    alice addRide: completedRide3.\r\r    "View driver information"\r    alice getDriverInfo.\r\r    "View rider\'s ride history"\r    sandesh viewRides.\r\r    "Demonstrate polymorphism by storing different ride types in a collection"\r    Transcript cr; show: \'--- Polymorphism Demonstration (List of All Rides in System) ---\'; cr.\r\r    allRides := OrderedCollection new.\r    allRides add: (StandardRide new initialize: \'Poly01\' pickup: \'Library\' dropoff: \'Cafe\' distance: 7.0).\r    allRides add: (PremiumRide new initialize: \'Poly02\' pickup: \'Mall\' dropoff: \'Home\' distance: 4.5).\r    allRides add: (StandardRide new initialize: \'Poly03\' pickup: \'Office\' dropoff: \'Gym\' distance: 2.0).\r    allRides add: (PremiumRide new initialize: \'Poly04\' pickup: \'School\' dropoff: \'Park\' distance: 12.0).\r\r    allRides do: [:eachRide |\r        eachRide calculateFare. "Polymorphic call"\r        eachRide rideDetails.   "Polymorphic call"\r        Transcript show: \'--------------------\'; cr.\r    ].\r\r    Transcript cr; show: \'--- Demonstration Complete ---\'; cr.',
+			#stamp : '2025-07-26T10:37:45.69284-04:00',
+			#package : #Kernel
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '53' ],
+		#self : OmReference [ '54' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Object,
+				#isMeta : false
+			},
+			#name : #demonstrateSystemFunctionality,
+			#protocol : #initialization,
+			#sourceCode : 'demonstrateSystemFunctionality\r    | sandesh ride1 ride2 ride3 alice completedRide1 completedRide2 completedRide3 allRides |\r\r    "Clear the Transcript (console) before running"\r    Transcript clear  a StThreadSafeTranscript.\r    Transcript show: \'--- Pharo Ride Sharing System Demonstration ---\'; cr.\r\r    "Create a Rider"\r    sandesh := Rider new initialize: \'R001\' name: \'Sandesh Shrestha\'.\r\r    "Create some rides"\r    ride1 := StandardRide new initialize: \'S001\' pickup: \'Downtown\' dropoff: \'Suburb A\' distance: 10.5.\r    ride2 := PremiumRide new initialize: \'P002\' pickup: \'Airport\' dropoff: \'City Center\' distance: 25.0.\r    ride3 := StandardRide new initialize: \'S003\' pickup: \'Park\' dropoff: \'Museum\' distance: 3.2.\r\r    "Rider requests rides"\r    sandesh requestRide: ride1.\r    sandesh requestRide: ride2.\r    sandesh requestRide: ride3.\r\r    "Create a Driver"\r    alice := Driver new initialize: \'D001\' name: \'Alice Smith\' rating: 4.8.\r\r    "Simulate assigning rides to a driver."\r    completedRide1 := StandardRide new initialize: \'S001-C\' pickup: \'Downtown\' dropoff: \'Suburb A\' distance: 10.5.\r    completedRide2 := PremiumRide new initialize: \'P002-C\' pickup: \'Airport\' dropoff: \'City Center\' distance: 25.0.\r    completedRide3 := StandardRide new initialize: \'S003-C\' pickup: \'Park\' dropoff: \'Museum\' distance: 3.2.\r\r    alice addRide: completedRide1.\r    alice addRide: completedRide2.\r    alice addRide: completedRide3.\r\r    "View driver information"\r    alice getDriverInfo.\r\r    "View rider\'s ride history"\r    sandesh viewRides.\r\r    "Demonstrate polymorphism by storing different ride types in a collection"\r    Transcript cr; show: \'--- Polymorphism Demonstration (List of All Rides in System) ---\'; cr.\r\r    allRides := OrderedCollection new.\r    allRides add: (StandardRide new initialize: \'Poly01\' pickup: \'Library\' dropoff: \'Cafe\' distance: 7.0).\r    allRides add: (PremiumRide new initialize: \'Poly02\' pickup: \'Mall\' dropoff: \'Home\' distance: 4.5).\r    allRides add: (StandardRide new initialize: \'Poly03\' pickup: \'Office\' dropoff: \'Gym\' distance: 2.0).\r    allRides add: (PremiumRide new initialize: \'Poly04\' pickup: \'School\' dropoff: \'Park\' distance: 12.0).\r\r    allRides do: [:eachRide |\r        eachRide calculateFare. "Polymorphic call"\r        eachRide rideDetails.   "Polymorphic call"\r        Transcript show: \'--------------------\'; cr.\r    ].\r\r    Transcript cr; show: \'--- Demonstration Complete ---\'; cr.',
+			#stamp : '2025-07-26T10:37:45.69284-04:00',
+			#package : #Kernel
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Object,
+				#isMeta : false
+			},
+			#name : #demonstrateSystemFunctionality,
+			#protocol : #initialization,
+			#sourceCode : 'demonstrateSystemFunctionality\r    | sandesh ride1 ride2 ride3 alice completedRide1 completedRide2 completedRide3 allRides |\r\r    "Clear the Transcript (console) before running"\r    Transcript clear.\r    Transcript show: \'--- Pharo Ride Sharing System Demonstration ---\'; cr.\r\r    "Create a Rider"\r    sandesh := Rider new initialize: \'R001\' name: \'Sandesh Shrestha\'.\r\r    "Create some rides"\r    ride1 := StandardRide new initialize: \'S001\' pickup: \'Downtown\' dropoff: \'Suburb A\' distance: 10.5.\r    ride2 := PremiumRide new initialize: \'P002\' pickup: \'Airport\' dropoff: \'City Center\' distance: 25.0.\r    ride3 := StandardRide new initialize: \'S003\' pickup: \'Park\' dropoff: \'Museum\' distance: 3.2.\r\r    "Rider requests rides"\r    sandesh requestRide: ride1.\r    sandesh requestRide: ride2.\r    sandesh requestRide: ride3.\r\r    "Create a Driver"\r    alice := Driver new initialize: \'D001\' name: \'Alice Smith\' rating: 4.8.\r\r    "Simulate assigning rides to a driver."\r    completedRide1 := StandardRide new initialize: \'S001-C\' pickup: \'Downtown\' dropoff: \'Suburb A\' distance: 10.5.\r    completedRide2 := PremiumRide new initialize: \'P002-C\' pickup: \'Airport\' dropoff: \'City Center\' distance: 25.0.\r    completedRide3 := StandardRide new initialize: \'S003-C\' pickup: \'Park\' dropoff: \'Museum\' distance: 3.2.\r\r    alice addRide: completedRide1.\r    alice addRide: completedRide2.\r    alice addRide: completedRide3.\r\r    "View driver information"\r    alice getDriverInfo.\r\r    "View rider\'s ride history"\r    sandesh viewRides.\r\r    "Demonstrate polymorphism by storing different ride types in a collection"\r    Transcript cr; show: \'--- Polymorphism Demonstration (List of All Rides in System) ---\'; cr.\r\r    allRides := OrderedCollection new.\r    allRides add: (StandardRide new initialize: \'Poly01\' pickup: \'Library\' dropoff: \'Cafe\' distance: 7.0).\r    allRides add: (PremiumRide new initialize: \'Poly02\' pickup: \'Mall\' dropoff: \'Home\' distance: 4.5).\r    allRides add: (StandardRide new initialize: \'Poly03\' pickup: \'Office\' dropoff: \'Gym\' distance: 2.0).\r    allRides add: (PremiumRide new initialize: \'Poly04\' pickup: \'School\' dropoff: \'Park\' distance: 12.0).\r\r    allRides do: [:eachRide |\r        eachRide calculateFare. "Polymorphic call"\r        eachRide rideDetails.   "Polymorphic call"\r        Transcript show: \'--------------------\'; cr.\r    ].\r\r    Transcript cr; show: \'--- Demonstration Complete ---\'; cr.',
+			#stamp : '2025-07-26T10:37:56.0589-04:00',
+			#package : #Kernel
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '54' ],
+		#self : OmReference [ '55' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : '/Users/sanderestha/Documents/Pharo/images/RideSharingSmalltalk/RideSharingSmalltalk.image'
+	}
+}
